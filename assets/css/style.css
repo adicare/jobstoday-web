@@ -1,0 +1,42 @@
+/* =====================================================
+   JobsWeb Custom Style (style.css)
+   ===================================================== */
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  background-color: #f8f9fa;
+  line-height: 1.6;
+}
+
+/* Navbar Styling */
+.navbar-brand {
+  font-size: 1.4rem;
+  letter-spacing: 0.5px;
+}
+
+/* Hero Section */
+section.bg-light {
+  background: linear-gradient(180deg, #e9f1ff 0%, #ffffff 100%);
+}
+
+h1, h5 {
+  color: #0d6efd;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+  transition: 0.3s;
+}
+.btn-primary:hover {
+  background-color: #0b5ed7;
+  border-color: #0b5ed7;
+}
+
+/* Footer */
+footer {
+  font-size: 0.9rem;
+  letter-spacing: 0.3px;
+}

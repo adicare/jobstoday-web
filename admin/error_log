@@ -1,0 +1,110 @@
+[30-Oct-2025 09:09:14 America/Boise] PHP Warning:  include(/home1/defchitt/public_html/jobsweb/config/db.php): Failed to open stream: No such file or directory in /home1/defchitt/public_html/jobsweb/admin/login.php on line 3
+[30-Oct-2025 09:09:14 America/Boise] PHP Warning:  include(): Failed opening '../config/db.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/defchitt/public_html/jobsweb/admin/login.php on line 3
+[30-Oct-2025 09:11:42 America/Boise] PHP Warning:  include(/home1/defchitt/public_html/jobsweb/config/db.php): Failed to open stream: No such file or directory in /home1/defchitt/public_html/jobsweb/admin/login.php on line 3
+[30-Oct-2025 09:11:42 America/Boise] PHP Warning:  include(): Failed opening '../config/db.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/defchitt/public_html/jobsweb/admin/login.php on line 3
+[30-Oct-2025 09:20:30 America/Boise] PHP Warning:  include(/home1/defchitt/public_html/jobsweb/config/db.php): Failed to open stream: No such file or directory in /home1/defchitt/public_html/jobsweb/admin/add-job.php on line 7
+[30-Oct-2025 09:20:30 America/Boise] PHP Warning:  include(): Failed opening '../config/db.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/defchitt/public_html/jobsweb/admin/add-job.php on line 7
+[30-Oct-2025 09:22:32 America/Boise] PHP Warning:  include(/home1/defchitt/public_html/jobsweb/config/db.php): Failed to open stream: No such file or directory in /home1/defchitt/public_html/jobsweb/admin/add-job.php on line 7
+[30-Oct-2025 09:22:32 America/Boise] PHP Warning:  include(): Failed opening '../config/db.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/defchitt/public_html/jobsweb/admin/add-job.php on line 7
+[30-Oct-2025 09:22:32 America/Boise] PHP Warning:  Undefined variable $conn in /home1/defchitt/public_html/jobsweb/admin/add-job.php on line 23
+[30-Oct-2025 09:22:32 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home1/defchitt/public_html/jobsweb/admin/add-job.php:23
+Stack trace:
+#0 /home1/defchitt/public_html/jobsweb/admin/add-job.php(23): mysqli_query(NULL, 'INSERT INTO job...')
+#1 {main}
+  thrown in /home1/defchitt/public_html/jobsweb/admin/add-job.php on line 23
+[30-Oct-2025 09:24:18 America/Boise] PHP Warning:  include(/home1/defchitt/public_html/jobsweb/config/db.php): Failed to open stream: No such file or directory in /home1/defchitt/public_html/jobsweb/admin/add-job.php on line 7
+[30-Oct-2025 09:24:18 America/Boise] PHP Warning:  include(): Failed opening '../config/db.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/defchitt/public_html/jobsweb/admin/add-job.php on line 7
+[30-Oct-2025 09:25:02 America/Boise] PHP Warning:  include(/home1/defchitt/public_html/jobsweb/config/db.php): Failed to open stream: No such file or directory in /home1/defchitt/public_html/jobsweb/admin/add-job.php on line 7
+[30-Oct-2025 09:25:02 America/Boise] PHP Warning:  include(): Failed opening '../config/db.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/defchitt/public_html/jobsweb/admin/add-job.php on line 7
+[30-Oct-2025 09:25:02 America/Boise] PHP Warning:  Undefined variable $conn in /home1/defchitt/public_html/jobsweb/admin/add-job.php on line 23
+[30-Oct-2025 09:25:02 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home1/defchitt/public_html/jobsweb/admin/add-job.php:23
+Stack trace:
+#0 /home1/defchitt/public_html/jobsweb/admin/add-job.php(23): mysqli_query(NULL, 'INSERT INTO job...')
+#1 {main}
+  thrown in /home1/defchitt/public_html/jobsweb/admin/add-job.php on line 23
+[30-Oct-2025 09:34:12 America/Boise] PHP Warning:  include(/home1/defchitt/public_html/jobsweb/config/db.php): Failed to open stream: Success in /home1/defchitt/public_html/jobsweb/admin/add-job.php on line 9
+[30-Oct-2025 09:34:13 America/Boise] PHP Warning:  include(): Failed opening '../config/db.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/defchitt/public_html/jobsweb/admin/add-job.php on line 9
+[30-Oct-2025 09:34:52 America/Boise] PHP Warning:  include(/home1/defchitt/public_html/jobsweb/config/db.php): Failed to open stream: Success in /home1/defchitt/public_html/jobsweb/admin/add-job.php on line 9
+[30-Oct-2025 09:34:52 America/Boise] PHP Warning:  include(): Failed opening '../config/db.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/defchitt/public_html/jobsweb/admin/add-job.php on line 9
+[30-Oct-2025 09:34:52 America/Boise] PHP Warning:  Undefined variable $conn in /home1/defchitt/public_html/jobsweb/admin/add-job.php on line 25
+[30-Oct-2025 09:34:52 America/Boise] PHP Fatal error:  Uncaught TypeError: mysqli_query(): Argument #1 ($mysql) must be of type mysqli, null given in /home1/defchitt/public_html/jobsweb/admin/add-job.php:25
+Stack trace:
+#0 /home1/defchitt/public_html/jobsweb/admin/add-job.php(25): mysqli_query(NULL, 'INSERT INTO job...')
+#1 {main}
+  thrown in /home1/defchitt/public_html/jobsweb/admin/add-job.php on line 25
+[30-Oct-2025 10:01:04 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'YOUR_DB_USERNAME'@'localhost' (using password: YES) in /home1/defchitt/public_html/jobsweb/config/db.php:7
+Stack trace:
+#0 /home1/defchitt/public_html/jobsweb/config/db.php(7): mysqli->__construct('localhost', 'YOUR_DB_USERNAM...', Object(SensitiveParameterValue), 'defchitt_jobi')
+#1 /home1/defchitt/public_html/jobsweb/admin/add-job.php(9): include('/home1/defchitt...')
+#2 {main}
+  thrown in /home1/defchitt/public_html/jobsweb/config/db.php on line 7
+[30-Oct-2025 10:01:28 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'YOUR_DB_USERNAME'@'localhost' (using password: YES) in /home1/defchitt/public_html/jobsweb/config/db.php:7
+Stack trace:
+#0 /home1/defchitt/public_html/jobsweb/config/db.php(7): mysqli->__construct('localhost', 'YOUR_DB_USERNAM...', Object(SensitiveParameterValue), 'defchitt_jobi')
+#1 /home1/defchitt/public_html/jobsweb/admin/add-job.php(9): include('/home1/defchitt...')
+#2 {main}
+  thrown in /home1/defchitt/public_html/jobsweb/config/db.php on line 7
+[30-Oct-2025 10:01:32 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'YOUR_DB_USERNAME'@'localhost' (using password: YES) in /home1/defchitt/public_html/jobsweb/config/db.php:7
+Stack trace:
+#0 /home1/defchitt/public_html/jobsweb/config/db.php(7): mysqli->__construct('localhost', 'YOUR_DB_USERNAM...', Object(SensitiveParameterValue), 'defchitt_jobi')
+#1 /home1/defchitt/public_html/jobsweb/admin/add-job.php(9): include('/home1/defchitt...')
+#2 {main}
+  thrown in /home1/defchitt/public_html/jobsweb/config/db.php on line 7
+[30-Oct-2025 10:01:39 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'YOUR_DB_USERNAME'@'localhost' (using password: YES) in /home1/defchitt/public_html/jobsweb/config/db.php:7
+Stack trace:
+#0 /home1/defchitt/public_html/jobsweb/config/db.php(7): mysqli->__construct('localhost', 'YOUR_DB_USERNAM...', Object(SensitiveParameterValue), 'defchitt_jobi')
+#1 /home1/defchitt/public_html/jobsweb/admin/add-job.php(9): include('/home1/defchitt...')
+#2 {main}
+  thrown in /home1/defchitt/public_html/jobsweb/config/db.php on line 7
+[30-Oct-2025 10:10:45 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'scpjobi'@'localhost' (using password: YES) in /home1/defchitt/public_html/jobsweb/config/db.php:7
+Stack trace:
+#0 /home1/defchitt/public_html/jobsweb/config/db.php(7): mysqli->__construct('localhost', 'scpjobi', Object(SensitiveParameterValue), 'defchitt_jobi')
+#1 /home1/defchitt/public_html/jobsweb/admin/add-job.php(9): include('/home1/defchitt...')
+#2 {main}
+  thrown in /home1/defchitt/public_html/jobsweb/config/db.php on line 7
+[30-Oct-2025 10:13:30 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'defchitt_scpjobi'@'localhost' (using password: YES) in /home1/defchitt/public_html/jobsweb/config/db.php:7
+Stack trace:
+#0 /home1/defchitt/public_html/jobsweb/config/db.php(7): mysqli->__construct('localhost', 'defchitt_scpjob...', Object(SensitiveParameterValue), 'defchitt_jobi')
+#1 /home1/defchitt/public_html/jobsweb/admin/add-job.php(9): include('/home1/defchitt...')
+#2 {main}
+  thrown in /home1/defchitt/public_html/jobsweb/config/db.php on line 7
+[30-Oct-2025 10:14:18 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'defchitt_scpjobi'@'localhost' (using password: YES) in /home1/defchitt/public_html/jobsweb/config/db.php:7
+Stack trace:
+#0 /home1/defchitt/public_html/jobsweb/config/db.php(7): mysqli->__construct('localhost', 'defchitt_scpjob...', Object(SensitiveParameterValue), 'defchitt_jobi')
+#1 /home1/defchitt/public_html/jobsweb/admin/add-job.php(9): include('/home1/defchitt...')
+#2 {main}
+  thrown in /home1/defchitt/public_html/jobsweb/config/db.php on line 7
+[30-Oct-2025 10:14:39 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'defchitt_scpjobi'@'localhost' (using password: YES) in /home1/defchitt/public_html/jobsweb/config/db.php:7
+Stack trace:
+#0 /home1/defchitt/public_html/jobsweb/config/db.php(7): mysqli->__construct('localhost', 'defchitt_scpjob...', Object(SensitiveParameterValue), 'defchitt_jobi')
+#1 /home1/defchitt/public_html/jobsweb/admin/add-job.php(9): include('/home1/defchitt...')
+#2 {main}
+  thrown in /home1/defchitt/public_html/jobsweb/config/db.php on line 7
+[30-Oct-2025 10:16:34 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'scpjobi'@'localhost' (using password: YES) in /home1/defchitt/public_html/jobsweb/config/db.php:7
+Stack trace:
+#0 /home1/defchitt/public_html/jobsweb/config/db.php(7): mysqli->__construct('localhost', 'scpjobi', Object(SensitiveParameterValue), 'defchitt_jobi')
+#1 /home1/defchitt/public_html/jobsweb/admin/add-job.php(9): include('/home1/defchitt...')
+#2 {main}
+  thrown in /home1/defchitt/public_html/jobsweb/config/db.php on line 7
+[02-Nov-2025 01:33:52 America/Boise] PHP Warning:  include(/home1/defchitt/public_html/jobsweb/admin/../include/header.php): Failed to open stream: No such file or directory in /home1/defchitt/public_html/jobsweb/admin/login.php on line 3
+[02-Nov-2025 01:33:52 America/Boise] PHP Warning:  include(): Failed opening '/home1/defchitt/public_html/jobsweb/admin/../include/header.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/defchitt/public_html/jobsweb/admin/login.php on line 3
+[02-Nov-2025 01:33:52 America/Boise] PHP Warning:  include(/home1/defchitt/public_html/jobsweb/admin/../include/footer.php): Failed to open stream: No such file or directory in /home1/defchitt/public_html/jobsweb/admin/login.php on line 21
+[02-Nov-2025 01:33:52 America/Boise] PHP Warning:  include(): Failed opening '/home1/defchitt/public_html/jobsweb/admin/../include/footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php82/root/usr/share/pear') in /home1/defchitt/public_html/jobsweb/admin/login.php on line 21
+[02-Nov-2025 01:34:58 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'defchitt_Members'@'localhost' to database 'defchitt_jobi' in /home1/defchitt/public_html/jobsweb/config/db.php:18
+Stack trace:
+#0 /home1/defchitt/public_html/jobsweb/config/db.php(18): mysqli->__construct('localhost', 'defchitt_Member...', Object(SensitiveParameterValue), 'defchitt_jobi')
+#1 /home1/defchitt/public_html/jobsweb/admin/process_login.php(3): include('/home1/defchitt...')
+#2 {main}
+  thrown in /home1/defchitt/public_html/jobsweb/config/db.php on line 18
+[02-Nov-2025 01:53:28 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'defchitt_Members'@'localhost' to database 'defchitt_jobi' in /home1/defchitt/public_html/jobsweb/config/db.php:18
+Stack trace:
+#0 /home1/defchitt/public_html/jobsweb/config/db.php(18): mysqli->__construct('localhost', 'defchitt_Member...', Object(SensitiveParameterValue), 'defchitt_jobi')
+#1 /home1/defchitt/public_html/jobsweb/admin/process_login.php(3): include('/home1/defchitt...')
+#2 {main}
+  thrown in /home1/defchitt/public_html/jobsweb/config/db.php on line 18
+[02-Nov-2025 01:55:00 America/Boise] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'defchitt_Members'@'localhost' to database 'defchitt_jobi' in /home1/defchitt/public_html/jobsweb/config/db.php:18
+Stack trace:
+#0 /home1/defchitt/public_html/jobsweb/config/db.php(18): mysqli->__construct('localhost', 'defchitt_Member...', Object(SensitiveParameterValue), 'defchitt_jobi')
+#1 /home1/defchitt/public_html/jobsweb/admin/process_login.php(3): include('/home1/defchitt...')
+#2 {main}
+  thrown in /home1/defchitt/public_html/jobsweb/config/db.php on line 18
