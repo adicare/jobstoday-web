@@ -15,9 +15,8 @@ if (isset($_SESSION['logged_in']) && $_SESSION['logged_in'] === true) {
             header("Location: ../employer/dashboard.php");
             exit;
         case 'applicant':
-            // 🔥 FIXED — SEND APPLICANT TO HOME PAGE (index.php), NOT dashboard.php
-            header("Location: /jobsweb/index.php");
-            break;
+            header("Location: ../applicant/dashboard.php");
+            exit;
     }
 }
 
@@ -41,35 +40,24 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             if ($user['password'] === $password || password_verify($password, $user['password'])) {
                 session_regenerate_id(true);
 
-                // Universal session data
+                // ✅ Store universal session data
                 $_SESSION['logged_in']  = true;
                 $_SESSION['user_id']    = $user['id'];
                 $_SESSION['user_name']  = $user['name'];
                 $_SESSION['user_email'] = $user['email'];
-                $_SESSION['user_role']  = strtolower($user['role']);
+                $_SESSION['user_role']  = strtolower($user['role']); // admin | employer | applicant
 
-                // 🔥 Applicant-specific session vars (Option A)
-                if ($_SESSION['user_role'] === 'applicant') {
-                    $_SESSION['applicant_id']    = $user['id'];
-                    $_SESSION['applicant_name']  = $user['name'];
-                    $_SESSION['applicant_skill'] = ""; // Fill later from DB if needed
-                }
-
-                // 🔥 REDIRECT BASED ON ROLE
+                // ✅ Redirect based on role
                 switch ($_SESSION['user_role']) {
                     case 'admin':
                         header("Location: ../admin/dashboard.php");
                         break;
-
                     case 'employer':
                         header("Location: ../employer/dashboard.php");
                         break;
-
                     case 'applicant':
-                        // 🔥 FIXED: redirect to home page instead of dashboard.php
-                        header("Location: ../index.php");
+                        header("Location: ../applicant/dashboard.php");
                         break;
-
                     default:
                         $error = "Unknown user role found.";
                 }
@@ -88,8 +76,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 <div class="container d-flex justify-content-center align-items-center" style="min-height:90vh;">
   <div class="card shadow-lg p-4 border-0" style="width: 420px; border-radius: 15px;">
-    <h3 class="text-center text-primary mb-3 fw-bold">Login to <span class="text-dark">CareerJano</span></h3>
-    <p class="text-center text-muted mb-4">Access your dashboard as <strong>Admin</strong>, <strong>Employer</strong>, or <strong>Applicant</strong></p>
+    <h3 class="text-center text-primary mb-3 fw-bold">
+      Login to <span class="text-dark">CareerJano</span>
+    </h3>
+    <p class="text-center text-muted mb-4">
+      Access your dashboard as <strong>Admin</strong>, <strong>Employer</strong>, or <strong>Applicant</strong>
+    </p>
 
     <?php if (!empty($error)): ?>
       <div class="alert alert-danger text-center"><?= htmlspecialchars($error) ?></div>

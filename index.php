@@ -1,394 +1,303 @@
 <?php
-/* ===============================================================
-   FILE: index.php
-   PURPOSE:
-     - Main job search page
-     - Always auto-select latest job (Option A)
-     - Left panel always shows full job list (L1)
-     - Middle panel loads job preview via AJAX
-     - Apply button system with:
-         ✔ Blue Apply (before applying)
-         ✔ Green APPLIED ✔ (after applying)
-         ✔ Login detection with toast + redirect
-   =============================================================== */
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
 
-// HEADER INCLUDE
 include(__DIR__ . '/includes/header.php');
-
-// DB CONNECTION
 include(__DIR__ . '/config/config.php');
 
+$isLoggedIn = isset($_SESSION['applicant_id']);
 
-/* ===============================================================
-   FETCH MASTER DATA
-   =============================================================== */
-
-// Skills list
 $skills = $conn->query("SELECT id, skill_name FROM skills_master ORDER BY skill_name ASC");
-
-// States list
 $states = $conn->query("SELECT id, state_name FROM state_master ORDER BY state_name ASC");
+$jobs   = $conn->query("SELECT id, title, company, location FROM jobs ORDER BY id DESC");
 
-// Full job list (left panel)
-$jobs = $conn->query("SELECT id, title, company, location FROM jobs ORDER BY id DESC");
-
-// Latest job ID for auto-selection (Option A)
 $latestJobRow = $conn->query("SELECT id FROM jobs ORDER BY id DESC LIMIT 1");
-$latestJobId = ($latestJobRow && $latestJobRow->num_rows > 0)
+$latestJobId  = ($latestJobRow && $latestJobRow->num_rows > 0)
     ? intval($latestJobRow->fetch_assoc()['id'])
     : 0;
 ?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>JobsToday</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-
-<!-- ===============================================================
-     PAGE STYLES
-     =============================================================== -->
 <style>
-.container { max-width: 98% !important; }
 
-/* Search bar */
+/* GLOBAL LAYOUT FULL WIDTH */
+body {
+    margin:0;
+    background:#f4f7fc;
+    font-family:Arial, sans-serif;
+}
+
+/* REMOVE WIDTH RESTRICTION */
+.container-fluid {
+    width:100% !important;
+    max-width:100% !important;
+}
+
+/* SEARCH BAR FIXED IN ONE ROW */
 .search-bar-full {
-    margin-top: 8px !important;
-    background: #ffffff;
-    padding: 12px;
-    border-radius: 12px;
-    box-shadow: 0 0 8px rgba(0,0,0,0.08);
+    background:white;
+    padding:12px;
+    border-radius:8px;
+    display:flex;
+    gap:10px;
+    flex-wrap:nowrap;     /* IMPORTANT FIX */
+    box-shadow:0 0 8px rgba(0,0,0,0.08);
+    width:100%;
 }
 
-/* Left panel */
+.search-bar-full input,
+.search-bar-full select {
+    padding:8px;
+    border:1px solid #c3d4e6;
+    border-radius:6px;
+    min-width:120px;
+}
+
+.btn-search {
+    background:#0a4aa1;
+    color:white;
+    border:none;
+    padding:9px 14px;
+    border-radius:6px;
+    cursor:pointer;
+    font-weight:600;
+}
+
+/* 3 COLUMN LAYOUT FIX */
+.grid {
+    display:flex;
+    gap:16px;
+    margin-top:14px;
+    width:100%;
+}
+
+/* FIX WIDTHS SO NOT BREAKING */
+.col-left  { width:25%; }
+.col-mid   { width:50%; }
+.col-right { width:25%; }
+
+/* LEFT LIST */
 .left-box {
-    background: #dff3ff;
-    border-radius: 10px;
-    padding: 15px;
-    height: 82vh;
-    overflow-y: auto;
+    background:#dff1ff;
+    padding:12px;
+    border-radius:10px;
+    height:72vh;
+    overflow:auto;
 }
-.left-box::-webkit-scrollbar { width: 7px; }
-.left-box::-webkit-scrollbar-thumb { background: #78a8d8; border-radius: 10px; }
-
-/* Job row */
 .job-row {
-    padding: 8px;
-    border-bottom: 1px solid #b7d4ed;
-    cursor: pointer;
-    border-radius: 5px;
+    padding:10px;
+    border-bottom:1px solid #bcd9f3;
+    cursor:pointer;
+    border-radius:6px;
 }
-.job-row:hover { background: #cde9ff; }
-.job-active { background: #9cd1ff !important; }
+.job-row:hover { background:#c8e7ff; }
+.job-active { background:#8ecaff; }
 
-/* Middle panel */
+/* MIDDLE */
 .middle-box {
-    background: #eaffed;
-    border-radius: 10px;
-    padding: 18px;
-    height: 82vh;
-    overflow-y: auto;
+    background:#edfff3;
+    padding:18px;
+    border-radius:10px;
+    height:72vh;
+    overflow:auto;
 }
 
-/* Right panel */
+/* RIGHT */
 .right-box {
-    background: #084a83;
-    color: white;
-    border-radius: 12px;
-    padding: 25px;
-    height: 82vh;
-}
-.right-box h3 { font-size: 1.8rem; font-weight: 700; }
-.right-box .welcome-text {
-    font-size: 1.1rem;
-    line-height: 1.5rem;
-    margin-top: 12px;
-    margin-bottom: 25px;
+    background:#084a83;
+    color:white;
+    padding:18px;
+    border-radius:10px;
+    height:72vh;
+    overflow:auto;
 }
 
-/* Login button */
+.profile-block {
+    background:white;
+    color:#222;
+    padding:12px;
+    border-radius:8px;
+    display:flex;
+    gap:14px;
+    align-items:center;
+    margin-bottom:14px;
+}
+.profile-block img {
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    object-fit:cover;
+}
+
 .login-btn {
-    margin-top: 10px;
-    background: #ffffff;
-    color: #084a83;
-    padding: 14px;
-    border-radius: 8px;
-    display: block;
-    text-align: center;
-    font-weight: bold;
-    text-decoration: none;
-    font-size: 1.1rem;
+    background:white;
+    color:#084a83;
+    padding:10px 12px;
+    display:block;
+    text-align:center;
+    border-radius:6px;
+    text-decoration:none;
+    font-weight:700;
+    margin-top:10px;
+}
+
+.small-list {
+    background:rgba(255,255,255,0.08);
+    padding:8px;
+    border-radius:6px;
+}
+.small-list a {
+    color:#cfe8ff;
+    text-decoration:none;
+    display:block;
+    margin:4px 0;
+}
+hr.soft {
+    border:none;
+    border-top:1px solid rgba(255,255,255,0.15);
+    margin:10px 0;
 }
 </style>
+</head>
 
+<body>
 
-<!-- ===============================================================
-     PAGE CONTENT
-     =============================================================== -->
-<div class="container mt-2">
+<div class="container-fluid px-4">   <!-- FULL WIDTH FIX -->
 
-    <!-- SEARCH BAR (L1: does NOT change left list) -->
-    <form id="jobSearchForm" class="search-bar-full row g-2 align-items-center" action="#" method="get">
+<!-- SEARCH BAR -->
+<form class="search-bar-full" id="jobSearchForm" onsubmit="event.preventDefault();">
+    <input type="text" name="keywords" placeholder="Keywords">
+    <select name="job_type"><option value="">Type</option></select>
+    <input type="text" name="role" placeholder="Job Role">
 
-        <div class="col-md-2">
-            <input type="text" name="keywords" class="form-control" placeholder="Keywords">
-        </div>
+    <select name="skill">
+        <option value="">Skill</option>
+        <?php while($sk = $skills->fetch_assoc()): ?>
+            <option value="<?= $sk['id'] ?>"><?= htmlspecialchars($sk['skill_name']) ?></option>
+        <?php endwhile; ?>
+    </select>
 
-        <div class="col-md-1">
-            <select name="job_type" class="form-select">
-                <option value="">Type</option>
-                <option value="office">Office</option>
-                <option value="wfh">WFH</option>
-                <option value="hybrid">Hybrid</option>
-            </select>
-        </div>
+    <select name="state" id="stateSelect">
+        <option value="">State</option>
+        <?php while($st = $states->fetch_assoc()): ?>
+            <option value="<?= $st['id'] ?>"><?= htmlspecialchars($st['state_name']) ?></option>
+        <?php endwhile; ?>
+    </select>
 
-        <div class="col-md-2">
-            <input type="text" name="role" class="form-control" placeholder="Job Role">
-        </div>
+    <select name="city" id="citySelect"><option value="">City</option></select>
+    <select name="experience"><option value="">Exp</option></select>
+    <select name="salary"><option value="">Salary</option></select>
 
-        <div class="col-md-2">
-            <select name="skill" class="form-select">
-                <option value="">Skill</option>
-                <?php if ($skills && $skills->num_rows > 0): ?>
-                    <?php while ($sk = $skills->fetch_assoc()): ?>
-                        <option value="<?= intval($sk['id']) ?>"><?= htmlspecialchars($sk['skill_name']) ?></option>
-                    <?php endwhile; ?>
-                <?php endif; ?>
-            </select>
-        </div>
+    <button type="submit" class="btn-search">Search</button>
+</form>
 
-        <div class="col-md-1">
-            <select name="state" id="stateSelect" class="form-select">
-                <option value="">State</option>
-                <?php if ($states && $states->num_rows > 0): ?>
-                    <?php while ($st = $states->fetch_assoc()): ?>
-                        <option value="<?= intval($st['id']) ?>"><?= htmlspecialchars($st['state_name']) ?></option>
-                    <?php endwhile; ?>
-                <?php endif; ?>
-            </select>
-        </div>
+<!-- MAIN GRID -->
+<div class="grid">
 
-        <div class="col-md-1">
-            <select name="city" id="citySelect" class="form-select">
-                <option value="">City</option>
-            </select>
-        </div>
-
-        <div class="col-md-1">
-            <select name="experience" class="form-select">
-                <option value="">Exp</option>
-                <option value="0">0</option>
-                <option value="1">1</option>
-                <option value="2">2–3</option>
-                <option value="5">5+</option>
-                <option value="10">10+</option>
-            </select>
-        </div>
-
-        <div class="col-md-1">
-            <select name="salary" class="form-select">
-                <option value="">Salary</option>
-                <option value="5">&lt;5L</option>
-                <option value="10">5–10L</option>
-                <option value="15">10–15L</option>
-                <option value="20">15–20L</option>
-                <option value="25">20L+</option>
-            </select>
-        </div>
-
-        <div class="col-md-1">
-            <button type="submit" class="btn btn-primary w-100">Search</button>
-        </div>
-
-    </form>
-
-
-    <!-- MAIN 3 COLUMN LAYOUT -->
-    <div class="row g-3 mt-2">
-
-        <!-- LEFT JOB LIST -->
-        <div class="col-md-3">
-            <div class="left-box" id="jobList">
-
-                <?php if ($jobs && $jobs->num_rows > 0): ?>
-                    <?php while ($job = $jobs->fetch_assoc()): ?>
-                        <div class="job-row" data-id="<?= intval($job['id']) ?>">
-                            <div class="fw-bold"><?= htmlspecialchars($job['title']) ?></div>
-                            <small><?= htmlspecialchars($job['company']) ?> • <?= htmlspecialchars($job['location']) ?></small>
-                        </div>
-                    <?php endwhile; ?>
-                <?php else: ?>
-                    <p>No jobs posted.</p>
-                <?php endif; ?>
-
-            </div>
-        </div>
-
-        <!-- MIDDLE JOB PREVIEW -->
-        <div class="col-md-5">
-            <div class="middle-box" id="jobPreview">
-                <h4>Select a job to see its description.</h4>
-            </div>
-        </div>
-
-        <!-- RIGHT WELCOME PANEL -->
-        <div class="col-md-4">
-            <div class="right-box">
-                <h3>Welcome to JobsToday</h3>
-                <div class="welcome-text">
-                    Discover opportunities that match your skills.<br>
-                    Build your career with the right job today.<br>
-                    Connect with top employers hiring now.
+    <!-- LEFT -->
+    <div class="col-left">
+        <div class="left-box" id="jobList">
+            <?php while($job = $jobs->fetch_assoc()): ?>
+                <div class="job-row" data-id="<?= $job['id'] ?>">
+                    <strong><?= htmlspecialchars($job['title']) ?></strong><br>
+                    <small><?= htmlspecialchars($job['company']) ?> • <?= htmlspecialchars($job['location']) ?></small>
                 </div>
-                <a href="/jobsweb/public/login.php" class="login-btn">LOGIN</a>
-            </div>
-        </div>
-
-    </div><!-- row -->
-</div><!-- container -->
-
-
-<?php include(__DIR__ . '/includes/footer.php'); ?>
-
-
-<!-- ===============================================================
-     TOAST CONTAINER
-     =============================================================== -->
-<div class="position-fixed bottom-0 end-0 p-3" style="z-index:9999;">
-    <div id="toastMessage" class="toast text-white bg-primary border-0" role="alert" aria-live="assertive" aria-atomic="true">
-        <div class="d-flex">
-            <div id="toastText" class="toast-body">Message</div>
-            <button type="button" class="btn-close btn-close-white me-2 m-auto"
-                data-bs-dismiss="toast"></button>
+            <?php endwhile; ?>
         </div>
     </div>
+
+    <!-- MIDDLE -->
+    <div class="col-mid">
+        <div class="middle-box" id="jobPreview">
+            <h3>Select a job to see details.</h3>
+        </div>
+    </div>
+
+    <!-- RIGHT -->
+    <div class="col-right">
+        <div class="right-box">
+
+<?php if(!$isLoggedIn): ?>
+
+            <h3>Welcome to JobsToday</h3>
+            <p>
+                Discover opportunities that match your skills.<br>
+                Build your career with the right job.<br>
+                Connect with top employers hiring now.
+            </p>
+            <a class="login-btn" href="/jobsweb/public/login.php">LOGIN</a>
+
+<?php else: ?>
+
+            <div class="profile-block">
+                <img src="/jobsweb/assets/user-icon.png">
+                <div>
+                    <strong><?= htmlspecialchars($_SESSION['applicant_name']) ?></strong><br>
+                    <small><?= htmlspecialchars($_SESSION['applicant_skill']) ?></small>
+                </div>
+            </div>
+
+            <a class="login-btn" href="/jobsweb/applicant/profile.php">Update Profile</a>
+            <hr class="soft">
+
+            <strong>Recommended Jobs</strong>
+            <div class="small-list">
+                <?php
+                $rec = $conn->query("SELECT id, title FROM jobs ORDER BY id DESC LIMIT 3");
+                while($r = $rec->fetch_assoc()):
+                ?>
+                    <a href="#" class="rec-job" data-id="<?= $r['id'] ?>">
+                        <?= htmlspecialchars($r['title']) ?>
+                    </a>
+                <?php endwhile; ?>
+            </div>
+
+            <br>
+
+            <strong>Recommended Courses</strong>
+            <div class="small-list">
+                <a href="#">Training Name 1</a>
+                <a href="#">Training Name 2</a>
+            </div>
+
+<?php endif; ?>
+
+        </div>
+    </div>
+
 </div>
 
+</div>
 
-<!-- ===============================================================
-     JAVASCRIPT SECTION
-     =============================================================== -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
 <script>
-/* ---------------------------------------------------------------
-   TOAST FUNCTION
-   --------------------------------------------------------------- */
-function showToast(message, color = "bg-primary") {
-    var box = $("#toastMessage");
-    box.removeClass("bg-primary bg-success bg-danger bg-warning");
-    box.addClass(color);
-    $("#toastText").html(message);
-
-    if (typeof bootstrap !== "undefined") {
-        new bootstrap.Toast(box[0]).show();
-    } else {
-        alert(message);
-    }
-}
-
-
-/* ---------------------------------------------------------------
-   L1: SEARCH FORM DOES NOT FILTER LEFT LIST
-   --------------------------------------------------------------- */
-$("#jobSearchForm").on("submit", function(e) {
-    e.preventDefault();
-    showToast("Search received (L1 mode). Left job list unchanged.", "bg-primary");
-});
-
-
-/* ---------------------------------------------------------------
-   AUTO LOAD LATEST JOB (OPTION A)
-   --------------------------------------------------------------- */
 $(document).ready(function() {
-    var latestId = <?= json_encode($latestJobId); ?>;
-
-    if (latestId > 0) {
-        $('.job-row[data-id="' + latestId + '"]').addClass("job-active");
-
-        $.post("/jobsweb/ajax/get-job.php",
-            { id: latestId },
-            function(data) {
-                $("#jobPreview").html(data);
-            },
-            "html"
-        );
+    var latestId = <?= $latestJobId ?>;
+    if(latestId>0){
+        $('.job-row[data-id="'+latestId+'"]').addClass('job-active');
+        $.post('/jobsweb/ajax/get-job.php', { id: latestId }, function(data){
+            $('#jobPreview').html(data);
+        });
     }
 });
 
-
-/* ---------------------------------------------------------------
-   CLICK TO LOAD ANY JOB
-   --------------------------------------------------------------- */
-$(document).on("click", ".job-row", function() {
-    var id = $(this).data("id");
-
-    $(".job-row").removeClass("job-active");
-    $(this).addClass("job-active");
-
-    $.post("/jobsweb/ajax/get-job.php",
-        { id: id },
-        function(data) {
-            $("#jobPreview").html(data);
-        },
-        "html"
-    );
-});
-
-
-/* ---------------------------------------------------------------
-   APPLY BUTTON: FINAL VERSION
-   --------------------------------------------------------------- */
-$(document).on("click", ".applyJobBtn", function(e) {
-    e.preventDefault();
-
-    var $btn = $(this);
-    var jobId = $btn.data("jobid");
-
-    $btn.prop("disabled", true).text("Applying...");
-
-    $.post("/jobsweb/ajax/apply-job.php",
-        { job_id: jobId },
-        function(response) {
-
-            response = (response || "").trim().toLowerCase();
-
-            if (response === "success") {
-
-                showToast("Application submitted successfully.", "bg-success");
-
-                $btn
-                    .removeClass("btn-primary")
-                    .css({ "background": "#28a745", "color": "#fff", "border": "none" })
-                    .text("APPLIED ✔")
-                    .prop("disabled", true);
-
-            } else if (response === "already_applied") {
-
-                showToast("You have already applied for this job.", "bg-warning");
-
-                $btn
-                    .removeClass("btn-primary")
-                    .css({ "background": "#28a745", "color": "#fff", "border": "none" })
-                    .text("APPLIED ✔")
-                    .prop("disabled", true);
-
-            } else if (response === "login_required") {
-
-                showToast("Please login to apply. Redirecting...", "bg-danger");
-
-                setTimeout(function() {
-                    window.location.href = "/jobsweb/public/login.php";
-                }, 900);
-
-                $btn.prop("disabled", false).text("Apply");
-
-            } else {
-
-                showToast("Error applying. Please try again.", "bg-danger");
-                $btn.prop("disabled", false).text("Apply");
-            }
-        }
-    ).fail(function() {
-        showToast("Server error. Try again.", "bg-danger");
-        $btn.prop("disabled", false).text("Apply");
+$(document).on('click', '.job-row', function(){
+    var id = $(this).data('id');
+    $('.job-row').removeClass('job-active');
+    $(this).addClass('job-active');
+    $.post('/jobsweb/ajax/get-job.php', { id }, function(data){
+        $('#jobPreview').html(data);
     });
 });
 </script>
 
+<?php include(__DIR__ . '/includes/footer.php'); ?>
+</body>
+</html>
