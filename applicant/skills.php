@@ -1,6 +1,7 @@
 <?php
-// FILE: applicant/skills.php
-// Purpose: Applicant -> Manage Skills (Add / Remove / List)
+/* FILE: /applicant/skills.php
+   PURPOSE: Manage applicant skills (modern layout)
+*/
 
 session_start();
 if (!isset($_SESSION['applicant_id'])) {
@@ -8,129 +9,67 @@ if (!isset($_SESSION['applicant_id'])) {
     exit;
 }
 
-include __DIR__ . "/../config/config.php";
+include "../config/config.php";
+include "../includes/header.php";
 
-$app_id = (int) $_SESSION['applicant_id'];
+$app_id = $_SESSION['applicant_id'];
 
-// fetch master skills
-$skillsRes = $conn->query("SELECT id, skill_name FROM skills_master WHERE status=1 ORDER BY skill_name ASC");
-
-// fetch applicant skills (joined)
-$stmt = $conn->prepare("
-    SELECT ask.id as app_skill_id, sm.id AS skill_id, sm.skill_name,
-           ask.experience_years, ask.proficiency
-    FROM applicant_skills ask
-    JOIN skills_master sm ON sm.id = ask.skill_id
-    WHERE ask.applicant_id = ?
-    ORDER BY ask.created_at DESC
-");
+// handle display of existing skills
+$stmt = $conn->prepare("SELECT id, skill_name FROM applicant_skills WHERE applicant_id = ? ORDER BY id DESC");
 $stmt->bind_param("i", $app_id);
 $stmt->execute();
-$appSkills = $stmt->get_result();
+$res = $stmt->get_result();
+$skills = $res->fetch_all(MYSQLI_ASSOC);
 $stmt->close();
 ?>
-<!doctype html>
-<html>
-<head>
-    <meta charset="utf-8">
-    <title>My Skills — Applicant</title>
-    <link rel="stylesheet" href="/jobsweb/assets/css/dashboard.css">
 
-    <style>
-        .skills-form { max-width:720px; margin:18px auto; }
-        .skill-row { display:flex; gap:8px; align-items:center; margin-bottom:8px; }
-        .skill-row select, .skill-row input { flex:1; padding:8px; border-radius:6px; border:1px solid #ddd; }
+<style>
+.wrapper { display:flex; margin-top:30px; }
+.sidebar { width:240px; background:#0a4c90; color:#fff; padding:20px; border-radius:8px; }
+.sidebar a{ display:block; padding:12px; color:#fff; text-decoration:none; margin-bottom:8px; border-radius:5px; font-weight:600; }
+.sidebar a.active{ background:#06376a; }
+.content-box { flex:1; margin-left:20px; background:#fff; padding:25px; border-radius:10px; box-shadow:0 0 10px rgba(0,0,0,0.08); }
+.skill-chip { display:inline-block; background:#e9f2ff; color:#0a4c90; padding:8px 12px; border-radius:20px; margin:6px; font-weight:600; }
+.btn-action { padding:8px 12px; background:#0a4c90; color:#fff; border:none; border-radius:6px; cursor:pointer; }
+.form-inline { display:flex; gap:8px; align-items:center; }
+.form-inline input { flex:1; padding:8px; border-radius:6px; border:1px solid #ccc; }
+</style>
 
-        .skill-list { margin-top:18px; }
-        .skill-card {
-            background:#fff; padding:12px; border-radius:8px;
-            box-shadow:0 4px 12px rgba(0,0,0,0.03);
-            margin-bottom:10px; display:flex;
-            justify-content:space-between; align-items:center;
-        }
-
-        .btn { display:inline-block; padding:8px 12px;
-               border-radius:6px; text-decoration:none;
-               background:var(--cj-primary); color:#fff; }
-        .btn.danger { background:#dc3545; }
-        .msg { color:#0a7; margin-bottom:8px; font-weight:600; }
-    </style>
-</head>
-<body>
-
-<?php include __DIR__ . '/../public/includes/sidebar.php'; ?>
-
-<main class="cj-main" style="padding-top:28px;">
-
-    <div class="cj-card skills-form">
-        <h3>Manage Skills</h3>
-        <p>Add your skills with years of experience and proficiency.</p>
-
-        <?php if (!empty($_SESSION['skill_msg'])): ?>
-            <div class="msg"><?php echo $_SESSION['skill_msg']; unset($_SESSION['skill_msg']); ?></div>
-        <?php endif; ?>
-
-        <form id="addSkillForm" method="POST" action="/jobsweb/applicant/skills-process.php">
-            <div class="skill-row">
-
-                <select name="skill_id" required>
-                    <option value="">Select skill...</option>
-                    <?php if($skillsRes): while($sk = $skillsRes->fetch_assoc()): ?>
-                        <option value="<?= (int)$sk['id']; ?>">
-                            <?= htmlspecialchars($sk['skill_name']); ?>
-                        </option>
-                    <?php endwhile; endif; ?>
-                </select>
-
-                <select name="experience_years" required>
-                    <option value="">Experience</option>
-                    <option value="0-1 years">0-1 years</option>
-                    <option value="1-3 years">1-3 years</option>
-                    <option value="3-5 years">3-5 years</option>
-                    <option value="5+ years">5+ years</option>
-                </select>
-
-                <select name="proficiency" required>
-                    <option value="Beginner">Beginner</option>
-                    <option value="Intermediate">Intermediate</option>
-                    <option value="Expert">Expert</option>
-                </select>
-
-                <input type="hidden" name="action" value="add">
-                <button class="btn" type="submit">Add Skill</button>
-
-            </div>
-        </form>
-
-        <div class="skill-list">
-            <h4>Your Skills</h4>
-
-            <?php if($appSkills && $appSkills->num_rows): ?>
-                <?php while($r = $appSkills->fetch_assoc()): ?>
-                    <div class="skill-card">
-                        <div>
-                            <strong><?= htmlspecialchars($r['skill_name']); ?></strong>
-                            <div style="font-size:13px;color:#666;">
-                                <?= htmlspecialchars($r['experience_years']); ?>
-                                • <?= htmlspecialchars($r['proficiency']); ?>
-                            </div>
-                        </div>
-
-                        <form method="POST" action="/jobsweb/applicant/skills-process.php">
-                            <input type="hidden" name="action" value="delete">
-                            <input type="hidden" name="app_skill_id" value="<?= (int)$r['app_skill_id']; ?>">
-                            <button class="btn danger"
-                                onclick="return confirm('Delete this skill?')">Delete</button>
-                        </form>
-                    </div>
-                <?php endwhile; ?>
-            <?php else: ?>
-                <p>No skills added yet.</p>
-            <?php endif; ?>
-
-        </div>
+<div class="container">
+  <div class="wrapper">
+    <div class="sidebar">
+      <h4><i class="bi bi-person-lines-fill me-2"></i> My Profile</h4>
+      <a href="edit-profile.php">Personal Details</a>
+      <a href="upload-photo.php">Profile Photo</a>
+      <a href="upload-resume.php">Resume Upload</a>
+      <a href="skills.php" class="active">Skills</a>
     </div>
 
-</main>
-</body>
-</html>
+    <div class="content-box">
+      <h3 class="text-primary fw-bold mb-3">Manage Skills</h3>
+
+      <p>Add the skills you have — these help us match jobs.</p>
+
+      <form action="skills-process.php" method="POST" class="form-inline mb-3">
+        <input type="text" name="skill" placeholder="Add new skill (e.g. Excel, PHP, Sales)" required>
+        <button type="submit" class="btn-action">Add</button>
+      </form>
+
+      <div>
+        <?php if (count($skills) === 0): ?>
+          <div class="small-note">No skills added yet.</div>
+        <?php else: ?>
+          <?php foreach ($skills as $s): ?>
+            <div class="skill-chip">
+              <?= htmlspecialchars($s['skill_name']) ?>
+              <a href="skills-process.php?remove=<?= $s['id'] ?>" style="color:#d33; margin-left:8px; text-decoration:none;">✖</a>
+            </div>
+          <?php endforeach; ?>
+        <?php endif; ?>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<?php include "../includes/footer.php"; ?>

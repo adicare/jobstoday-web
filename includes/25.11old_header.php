@@ -3,7 +3,6 @@ if (session_status() === PHP_SESSION_NONE) session_start();
 
 $isLoggedIn = !empty($_SESSION['user_id']);
 $userRole   = $_SESSION['user_role'] ?? '';
-$userName   = $_SESSION['user_name'] ?? '';
 ?>
 
 <!doctype html>
@@ -30,7 +29,7 @@ $userName   = $_SESSION['user_name'] ?? '';
           display: flex;
           justify-content: space-between;
           align-items: center;
-          width: 100%;
+          width: 100%;           /* FULL WIDTH HEADER */
       }
 
       .top-header .logo {
@@ -75,54 +74,24 @@ $userName   = $_SESSION['user_name'] ?? '';
 
     <nav>
         <ul>
-
             <li><a href="/jobsweb/index.php">Jobs</a></li>
             <li><a href="/jobsweb/public/courses.php">Courses</a></li>
             <li><a href="/jobsweb/public/experts.php">Experts</a></li>
             <li><a href="/jobsweb/public/resume-builder.php">Resume Builder</a></li>
             <li><a href="/jobsweb/public/contact.php">Contact</a></li>
-
-            <?php if (!$isLoggedIn): ?>
-                <li><a href="/jobsweb/public/register.php">Register</a></li>
-            <?php endif; ?>
-
+            <li><a href="/jobsweb/public/register.php">Register</a></li>
         </ul>
     </nav>
 
     <div class="login-btn-top">
-
         <?php if ($isLoggedIn): ?>
-
-            <?php if ($userRole === 'applicant'): ?>
-                <a href="/jobsweb/applicant/dashboard.php">
-                    <i class="bi bi-person-circle"></i> <?= htmlspecialchars($userName) ?>
-                </a>
-            <?php endif; ?>
-
-            <?php if ($userRole === 'employer'): ?>
-                <a href="/jobsweb/employer/dashboard.php">
-                    <i class="bi bi-building"></i> Employer Dashboard
-                </a>
-            <?php endif; ?>
-
-            <?php if ($userRole === 'admin'): ?>
-                <a href="/jobsweb/admin/dashboard.php">
-                    <i class="bi bi-shield-lock"></i> Admin Panel
-                </a>
-            <?php endif; ?>
-
-            &nbsp;&nbsp;|&nbsp;&nbsp;
-
-            <a href="/jobsweb/public/logout.php" class="text-warning">Logout</a>
-
+            <a href="/jobsweb/public/logout.php">Logout</a>
         <?php else: ?>
-
             <a href="/jobsweb/public/login.php">Login</a>
-
         <?php endif; ?>
-
     </div>
 
 </div>
 
+<!-- FIX: FULL WIDTH PAGE WRAPPER -->
 <div class="container-fluid px-4">

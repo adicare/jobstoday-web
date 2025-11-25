@@ -56,7 +56,7 @@ if (isset($_SESSION['applicant_id'])) {
     $applicant_id = intval($_SESSION['applicant_id']);
 
     $check = $conn->prepare("
-        SELECT id FROM applications 
+        SELECT id FROM job_applications
         WHERE applicant_id = ? AND job_id = ?
         LIMIT 1
     ");

@@ -40,8 +40,8 @@ $stmt->bind_param("ssssssi",
 
 $stmt->execute();
 
-// Redirect back to dashboard
-header("Location: ../public/applicant-dashboard.php?profile=updated");
+// Redirect back to correct dashboard
+header("Location: ../applicant/dashboard.php?profile=updated");
 exit;
 
 ?>

@@ -49,8 +49,8 @@ $stmt = $conn->prepare("UPDATE job_seekers SET resume_file = ? WHERE id = ?");
 $stmt->bind_param("si", $new_name, $app_id);
 $stmt->execute();
 
-// Redirect back
-header("Location: ../public/applicant-dashboard.php?resume=uploaded");
+// Redirect back to correct dashboard
+header("Location: ../applicant/dashboard.php?resume=uploaded");
 exit;
 
 ?>

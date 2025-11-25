@@ -44,8 +44,8 @@ $stmt = $conn->prepare("UPDATE job_seekers SET photo = ? WHERE id = ?");
 $stmt->bind_param("si", $new_name, $app_id);
 $stmt->execute();
 
-// Redirect back to dashboard
-header("Location: ../public/applicant-dashboard.php?photo=updated");
+// Redirect back to correct dashboard
+header("Location: ../applicant/dashboard.php?photo=updated");
 exit;
 
 ?>

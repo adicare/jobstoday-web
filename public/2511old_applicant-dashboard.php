@@ -6,7 +6,7 @@
    ============================================================ */
 
 session_start();
-include "config/config.php";  // DB connection
+include "../config/config.php";  // DB connection
 
 // If user not logged in → redirect
 if (!isset($_SESSION['applicant_id'])) {
@@ -31,6 +31,15 @@ if (!empty($user['mobile'])) $profile_complete += 20;
 if (!empty($user['state'])) $profile_complete += 15;
 if (!empty($user['city'])) $profile_complete += 15;
 if (!empty($user['resume_file'])) $profile_complete += 30;
+$skillCnt = 0;
+$stmt = $conn->prepare("SELECT COUNT(*) as c FROM applicant_skills WHERE applicant_id = ?");
+$stmt->bind_param("i", $app_id);
+$stmt->execute();
+$res = $stmt->get_result();
+if ($r = $res->fetch_assoc()) $skillCnt = (int)$r['c'];
+$stmt->close();
+
+if ($skillCnt > 0) $profile_complete += 20;
 ?>
 <!DOCTYPE html>
 <html>
