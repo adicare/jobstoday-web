@@ -1,187 +1,416 @@
 <?php
-// FILE: applicant/qualification.php
 session_start();
 if (!isset($_SESSION['applicant_id'])) {
-  header("Location: /jobsweb/public/login.php");
-  exit;
+    header("Location: /jobsweb/public/login.php");
+    exit;
 }
 
 include "../config/config.php";
 include "../includes/header.php";
 
-$app_id = (int)$_SESSION['applicant_id'];
+/* ================= MASTER DATA ================= */
+$levels = $conn->query("SELECT DISTINCT level FROM qualification_master ORDER BY level")->fetch_all(MYSQLI_ASSOC);
+$courses = $conn->query("SELECT DISTINCT level, course FROM qualification_master WHERE course<>''")->fetch_all(MYSQLI_ASSOC);
+$specializations = $conn->query("SELECT DISTINCT course, specialization FROM qualification_master WHERE specialization<>''")->fetch_all(MYSQLI_ASSOC);
+$states = $conn->query("SELECT DISTINCT state FROM india_location WHERE state<>'' ORDER BY state")->fetch_all(MYSQLI_ASSOC);
 
-/* fetch existing education entries */
-$stmt = $conn->prepare("SELECT * FROM applicant_education WHERE applicant_id = ? ORDER BY id DESC");
-$stmt->bind_param("i",$app_id);
+/* ================= EXISTING QUALIFICATIONS ================= */
+$existingQualifications = [];
+$stmt = $conn->prepare("
+    SELECT id, qualification_level, course_name, specialization,
+           university, state, study_mode, is_pursuing,
+           year_of_passing, percentage
+    FROM applicant_education
+    WHERE applicant_id=?
+    ORDER BY id ASC
+");
+$stmt->bind_param("i", $_SESSION['applicant_id']);
 $stmt->execute();
 $res = $stmt->get_result();
-$education = $res->fetch_all(MYSQLI_ASSOC);
+while ($r = $res->fetch_assoc()) {
+    $existingQualifications[] = [
+        'id'=>$r['id'],
+        'level'=>$r['qualification_level'],
+        'course'=>$r['course_name'],
+        'specialization'=>$r['specialization'] ?: 'Not Applicable',
+        'study_mode'=>$r['study_mode'],
+        'status'=>$r['is_pursuing']?'pursuing':'completed',
+        'year'=>$r['year_of_passing'],
+        'result'=>$r['percentage'],
+        'university'=>$r['university'],
+        'state'=>$r['state']
+    ];
+}
 $stmt->close();
-
-/* fetch masters */
-$cq = $conn->query("SELECT name FROM courses_master ORDER BY name");
-$courses = $cq->fetch_all(MYSQLI_NUM);
-$sq = $conn->query("SELECT name FROM specializations_master ORDER BY name");
-$specials = $sq->fetch_all(MYSQLI_NUM);
-$uq = $conn->query("SELECT name FROM universities_master ORDER BY name");
-$unis = $uq->fetch_all(MYSQLI_NUM);
 ?>
 
 <style>
-.card { background:#fff; padding:14px; border-radius:10px; box-shadow:0 0 8px rgba(0,0,0,0.06); margin-bottom:10px;}
-.skill-chip { display:inline-block; margin:6px; padding:8px 12px; border-radius:20px; background:#eef6ff; color:#0a4c90; }
-.small-note { color:#666; padding:10px 0; }
+.page-header-nav {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:20px;
+}
+
+.page-header-nav h4 {
+    margin:0;
+    color:#004aad;
+}
+
+.nav-buttons {
+    display:flex;
+    gap:10px;
+}
+
+.btn-back {
+    background:#6c757d;
+    color:#fff;
+    padding:9px 18px;
+    border-radius:8px;
+    border:0;
+    cursor:pointer;
+    text-decoration:none;
+    display:inline-block;
+    font-weight:600;
+}
+
+.btn-back:hover {
+    background:#5a6268;
+    color:#fff;
+}
+
+.btn-next {
+    background:#28a745;
+    color:#fff;
+    padding:9px 18px;
+    border-radius:8px;
+    border:0;
+    cursor:pointer;
+    text-decoration:none;
+    display:inline-block;
+    font-weight:600;
+}
+
+.btn-next:hover {
+    background:#218838;
+    color:#fff;
+}
 </style>
 
-<div class="container mt-3">
-  <div class="row">
-    <div class="col-md-3">
-      <?php include "profile-sidebar.php"; // or replicate sidebar ?>
+<div class="container-fluid mt-3">
+<div class="row">
+<aside class="col-md-3"><?php include "../includes/profile_sidebar.php"; ?></aside>
+
+<section class="col-md-9">
+
+<!-- ================= PAGE HEADER WITH BACK/NEXT ================= -->
+<div class="page-header-nav">
+    <h4>Qualification Details</h4>
+    <div class="nav-buttons">
+        <a href="skills.php" class="btn-back">← BACK</a>
+        <a href="experience.php" class="btn-next">NEXT →</a>
     </div>
+</div>
 
-    <div class="col-md-9">
-      <div class="card">
-        <h4 class="text-primary">Manage Education</h4>
-        <div class="small-note">Add the qualifications you have. Class 12 is recommended (it improves your profile) but not mandatory.</div>
+<p class="text-success">
+Add/Edit qualifications chronologically (10 → 12 → Graduation → PG).  
+Maximum 6 most relevant entries. Must press SUBMIT button to save added qualifications.
+</p>
 
-        <!-- ADD FORM -->
-        <form action="qualification-process.php" method="POST" id="eduForm" class="row g-2 align-items-end">
-          <input type="hidden" name="action" value="add">
-          <div class="col-md-3">
-            <label class="form-label">Level</label>
-            <select name="level" id="level" class="form-select" required>
-              <option value="">-- Select level --</option>
-              <option value="Class 10">Class 10</option>
-              <option value="Class 12">Class 12</option>
-              <option value="Diploma">Diploma</option>
-              <option value="Graduation">Graduation</option>
-              <option value="Post Graduation">Post Graduation</option>
-              <option value="Doctorate">Doctorate</option>
-              <option value="Other">Other</option>
-            </select>
-          </div>
+<!-- ================= INPUTS ================= -->
+<div class="row g-3">
 
-          <div class="col-md-3">
-            <label class="form-label">Course</label>
-            <select name="course_select" id="course_select" class="form-select">
-              <option value="">-- Select course --</option>
-              <?php foreach($courses as $c): ?>
-                <option value="<?= htmlspecialchars($c[0]) ?>"><?= htmlspecialchars($c[0]) ?></option>
-              <?php endforeach; ?>
-              <option value="__other__">Other (add)</option>
-            </select>
-            <input type="text" name="course_text" id="course_text" class="form-control mt-2 d-none" placeholder="Type course name">
-          </div>
+<div class="col-md-2">
+<label>Level</label>
+<select id="level" class="form-select">
+<option value="">Select</option>
+<?php foreach($levels as $l): ?><option><?= htmlspecialchars($l['level']) ?></option><?php endforeach; ?>
+</select>
+</div>
 
-          <div class="col-md-3">
-            <label class="form-label">Specialization</label>
-            <select name="spec_select" id="spec_select" class="form-select">
-              <option value="">-- Select specialization --</option>
-              <?php foreach($specials as $s): ?>
-                <option value="<?= htmlspecialchars($s[0]) ?>"><?= htmlspecialchars($s[0]) ?></option>
-              <?php endforeach; ?>
-              <option value="__other__">Other (add)</option>
-            </select>
-            <input type="text" name="spec_text" id="spec_text" class="form-control mt-2 d-none" placeholder="Type specialization">
-          </div>
+<div class="col-md-3">
+<label>Course</label>
+<select id="course" class="form-select" disabled>
+<option value="">Select</option>
+<?php foreach($courses as $c): ?>
+<option data-level="<?= htmlspecialchars($c['level']) ?>"><?= htmlspecialchars($c['course']) ?></option>
+<?php endforeach; ?>
+</select>
+</div>
 
-          <div class="col-md-3">
-            <label class="form-label">University / Board</label>
-            <select name="uni_select" id="uni_select" class="form-select">
-              <option value="">-- Select university --</option>
-              <?php foreach($unis as $u): ?>
-                <option value="<?= htmlspecialchars($u[0]) ?>"><?= htmlspecialchars($u[0]) ?></option>
-              <?php endforeach; ?>
-              <option value="__other__">Other (add)</option>
-            </select>
-            <input type="text" name="uni_text" id="uni_text" class="form-control mt-2 d-none" placeholder="Type university/board">
-          </div>
+<div class="col-md-3">
+<label>Specialization</label>
+<select id="specialization" class="form-select" disabled>
+<option value="">Select</option>
+<?php foreach($specializations as $s): ?>
+<option data-course="<?= htmlspecialchars($s['course']) ?>"><?= htmlspecialchars($s['specialization']) ?></option>
+<?php endforeach; ?>
+</select>
+</div>
 
-          <div class="col-md-3">
-            <label class="form-label">Year / Status</label>
-            <select name="year_or_pursuing" id="year_or_pursuing" class="form-select">
-              <option value="">-- Select --</option>
-              <option value="pursuing">Pursuing</option>
-              <?php
-                $current = (int)date("Y");
-                for($y=$current;$y>=1985;$y--){ echo "<option value=\"$y\">$y</option>"; }
-              ?>
-            </select>
-          </div>
+<div class="col-md-3 position-relative">
+  <label>University / Board / Institute</label>
 
-          <div class="col-md-2">
-            <label class="form-label">Study mode</label>
-            <select name="study_mode" class="form-select">
-              <option>Regular</option>
-              <option>Online</option>
-              <option>Distance</option>
-            </select>
-          </div>
+  <input type="text"
+         id="provider_input"
+         class="form-control"
+         placeholder="Type at least 3 characters"
+         autocomplete="off">
 
-          <div class="col-md-2">
-            <label class="form-label">Percentage / CGPA</label>
-            <input type="text" name="percentage" class="form-control" placeholder="e.g. 72% or 8.2">
-          </div>
+  <small class="text-muted">
+    If not found in drop down, type full name
+  </small>
 
-          <div class="col-md-2">
-            <button class="btn btn-primary w-100" type="submit">Add</button>
-          </div>
-        </form>
-
-        <!-- LIST / CARDS -->
-        <hr>
-        <?php if(empty($education)): ?>
-          <div class="small-note">No education records yet.</div>
-        <?php else: ?>
-          <div class="row">
-            <?php foreach($education as $ed): ?>
-              <div class="col-md-6 mb-2">
-                <div class="card">
-                  <strong><?= htmlspecialchars($ed['qualification_level']) ?></strong>
-                  <?php if($ed['course_name']): ?>
-                    <div class="small-note"><?= htmlspecialchars($ed['course_name']) ?> <?= $ed['specialization'] ? ' • '.htmlspecialchars($ed['specialization']) : '' ?></div>
-                  <?php endif; ?>
-
-                  <div class="small-note">
-                    <?php if($ed['is_pursuing']): ?>
-                      Status: <span class="badge bg-warning text-dark">Pursuing</span>
-                    <?php else: ?>
-                      <?= $ed['year_of_passing'] ? "Year: ".htmlspecialchars($ed['year_of_passing']) : '' ?>
-                    <?php endif; ?>
-                     &nbsp; | &nbsp; <?= htmlspecialchars($ed['study_mode']) ?>
-                     <?= $ed['percentage'] ? " • ".htmlspecialchars($ed['percentage']) : "" ?>
-                  </div>
-
-                  <form method="POST" action="qualification-process.php" class="mt-2">
-                    <input type="hidden" name="action" value="delete">
-                    <input type="hidden" name="id" value="<?= $ed['id'] ?>">
-                    <button type="submit" class="btn btn-sm btn-outline-danger">Remove ✖</button>
-                  </form>
-                </div>
-              </div>
-            <?php endforeach; ?>
-          </div>
-        <?php endif; ?>
-
-      </div>
-    </div>
+  <div id="provider_box"
+       class="border bg-white position-absolute w-100"
+       style="display:none; max-height:160px; overflow:auto; z-index:1000">
   </div>
 </div>
 
-<!-- small JS for 'Other' fields and 'pursuing' behaviour -->
+
+<div class="col-md-2">
+<label>Study State</label>
+<select id="inst_state" class="form-select">
+<option value="">Select</option>
+<?php foreach($states as $st): ?><option><?= htmlspecialchars($st['state']) ?></option><?php endforeach; ?>
+</select>
+</div>
+
+<div class="col-md-2">
+<label>Study Mode</label>
+<select id="study_mode" class="form-select">
+<option value="">Select</option>
+<option>Regular</option><option>Distance</option>
+<option>Online</option><option>Correspondence</option>
+</select>
+</div>
+
+<div class="col-md-2">
+<label>Status</label>
+<select id="status" class="form-select">
+<option value="">Select</option>
+<option value="completed">Completed</option>
+<option value="pursuing">Pursuing</option>
+</select>
+</div>
+
+<div class="col-md-2">
+<label>Passing Year</label>
+<select id="year" class="form-select">
+<option value="">Select</option>
+<?php for($y=date('Y');$y>=1980;$y--) echo "<option>$y</option>"; ?>
+</select>
+</div>
+
+<div class="col-md-2">
+<label>% / Grade</label>
+<input type="text" id="result" class="form-control">
+</div>
+
+<div class="col-md-2 d-flex align-items-end">
+<button type="button" id="addBtn" class="btn btn-success w-100">Add</button>
+</div>
+
+</div>
+
+<hr>
+
+<form method="POST" action="qualification-process.php">
+<input type="hidden" name="action" value="bulk_add">
+
+<table class="table table-bordered" id="previewTable">
+<thead class="table-light">
+<tr>
+<th>Level</th><th>Course</th><th>Spec</th><th>Mode</th>
+<th>Status</th><th>Year</th><th>%</th>
+<th>University</th><th>State</th><th>Remove</th>
+</tr>
+</thead>
+<tbody></tbody>
+</table>
+
+<button class="btn btn-primary">SUBMIT</button>
+
+<!-- ================= BOTTOM NAVIGATION (OPTIONAL - Can be removed if not needed) ================= -->
+<div class="d-flex justify-content-between mt-4">
+<a href="/jobsweb/index.php" class="btn btn-outline-secondary">← HOME</a>
+<a href="experience.php" class="btn btn-success">NEXT →</a>
+</div>
+</form>
+
+</section>
+</div>
+</div>
+
 <script>
-document.getElementById('course_select')?.addEventListener('change', function(){
-  document.getElementById('course_text').classList.toggle('d-none', this.value !== '__other__');
-});
-document.getElementById('spec_select')?.addEventListener('change', function(){
-  document.getElementById('spec_text').classList.toggle('d-none', this.value !== '__other__');
-});
-document.getElementById('uni_select')?.addEventListener('change', function(){
-  document.getElementById('uni_text').classList.toggle('d-none', this.value !== '__other__');
-});
-document.getElementById('year_or_pursuing')?.addEventListener('change', function(){
-  // if 'pursuing' selected, no year_of_passing; we use 'is_pursuing' flag in backend
+document.addEventListener('DOMContentLoaded', () => {
+
+const level = document.getElementById('level');
+const course = document.getElementById('course');
+const specialization = document.getElementById('specialization');
+const provider_input = document.getElementById('provider_input');
+const provider_box = document.getElementById('provider_box');
+const inst_state = document.getElementById('inst_state');
+const study_mode = document.getElementById('study_mode');
+const status = document.getElementById('status');
+const year = document.getElementById('year');
+const result = document.getElementById('result');
+const addBtn = document.getElementById('addBtn');
+const tbody = document.querySelector('#previewTable tbody');
+
+const existing = <?= json_encode($existingQualifications) ?>;
+let fresh = [];
+
+/* ---------- Dropdown Logic ---------- */
+level.onchange = () => {
+  course.disabled = false;
+  [...course.options].forEach(o=>{
+    if(!o.value) return;
+    o.hidden = o.dataset.level !== level.value;
+  });
+};
+
+course.onchange = () => {
+  specialization.disabled = false;
+  [...specialization.options].forEach(o=>{
+    if(!o.value) return;
+    o.hidden = o.dataset.course !== course.value;
+  });
+};
+
+status.onchange = () => {
+  const pursuing = status.value === 'pursuing';
+  year.disabled = pursuing;
+  result.disabled = pursuing;
+};
+
+/* ---------- University Search ---------- */
+provider_input.onkeyup = () => {
+  if (provider_input.value.length < 3) {
+    provider_box.style.display = 'none';
+    return;
+  }
+  fetch('../ajax/search_provider.php?q=' + encodeURIComponent(provider_input.value))
+    .then(r=>r.json())
+    .then(data=>{
+      provider_box.innerHTML='';
+      if(!data.length){ provider_box.style.display='none'; return; }
+      data.forEach(row=>{
+        let d=document.createElement('div');
+        d.className='p-2 border-bottom';
+        d.textContent=row.provider_name;
+        d.onclick=()=>{ provider_input.value=row.provider_name; provider_box.style.display='none'; };
+        provider_box.appendChild(d);
+      });
+      provider_box.style.display='block';
+    });
+};
+
+/* ---------- Render ---------- */
+function render(){
+  tbody.innerHTML='';
+  existing.forEach((q,i)=>row(q,false,i));
+  fresh.forEach((q,i)=>row(q,true,i));
+}
+
+function row(q,isNew,i){
+  tbody.innerHTML+=`
+  <tr>
+    <td>${q.level}</td><td>${q.course}</td><td>${q.specialization}</td>
+    <td>${q.study_mode}</td><td>${q.status}</td>
+    <td>${q.year||'-'}</td><td>${q.result||'-'}</td>
+    <td>${q.university}</td><td>${q.state}</td>
+    <td>
+      ${isNew
+        ? `<button type="button" class="btn btn-danger btn-sm" onclick="fresh.splice(${i},1);render();">×</button>
+           <input type="hidden" name="qualifications[${i}][data]" value='${JSON.stringify(q)}'>`
+        : `<button type="button" class="btn btn-danger btn-sm"
+           onclick="deleteExisting(${q.id},${i})">×</button>`
+      }
+    </td>
+  </tr>`;
+}
+
+/* ---------- Add ---------- */
+addBtn.onclick = () => {
+
+  if (
+    !level.value ||
+    !course.value ||
+    !provider_input.value ||
+    !inst_state.value ||
+    !study_mode.value ||
+    !status.value
+  ) {
+    alert('Please fill all required fields');
+    return;
+  }
+
+  // ---- Push new qualification ----
+  fresh.push({
+    level: level.value,
+    course: course.value,
+    specialization: specialization.value || 'Not Applicable',
+    study_mode: study_mode.value,
+    status: status.value,
+    year: year.value || '',
+    result: result.value || '',
+    university: provider_input.value,
+    state: inst_state.value
+  });
+
+  render();
+
+  /* ================= FULL RESET (LIKE FIRST PAGE LOAD) ================= */
+
+  // Level
+  level.value = '';
+
+  // Course
+  course.value = '';
+  course.disabled = true;
+
+  // Specialization
+  specialization.value = '';
+  specialization.disabled = true;
+
+  // University
+  provider_input.value = '';
+
+  // State
+  inst_state.value = '';
+
+  // Study Mode
+  study_mode.value = '';
+
+  // Status
+  status.value = '';
+
+  // Passing Year
+  year.value = '';
+  year.disabled = false;
+
+  // Percentage / Grade
+  result.value = '';
+  result.disabled = false;
+
+  // Optional UX polish
+  level.focus();
+};
+
+
+
+/* ---------- Delete Existing ---------- */
+window.deleteExisting = (id,i)=>{
+  if(!confirm('Delete this qualification permanently?')) return;
+  fetch('qualification-delete.php',{
+    method:'POST',
+    headers:{'Content-Type':'application/json'},
+    body:JSON.stringify({id})
+  }).then(()=>{ existing.splice(i,1); render(); });
+};
+
+render();
 });
 </script>
 

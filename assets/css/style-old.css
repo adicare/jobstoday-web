@@ -1,0 +1,259 @@
+/* =====================================================
+   JobsWeb — Premium Unified Styling (Blue Color System)
+   ===================================================== */
+
+/* GLOBAL FONT */
+* {
+    font-family: "Inter", sans-serif !important;
+}
+
+/* BODY */
+body {
+    background-color: #f5f7fa;
+    color: #2c2c2c;
+    line-height: 1.7;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+/* ======================================
+   TYPOGRAPHY
+====================================== */
+h1, h2, h3, h4, h5, h6 {
+  color: #004aad;
+  font-weight: 600;
+}
+
+h1 { font-size: 26px; }
+h2 { font-size: 22px; }
+h3 { font-size: 20px; margin-bottom: 18px; }
+
+/* Section Titles */
+.section-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #0A66C2;
+  border-left: 4px solid #004aad;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+/* ======================================
+   NAVBAR
+====================================== */
+.navbar {
+    background: #004aad !important;
+}
+
+.navbar-brand {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.navbar a {
+    color: #ffffff !important;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/* ======================================
+   BUTTONS
+====================================== */
+button, .btn {
+    font-size: 14px !important;
+    font-weight: 600 !important;
+}
+
+/* Primary */
+.btn-primary {
+  background: #0A66C2;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 6px;
+}
+
+.btn-primary:hover {
+  background: #004aad;
+  transform: translateY(-2px);
+}
+
+/* Secondary */
+.btn-outline-primary {
+  border-color: #0A66C2;
+  color: #0A66C2;
+}
+
+.btn-outline-primary:hover {
+  background: #ddecff;
+  border-color: #004aad;
+}
+
+/* Save / Cancel Buttons */
+.btn-save {
+    background: #0A66C2;
+    color: white;
+    border-radius: 7px;
+}
+
+.btn-save:hover {
+    background: #004aad;
+}
+
+.btn-cancel {
+    background: #eef6ff;
+    border: 1px solid #cbd6e6;
+}
+
+/* ======================================
+   SIDEBAR (Left Profile)
+====================================== */
+.sidebar {
+  background: #003b73;
+  color: #fff;
+  padding: 25px;
+  width: 240px;
+  border-radius: 12px;
+  min-height: 100vh;
+}
+
+.sidebar a {
+  color: #fff;
+  padding: 10px 12px;
+  border-radius: 6px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.sidebar a:hover,
+.sidebar a.active {
+  background: rgba(255,255,255,0.15);
+}
+
+/* ======================================
+   FORM AREAS — FULL PREMIUM UPGRADE
+====================================== */
+.form-area,
+.profile-form-wrapper {
+    background: #f7faff;
+    padding: 25px 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.06);
+}
+
+/* Input labels */
+.form-label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #004aad;
+}
+
+/* Section headings inside forms */
+.form-section-title {
+    font-size: 16px;
+    font-weight: 700;
+    color: #0A66C2;
+    margin-top: 25px;
+    border-bottom: 2px solid #e8f1ff;
+    padding-bottom: 6px;
+}
+
+/* Inputs */
+.form-control, .form-select {
+    background: #fcfdff;
+    border: 1px solid #cddfff;
+    border-radius: 7px;
+    padding: 10px 12px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.form-control:hover, .form-select:hover {
+    border-color: #9fc3ff;
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: #4a90e2 !important;
+    box-shadow: 0 0 0 0.15rem rgba(74,144,226,0.25);
+    background: #ffffff;
+}
+
+/* File input */
+input[type="file"] {
+    border: 1px solid #cddfff;
+    padding: 10px;
+    border-radius: 7px;
+    font-size: 14px;
+}
+
+/* ======================================
+   SKILL CHIPS
+====================================== */
+.skill-chip {
+    background: #e8f1ff;
+    color: #0A66C2;
+    border: 1px solid #c8ddff;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 13px;
+    margin: 4px;
+}
+
+.skill-chip:hover {
+    background: #ddecff;
+    border-color: #9ec5ff;
+}
+
+/* ======================================
+   EXPERIENCE CARDS
+====================================== */
+.exp-card {
+    border-left: 6px solid #004aad !important;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+}
+
+/* ======================================
+   RIGHT PROFILE SIDEBAR (Homepage)
+====================================== */
+.profile-name {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.profile-percent-large {
+  font-size: 24px;
+  font-weight: 700;
+  color: #004aad;
+}
+
+.profile-caption {
+  font-size: 13px;
+  color: #0A66C2;
+}
+
+/* ======================================
+   MESSAGES
+====================================== */
+.msg.success {
+  background: #e6ffed;
+  color: #156c21;
+}
+
+.msg.error {
+  background: #ffecec;
+  color: #b11;
+}
+
+
+
+
+
+/* ======================================
+   FOOTER
+====================================== */
+footer {
+  font-size: 0.9rem;
+  letter-spacing: 0.3px;
+}

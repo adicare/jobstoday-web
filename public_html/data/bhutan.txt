@@ -1,0 +1,20 @@
+BT | Thimphu | Thimphu Thromde | 27.4728 | 89.6390
+BT | Paro | Paro Town | 27.4305 | 89.4133
+BT | Punakha | Punakha Town | 27.5916 | 89.8774
+BT | Wangdue Phodrang | Bajo Town | 27.4870 | 89.8990
+BT | Chukha | Phuentsholing | 26.8516 | 89.3885
+BT | Samtse | Samtse Town | 26.8990 | 89.0980
+BT | Haa | Haa Town | 27.3875 | 89.2800
+BT | Gasa | Gasa Town | 27.9030 | 89.7260
+BT | Dagana | Dagana Town | 27.0320 | 89.8760
+BT | Tsirang | Damphu | 27.0210 | 90.1220
+BT | Sarpang | Gelephu | 26.8840 | 90.4970
+BT | Zhemgang | Zhemgang Town | 27.2160 | 90.6580
+BT | Trongsa | Trongsa Town | 27.5020 | 90.5070
+BT | Bumthang | Jakar | 27.5500 | 90.7460
+BT | Mongar | Mongar Town | 27.2750 | 91.2400
+BT | Lhuentse | Lhuentse Town | 27.6680 | 91.1830
+BT | Trashigang | Trashigang Town | 27.3330 | 91.5520
+BT | Trashiyangtse | Trashiyangtse Town | 27.6110 | 91.4980
+BT | Pemagatshel | Pemagatshel Town | 27.0370 | 91.4040
+BT | Samdrup Jongkhar | Samdrup Jongkhar Town | 26.8000 | 91.5050

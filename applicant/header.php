@@ -13,6 +13,8 @@ if (!isset($_SESSION['user_role']) || $_SESSION['user_role'] !== 'applicant') {
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<link rel="stylesheet" href="../assets/css/style.css?v=5">
+
   <meta charset="UTF-8">
   <title>Applicant Panel | CareerJano</title>
 

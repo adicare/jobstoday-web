@@ -1,0 +1,453 @@
+{
+  "countries": [
+    {
+      "code": "IN",
+      "name": "India",
+      "level1_name": "State / UT",
+      "level2_name": "District",
+      "level3_name": "Tehsil",
+      "level1": [
+        {
+          "name": "Rajasthan",
+          "level2": [
+            {
+              "name": "Jaipur",
+              "level3": [
+                "Sanganer",
+                "Amber",
+                "Bassi",
+                "Chomu"
+              ]
+            },
+            {
+              "name": "Jodhpur",
+              "level3": [
+                "Jodhpur North",
+                "Jodhpur South",
+                "Bilara"
+              ]
+            },
+            {
+              "name": "Udaipur",
+              "level3": [
+                "Girwa",
+                "Kotra",
+                "Mavli"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Maharashtra",
+          "level2": [
+            {
+              "name": "Mumbai",
+              "level3": [
+                "Andheri",
+                "Bandra",
+                "Colaba"
+              ]
+            },
+            {
+              "name": "Pune",
+              "level3": [
+                "Haveli",
+                "Mulshi",
+                "Shirur"
+              ]
+            },
+            {
+              "name": "Nagpur",
+              "level3": [
+                "Nagpur Urban",
+                "Nagpur Rural",
+                "Umred"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Karnataka",
+          "level2": [
+            {
+              "name": "Bengaluru Urban",
+              "level3": [
+                "Bangalore North",
+                "Bangalore East",
+                "Anekal"
+              ]
+            },
+            {
+              "name": "Mysuru",
+              "level3": [
+                "Mysore North",
+                "Mysore South",
+                "Nanjangud"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Tamil Nadu",
+          "level2": [
+            {
+              "name": "Chennai",
+              "level3": [
+                "Egmore",
+                "Tondiarpet",
+                "Guindy"
+              ]
+            },
+            {
+              "name": "Coimbatore",
+              "level3": [
+                "Coimbatore North",
+                "Coimbatore South",
+                "Pollachi"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "West Bengal",
+          "level2": [
+            {
+              "name": "Kolkata",
+              "level3": [
+                "Alipore",
+                "Ballygunge",
+                "Jorasanko"
+              ]
+            },
+            {
+              "name": "Howrah",
+              "level3": [
+                "Howrah Sadar",
+                "Uluberia"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Gujarat",
+          "level2": [
+            {
+              "name": "Ahmedabad",
+              "level3": [
+                "Daskroi",
+                "Sanand",
+                "Vejalpur"
+              ]
+            },
+            {
+              "name": "Surat",
+              "level3": [
+                "Surat City",
+                "Kamrej",
+                "Bardoli"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Punjab",
+          "level2": [
+            {
+              "name": "Amritsar",
+              "level3": [
+                "Amritsar I",
+                "Amritsar II",
+                "Ajnala"
+              ]
+            },
+            {
+              "name": "Ludhiana",
+              "level3": [
+                "Ludhiana East",
+                "Ludhiana West"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Bihar",
+          "level2": [
+            {
+              "name": "Patna",
+              "level3": [
+                "Patna Sadar",
+                "Barh",
+                "Daniyawan"
+              ]
+            },
+            {
+              "name": "Gaya",
+              "level3": [
+                "Gaya Town",
+                "Sherghati",
+                "Tekari"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Uttar Pradesh",
+          "level2": [
+            {
+              "name": "Lucknow",
+              "level3": [
+                "Lucknow East",
+                "Lucknow West",
+                "Malihabad"
+              ]
+            },
+            {
+              "name": "Kanpur Nagar",
+              "level3": [
+                "Kanpur Urban",
+                "Kanpur Rural"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Madhya Pradesh",
+          "level2": [
+            {
+              "name": "Bhopal",
+              "level3": [
+                "Huzur",
+                "Berasia"
+              ]
+            },
+            {
+              "name": "Indore",
+              "level3": [
+                "Indore",
+                "Mhow",
+                "Depalpur"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Assam",
+          "level2": [
+            {
+              "name": "Kamrup Metropolitan",
+              "level3": [
+                "Guwahati",
+                "Dispur"
+              ]
+            },
+            {
+              "name": "Dibrugarh",
+              "level3": [
+                "Dibrugarh",
+                "Moran"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Kerala",
+          "level2": [
+            {
+              "name": "Thiruvananthapuram",
+              "level3": [
+                "Nedumangad",
+                "Kazhakoottam"
+              ]
+            },
+            {
+              "name": "Ernakulam",
+              "level3": [
+                "Kochi",
+                "Kunnathunad"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "NP",
+      "name": "Nepal",
+      "level1_name": "Province",
+      "level2_name": "District",
+      "level3_name": "Local Unit",
+      "level1": [
+        {
+          "name": "Bagmati Province",
+          "level2": [
+            {
+              "name": "Kathmandu",
+              "level3": [
+                "Kathmandu Metropolitan",
+                "Kirtipur",
+                "Tokha"
+              ]
+            },
+            {
+              "name": "Lalitpur",
+              "level3": [
+                "Lalitpur Metropolitan",
+                "Godawari"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Province No. 1",
+          "level2": [
+            {
+              "name": "Morang",
+              "level3": [
+                "Biratnagar",
+                "Belbari"
+              ]
+            },
+            {
+              "name": "Sunsari",
+              "level3": [
+                "Itahari",
+                "Dharan"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "BD",
+      "name": "Bangladesh",
+      "level1_name": "Division",
+      "level2_name": "District",
+      "level3_name": "Upazila",
+      "level1": [
+        {
+          "name": "Dhaka Division",
+          "level2": [
+            {
+              "name": "Dhaka",
+              "level3": [
+                "Savar",
+                "Dhamrai",
+                "Keraniganj"
+              ]
+            },
+            {
+              "name": "Gazipur",
+              "level3": [
+                "Gazipur Sadar",
+                "Kaliakair"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Chittagong Division",
+          "level2": [
+            {
+              "name": "Chittagong",
+              "level3": [
+                "Rangunia",
+                "Sitakunda"
+              ]
+            },
+            {
+              "name": "Cox's Bazar",
+              "level3": [
+                "Teknaf",
+                "Ukhiya"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "LK",
+      "name": "Sri Lanka",
+      "level1_name": "Province",
+      "level2_name": "District",
+      "level3_name": "DS Division",
+      "level1": [
+        {
+          "name": "Western Province",
+          "level2": [
+            {
+              "name": "Colombo",
+              "level3": [
+                "Colombo North",
+                "Colombo South",
+                "Kaduwela"
+              ]
+            },
+            {
+              "name": "Gampaha",
+              "level3": [
+                "Negombo",
+                "Gampaha"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Central Province",
+          "level2": [
+            {
+              "name": "Kandy",
+              "level3": [
+                "Kandy Four Gravets",
+                "Akurana"
+              ]
+            },
+            {
+              "name": "Matale",
+              "level3": [
+                "Matale",
+                "Dambulla"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "code": "BT",
+      "name": "Bhutan",
+      "level1_name": "Dzongkhag",
+      "level2_name": "Gewog Group",
+      "level3_name": "Gewog",
+      "level1": [
+        {
+          "name": "Thimphu",
+          "level2": [
+            {
+              "name": "Thimphu District",
+              "level3": [
+                "Kawang Gewog",
+                "Chang Gewog",
+                "Mewang Gewog"
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Paro",
+          "level2": [
+            {
+              "name": "Paro District",
+              "level3": [
+                "Lungnyi",
+                "Dopshari",
+                "Shaba"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,168 +1,283 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>CareerJano Theme Preview</title>
+/* ================================
+   GLOBAL THEME VARIABLES
+   Jobstoday - Soft Modern Theme
+   Primary Blue: #1e3a66 (B2)
+================================ */
 
-  <!-- Load Bootstrap -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+:root {
+    /* BRAND COLORS */
+    --primary-dark: #0a4c90;  /* Your original sidebar blue */
+    --primary: #1e3a66;          /* Deep Royal Blue */
+    --primary-light: #3f6fbb;    /* Soft Blue for hover */
+    --accent: #eab308;           /* Golden highlight */
 
-  <!-- Inline All-Blue Theme -->
-  <style>
-    /* ===============================
-       CareerJano Blue Harmony Theme
-       =============================== */
+    /* BACKGROUND COLORS */
+    --bg-light: #f7f9fc;         /* Off-white light */
+    --bg-card: #ffffff;          /* Pure white */
 
-    body {
-      background-color: #d9ecff; /* very light blue background */
-      color: #102a43;
-      font-family: 'Segoe UI', Roboto, sans-serif;
-    }
+    /* TEXT COLORS */
+    --text-dark: #1f2937;        
+    --text-medium: #374151;
+    --text-light: #6b7280;
 
-    /* Navbar */
-    .navbar {
-      background: linear-gradient(90deg, #003973, #00aaff);
-      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
-    }
+    /* BORDERS & DIVIDERS */
+    --border: #e5e7eb;
+    --border-dark: #d1d5db;
 
-    .navbar-brand {
-      color: #ffffff !important;
-      font-weight: 700;
-      font-size: 1.4rem;
-      letter-spacing: 0.5px;
-    }
+    /* SHADOWS */
+    --shadow-sm: 0 1px 3px rgba(0,0,0,0.08);
+    --shadow-md: 0 2px 6px rgba(0,0,0,0.10);
 
-    .navbar .nav-link {
-      color: #e3f2fd !important;
-      font-weight: 500;
-      margin: 0 12px;
-      transition: all 0.3s ease;
-    }
+    /* RADIUS */
+    --radius-sm: 6px;
+    --radius-md: 8px;
+    --radius-lg: 12px;
 
-    .navbar .nav-link:hover {
-      color: #ffffff !important;
-      text-shadow: 0 0 8px rgba(255,255,255,0.6);
-    }
+    /* SPACING SCALE */
+    --space-1: 4px;
+    --space-2: 8px;
+    --space-3: 12px;
+    --space-4: 16px;
+    --space-5: 20px;
+    --space-6: 24px;
+    --space-7: 32px;
 
-    /* Container Card */
-    .card {
-      background: linear-gradient(180deg, #f2f8ff, #e6f0ff);
-      border: 1px solid #c6defa;
-      border-radius: 16px;
-      box-shadow: 0 6px 15px rgba(0, 80, 160, 0.1);
-    }
+    /* FONT SYSTEM */
+    --font-main: 'Inter', sans-serif;
+    --font-heading: 'Poppins', sans-serif;
+}
 
-    /* Accent Headings */
-    .text-accent {
-      color: #0066cc;
-      font-weight: 700;
-    }
+/* ================================
+   GLOBAL RESET + BASE
+================================ */
 
-    /* Buttons */
-    .btn-primary {
-      background-color: #007bff;
-      border: none;
-      box-shadow: 0 2px 5px rgba(0, 123, 255, 0.3);
-    }
+body {
+    font-family: var(--font-main);
+    background: var(--bg-light);
+    color: var(--text-dark);
+    margin: 0;
+    padding: 0;
+}
 
-    .btn-primary:hover {
-      background-color: #0056b3;
-      box-shadow: 0 4px 8px rgba(0, 86, 179, 0.4);
-    }
+/* ================================
+   HEADINGS
+================================ */
 
-    .btn-danger {
-      background-color: #e63946;
-      border: none;
-    }
+h1, h2, h3, h4 {
+    font-family: var(--font-heading);
+    color: var(--primary);
+    margin-bottom: var(--space-3);
+}
 
-    .btn-success {
-      background-color: #2a9d8f;
-      border: none;
-    }
+/* ================================
+   CARD STANDARD
+================================ */
 
-    /* Input */
-    .form-control {
-      border-radius: 8px;
-      border: 1px solid #b0c9e8;
-      background-color: #f9fcff;
-      transition: all 0.2s ease;
-    }
+.card {
+    background: var(--bg-card);
+    border-radius: var(--radius-md);
+    padding: var(--space-5);
+    box-shadow: var(--shadow-sm);
+    border: 1px solid var(--border);
+}
 
-    .form-control:focus {
-      border-color: #007bff;
-      box-shadow: 0 0 6px rgba(0, 123, 255, 0.4);
-    }
+/* ================================
+   BUTTONS
+================================ */
 
-    /* Table */
-    .table {
-      background-color: #f9fcff;
-      border-radius: 10px;
-      overflow: hidden;
-    }
+.btn-primary {
+    background: var(--primary);
+    color: white;
+    padding: 10px 18px;
+    border-radius: var(--radius-sm);
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.2s;
+}
 
-    .table thead {
-      background-color: #007bff;
-      color: white;
-    }
+.btn-primary:hover {
+    background: var(--primary-light);
+}
 
-    .table tbody tr:hover {
-      background-color: #e3f1ff;
-    }
+.btn-secondary {
+    background: var(--bg-light);
+    color: var(--primary);
+    padding: 10px 18px;
+    border-radius: var(--radius-sm);
+    border: 1px solid var(--primary);
+    cursor: pointer;
+    font-weight: 600;
+}
 
-    /* Footer */
-    footer {
-      margin-top: 50px;
-      padding: 12px 0;
-      background: linear-gradient(90deg, #003973, #00aaff);
-      color: white;
-      text-align: center;
-      font-size: 0.9rem;
-      box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.1);
-    }
-  </style>
-</head>
+.btn-secondary:hover {
+    background: var(--primary);
+    color: white;
+}
 
-<body>
-  <nav class="navbar navbar-expand-lg px-4">
-    <div class="container-fluid">
-      <a class="navbar-brand fw-bold" href="#">CareerJano</a>
-      <div class="navbar-nav ms-auto gap-3">
-        <a class="nav-link" href="#">Dashboard</a>
-        <a class="nav-link" href="#">Add Job</a>
-        <a class="nav-link" href="#">My Jobs</a>
-        <a class="nav-link" href="#">Logout</a>
-      </div>
-    </div>
-  </nav>
+/* ================================
+   FORM INPUTS
+================================ */
 
-  <div class="container my-5">
-    <div class="card p-4">
-      <h2 class="text-accent mb-3">CareerJano Theme Preview</h2>
-      <p>This page demonstrates your <strong>blue-harmony theme</strong> in action.</p>
-      <hr>
-      <h5 class="fw-semibold">Sample Buttons</h5>
-      <button class="btn btn-primary w-100 mb-2">Primary Button</button>
-      <button class="btn btn-danger w-100 mb-2">Danger Button</button>
-      <button class="btn btn-success w-100 mb-2">Success Button</button>
-      <hr>
-      <h5 class="fw-semibold">Sample Input</h5>
-      <input type="text" class="form-control" placeholder="Enter text...">
-      <hr>
-      <h5 class="fw-semibold">Sample Table</h5>
-      <table class="table mt-3">
-        <thead>
-          <tr><th>ID</th><th>Name</th><th>Status</th></tr>
-        </thead>
-        <tbody>
-          <tr><td>1</td><td>Example Item</td><td>Active</td></tr>
-          <tr><td>2</td><td>Another Item</td><td>Pending</td></tr>
-        </tbody>
-      </table>
-    </div>
-  </div>
+input, select, textarea {
+    width: 100%;
+    padding: 10px 12px;
+    font-size: 14px;
+    border: 1px solid var(--border-dark);
+    border-radius: var(--radius-sm);
+    outline: none;
+    margin-bottom: var(--space-3);
+    background: white;
+}
 
-  <footer>
-    <p>© <?= date('Y'); ?> CareerJano — Blue Harmony Theme Preview</p>
-  </footer>
-</body>
-</html>
+input:focus, select:focus, textarea:focus {
+    border-color: var(--primary);
+    box-shadow: 0 0 0 2px rgba(30,58,102,0.15);
+}
+
+/* ================================
+   FORM LABELS
+================================ */
+
+.form-label {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--primary);
+    margin-bottom: 4px;
+}
+/*  this is my addition */
+/* --- APPLE GLASS CARD --- */
+.glass-card {
+    background: rgba(255,255,255,0.72);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 18px;
+    padding: 20px;
+    border: 1px solid rgba(255,255,255,0.45);
+    box-shadow: 0 6px 25px rgba(0,0,0,0.08);
+}
+
+/* --- GRID LAYOUT --- */
+.index-grid {
+    display: grid;
+    grid-template-columns: 260px 1fr 320px;
+    gap: 18px;
+    margin-top: 20px;
+}
+
+/* --- Search Bar --- */
+.search-bar {
+    display: flex;
+    gap: 12px;
+    background: white;
+    padding: 14px;
+    border-radius: 14px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+}
+
+.search-bar select,
+.search-bar input {
+    padding: 10px 12px;
+    border: 1px solid #d9e4ff;
+    border-radius: 8px;
+}
+
+.search-btn {
+    background: var(--brand-secondary);
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+}
+
+/* --- LEFT JOB LIST --- */
+.job-list {
+    height: 78vh;
+    overflow-y: auto;
+    background: #f8fbff;
+    border-radius: 12px;
+    padding: 10px;
+    border: 1px solid #e7efff;
+}
+
+.job-item {
+    padding: 14px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background: #fff;
+    border: 1px solid #e9f0ff;
+    cursor: pointer;
+}
+
+.job-item:hover,
+.job-item.active {
+    background: #e7f1ff;
+    border-color: #bcd4ff;
+}
+
+/* --- JOB PREVIEW --- */
+.job-preview {
+    background: #fafff8;
+    border-radius: 14px;
+    padding: 20px;
+    border: 1px solid #e8f4dd;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+}
+
+/* --- Profile Glass Card --- */
+.profile-area {
+    height: 78vh;
+    overflow-y: auto;
+}
+
+.profile-area .profile-img {
+    width: 78px;
+    height: 78px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border: 3px solid rgba(255,255,255,0.65);
+}
+
+.profile-progress {
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--brand-primary);
+}
+
+.profile-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 12px;
+}
+
+.profile-buttons .btn {
+    flex: 1;
+    padding: 9px 0;
+    border-radius: 8px;
+}
+
+
+
+
+
+/* ================================
+   LAYOUT SPACING HELPERS
+================================ */
+
+.section {
+    margin-bottom: var(--space-7);
+}
+
+.flex {
+    display: flex;
+}
+
+.gap-3 {
+    gap: var(--space-3);
+}
+
+.gap-4 {
+    gap: var(--space-4);
+}

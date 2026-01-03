@@ -1,255 +1,413 @@
 <?php
-/* ============================================================
-   FILE: applicant/edit-profile.php
-   PURPOSE: Applicant Profile Editing (SAARC Version)
-   ============================================================ */
-
 session_start();
-
-// Redirect if not logged in
 if (!isset($_SESSION['applicant_id'])) {
     header("Location: /jobsweb/public/login.php");
     exit;
 }
 
-include "../config/config.php";
-include "../includes/header.php";   // Top Navigation
+require_once "../config/config.php";
+include "../includes/header.php";
 
-$app_id = $_SESSION['applicant_id'];
+/* close header container */
+echo "</div>";
 
-// Fetch applicant details
-$sql = "SELECT * FROM job_seekers WHERE id = $app_id LIMIT 1";
-$result = $conn->query($sql);
+$app_id = (int)$_SESSION['applicant_id'];
+
+/* Fetch all user data */
+$stmt = $conn->prepare("SELECT * FROM job_seekers WHERE id = ? LIMIT 1");
+$stmt->bind_param("i", $app_id);
+$stmt->execute();
+$result = $stmt->get_result();
 $user = $result->fetch_assoc();
+$stmt->close();
 
 if (!$user) {
-    die("Error: Applicant data not found.");
+    die("User not found");
 }
+
+// Check if this is first time profile edit
+$is_first_time = empty($user['full_name']) || empty($user['mobile']);
 ?>
 
 <style>
-.wrapper { display: flex; margin-top: 30px; }
+.page-wrapper{max-width:1200px;margin:22px auto;padding:0 16px}
+.profile-layout{display:flex;gap:20px;align-items:flex-start}
+.profile-sidebar{width:240px;flex-shrink:0}
+.profile-main{flex:1}
 
-.sidebar {
-    width: 240px;
-    background: #0a4c90;
-    color: white;
-    padding: 20px;
-    border-radius: 8px;
+.profile-card{
+  background:#fff;
+  padding:20px;
+  border-radius:10px;
+  border:1px solid #e6edf9;
 }
 
-.sidebar h4 {
-    font-size: 20px;
-    margin-bottom: 20px;
-    font-weight: bold;
+.form-section-title{
+  margin:16px 0 8px;
+  font-weight:700;
+  color:#004aad;
 }
 
-.sidebar a {
-    display: block;
-    padding: 12px;
-    color: white;
-    text-decoration: none;
-    margin-bottom: 8px;
-    border-radius: 5px;
-    font-weight: bold;
-    transition: 0.2s;
+.form-row{display:flex;gap:10px;margin-bottom:10px;flex-wrap:wrap}
+.form-col{flex:1;min-width:160px}
+
+.form-control{
+  width:100%;
+  height:38px;
+  padding:6px 8px;
 }
 
-.sidebar a.active { background: #06376a; }
-.sidebar a:hover { background: #094983; }
+.readonly{
+  background:#f1f3f6;
+}
 
-.content-box {
-    flex: 1;
-    margin-left: 20px;
-    background: white;
-    padding: 25px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+.actions{margin-top:20px;display:flex;gap:12px}
+
+.btn-primary{
+  background:#004aad;
+  color:#fff;
+  padding:9px 18px;
+  border-radius:8px;
+  border:0;
+  cursor:pointer;
+}
+
+.btn-secondary{
+  background:#f6f9ff;
+  border:1px solid #d7e6fb;
+  padding:8px 14px;
+  border-radius:8px;
+  text-decoration:none;
+  color:#004aad;
+}
+
+.btn-next{
+  background:#28a745;
+  color:#fff;
+  padding:9px 18px;
+  border-radius:8px;
+  border:0;
+  cursor:pointer;
+  text-decoration:none;
+  display:inline-block;
+}
+
+@media(max-width:980px){
+  .profile-layout{flex-direction:column}
+  .profile-sidebar{width:100%}
 }
 </style>
 
-<div class="container">
-    <div class="wrapper">
+<div class="page-wrapper">
+<div class="profile-layout">
 
-        <!-- ============= LEFT SIDEBAR ============= -->
-        <div class="sidebar">
-            <h4><i class="bi bi-person-lines-fill me-2"></i> My Profile</h4>
+<!-- SIDEBAR -->
+<aside class="profile-sidebar">
+  <?php include "../includes/profile_sidebar.php"; ?>
+</aside>
 
-            <a href="edit-profile.php"
-               class="<?= basename($_SERVER['PHP_SELF'])=='edit-profile.php' ? 'active' : '' ?>">
-               Personal Details
-            </a>
+<!-- MAIN -->
+<main class="profile-card profile-main">
 
-            <a href="upload-photo.php"
-               class="<?= basename($_SERVER['PHP_SELF'])=='upload-photo.php' ? 'active' : '' ?>">
-               Profile Photo
-            </a>
-
-            <a href="upload-resume.php"
-               class="<?= basename($_SERVER['PHP_SELF'])=='upload-resume.php' ? 'active' : '' ?>">
-               Resume Upload
-            </a>
-
-            <a href="skills.php"
-               class="<?= basename($_SERVER['PHP_SELF'])=='skills.php' ? 'active' : '' ?>">
-               Skills
-            </a>
-
-            <a href="qualification.php"
-               class="<?= basename($_SERVER['PHP_SELF'])=='qualification.php' ? 'active' : '' ?>">
-               Qualification
-            </a>
-
-            <a href="preferred-industry.php"
-               class="<?= basename($_SERVER['PHP_SELF'])=='preferred-industry.php' ? 'active' : '' ?>">
-               Preferred Industry
-            </a>
-
-            <a href="experience.php"
-               class="<?= basename($_SERVER['PHP_SELF'])=='experience.php' ? 'active' : '' ?>">
-               Job Experience (Add/Edit)
-            </a>
-
-            <hr style="border-color: rgba(255,255,255,0.3);">
-
-            <a href="/jobsweb/index.php">
-                ← Back to My Home
-            </a>
-        </div>
-
-        <!-- ============= RIGHT CONTENT ============= -->
-        <div class="content-box">
-
-            <h3 class="text-primary fw-bold mb-3">Edit Your Personal Details</h3>
-
-            <form action="edit-profile-process.php" method="POST">
-
-                <!-- Full Name -->
-                <div class="row mb-3">
-                    <div class="col-md-12">
-                        <label class="form-label">Full Name</label>
-                        <input type="text" name="full_name" class="form-control"
-                               value="<?= htmlspecialchars($user['full_name']) ?>" required>
-                    </div>
-                </div>
-
-                <!-- Email + Mobile -->
-                <div class="row mb-3">
-
-                    <div class="col-md-6">
-                        <label class="form-label">Email</label>
-                        <input type="email" class="form-control"
-                               value="<?= htmlspecialchars($user['email']) ?>" disabled>
-                    </div>
-
-                    <div class="col-md-6">
-                        <label class="form-label">Mobile Number</label>
-                        <div class="input-group">
-
-                            <!-- SAARC Phone Codes -->
-                            <select class="form-select" name="country_code" id="country_code" style="max-width:130px;">
-                                <option value="+91"  <?= $user['country_code']=='+91'  ?'selected':''; ?>>+91 IN</option>
-                                <option value="+977" <?= $user['country_code']=='+977' ?'selected':''; ?>>+977 NP</option>
-                                <option value="+880" <?= $user['country_code']=='+880' ?'selected':''; ?>>+880 BD</option>
-                                <option value="+94"  <?= $user['country_code']=='+94'  ?'selected':''; ?>>+94 LK</option>
-                                <option value="+975" <?= $user['country_code']=='+975' ?'selected':''; ?>>+975 BT</option>
-                            </select>
-
-                            <input type="text" name="mobile" class="form-control"
-                                   value="<?= htmlspecialchars($user['mobile']) ?>"
-                                   placeholder="Enter mobile number" required>
-                        </div>
-                    </div>
-
-                </div>
-
-                <!-- Gender + DOB -->
-                <div class="row mb-3">
-
-                    <div class="col-md-6">
-                        <label class="form-label">Gender</label>
-                        <select name="gender" class="form-select">
-                            <option value="">Select</option>
-                            <option value="Male"   <?= $user['gender']=='Male'?'selected':''; ?>>Male</option>
-                            <option value="Female" <?= $user['gender']=='Female'?'selected':''; ?>>Female</option>
-                            <option value="Other"  <?= $user['gender']=='Other'?'selected':''; ?>>Other</option>
-                        </select>
-                    </div>
-
-                    <div class="col-md-6">
-                        <label class="form-label">Date of Birth</label>
-                        <input type="date" name="dob" value="<?= $user['dob'] ?>" class="form-control">
-                    </div>
-
-                </div>
-
-                <!-- Country -->
-                <div class="row mb-3">
-                    <div class="col-md-6">
-                        <label class="form-label">Country</label>
-                        <select name="country" id="country" class="form-select" required>
-                            <option value="">Select Country</option>
-                            <option value="IN" <?= $user['country']=="IN"?"selected":""; ?>>India</option>
-                            <option value="NP" <?= $user['country']=="NP"?"selected":""; ?>>Nepal</option>
-                            <option value="BD" <?= $user['country']=="BD"?"selected":""; ?>>Bangladesh</option>
-                            <option value="LK" <?= $user['country']=="LK"?"selected":""; ?>>Sri Lanka</option>
-                            <option value="BT" <?= $user['country']=="BT"?"selected":""; ?>>Bhutan</option>
-                        </select>
-                    </div>
-                </div>
-
-                <!-- State + District + City -->
-                <div class="row mb-3">
-
-                    <div class="col-md-4">
-                        <label class="form-label">State</label>
-                        <select name="state" id="state" class="form-select" required>
-                            <option value="">Select State</option>
-                        </select>
-                    </div>
-
-                    <div class="col-md-4">
-                        <label class="form-label">District</label>
-                        <select name="district" id="district" class="form-select" required>
-                            <option value="">Select District</option>
-                        </select>
-                    </div>
-
-                    <div class="col-md-4">
-                        <label class="form-label">City (optional)</label>
-                        <input type="text" name="city" class="form-control"
-                               value="<?= htmlspecialchars($user['city']) ?>"
-                               placeholder="Enter city / town">
-                    </div>
-
-                </div>
-
-                <button type="submit" class="btn btn-success px-4">Update Profile</button>
-
-            </form>
-
-        </div>
-
-    </div>
+<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:16px">
+  <h2>Edit Your Personal Details</h2>
+  <a href="upload-photo.php" class="btn-next">NEXT →</a>
 </div>
 
-<?php include "../includes/footer.php"; ?>
+<?php if (!empty($_GET['success'])): ?>
+  <div style="background:#e6ffed;border:1px solid #28a745;padding:8px;border-radius:6px;margin-bottom:12px">
+    ✅ Profile updated successfully
+    <?php if (!empty($_GET['skipped'])): ?>
+      <br><small style="color:#ff9800">⚠️ Please verify your email later from your profile settings.</small>
+    <?php endif; ?>
+  </div>
+<?php endif; ?>
 
+<?php if (!empty($_GET['verified'])): ?>
+  <div style="background:#e6ffed;border:1px solid #28a745;padding:8px;border-radius:6px;margin-bottom:12px">
+    ✅ Email and Mobile verified successfully!
+  </div>
+<?php endif; ?>
 
-<!-- ========== AUTO PHONE CODE SYNC + STATE/DISTRICT JS ========== -->
+<form action="edit-profile-process.php" method="POST" novalidate>
+
+<!-- ================= PERSONAL DETAILS ================= -->
+<h6 class="form-section-title">Personal Details</h6>
+
+<div class="form-row">
+  <div class="form-col">
+    <label>Full Name</label>
+    <input type="text" name="full_name" class="form-control" 
+           value="<?= htmlspecialchars($user['full_name'] ?? '') ?>" required>
+  </div>
+
+  <div class="form-col">
+    <label>Gender</label>
+    <select name="gender" class="form-control">
+      <option value="">Select</option>
+      <option <?= ($user['gender'] ?? '') === 'Male' ? 'selected' : '' ?>>Male</option>
+      <option <?= ($user['gender'] ?? '') === 'Female' ? 'selected' : '' ?>>Female</option>
+      <option <?= ($user['gender'] ?? '') === 'Other' ? 'selected' : '' ?>>Other</option>
+    </select>
+  </div>
+
+  <div class="form-col">
+    <label>Date of Birth</label>
+    <input type="date" name="dob" class="form-control" 
+           value="<?= htmlspecialchars($user['dob'] ?? '') ?>">
+  </div>
+
+  <div class="form-col">
+    <label>Birth Time</label>
+    <input type="time" name="birth_time" class="form-control" 
+           value="<?= htmlspecialchars($user['birth_time'] ?? '') ?>">
+  </div>
+</div>
+
+<!-- ================= PRESENT LOCATION ================= -->
+<h6 class="form-section-title">Present Location (India)</h6>
+
+<div class="form-row">
+  <div class="form-col">
+    <label>State</label>
+    <select id="present_state" name="state" class="form-control" 
+            data-selected="<?= htmlspecialchars($user['state'] ?? '') ?>"></select>
+  </div>
+
+  <div class="form-col">
+    <label>District</label>
+    <select id="present_district" name="district" class="form-control" disabled
+            data-selected="<?= htmlspecialchars($user['district'] ?? '') ?>"></select>
+  </div>
+
+  <div class="form-col">
+    <label>Village / Town</label>
+    <select id="present_village" name="village" class="form-control" disabled
+            data-selected="<?= htmlspecialchars($user['village'] ?? '') ?>"></select>
+  </div>
+
+  <div class="form-col">
+    <label>Pincode</label>
+    <input type="text" id="present_pincode_view" class="form-control readonly" readonly
+           value="<?= htmlspecialchars($user['present_pincode'] ?? '') ?>">
+    <input type="hidden" name="present_pincode" id="present_pincode" 
+           value="<?= htmlspecialchars($user['present_pincode'] ?? '') ?>">
+  </div>
+</div>
+
+<input type="hidden" name="present_lat" id="present_lat" 
+       value="<?= htmlspecialchars($user['present_lat'] ?? '') ?>">
+<input type="hidden" name="present_lng" id="present_lng" 
+       value="<?= htmlspecialchars($user['present_lng'] ?? '') ?>">
+
+<!-- ================= BIRTH LOCATION ================= -->
+<h6 class="form-section-title">Birth Location</h6>
+
+<?php
+// Check if birth location is same as present
+$birth_same = 'yes';
+if (!empty($user['birth_state']) && $user['birth_state'] !== $user['state']) {
+    $birth_same = 'no';
+}
+?>
+
+<div class="form-row">
+  <div class="form-col">
+    <label>
+      <input type="radio" name="birth_same_as_present" value="yes" 
+             <?= $birth_same === 'yes' ? 'checked' : '' ?>>
+      Same as present location
+    </label>
+  </div>
+  <div class="form-col">
+    <label>
+      <input type="radio" name="birth_same_as_present" value="no"
+             <?= $birth_same === 'no' ? 'checked' : '' ?>>
+      Different from present location
+    </label>
+  </div>
+</div>
+
+<div id="birthBlock" style="display:<?= $birth_same === 'no' ? 'block' : 'none' ?>">
+
+<div class="form-row">
+  <div class="form-col">
+    <label>Birth State</label>
+    <select id="birth_state" name="birth_state" class="form-control"
+            data-selected="<?= htmlspecialchars($user['birth_state'] ?? '') ?>"></select>
+  </div>
+
+  <div class="form-col">
+    <label>Birth District</label>
+    <select id="birth_district" name="birth_district" class="form-control" disabled
+            data-selected="<?= htmlspecialchars($user['birth_district'] ?? '') ?>"></select>
+  </div>
+
+  <div class="form-col">
+    <label>Birth Village</label>
+    <select id="birth_village" name="birth_village" class="form-control" disabled
+            data-selected="<?= htmlspecialchars($user['birth_village'] ?? '') ?>"></select>
+  </div>
+
+  <div class="form-col">
+    <label>Birth Pincode</label>
+    <input type="text" id="birth_pincode_view" class="form-control readonly" readonly
+           value="<?= htmlspecialchars($user['birth_pincode'] ?? '') ?>">
+    <input type="hidden" name="birth_pincode" id="birth_pincode"
+           value="<?= htmlspecialchars($user['birth_pincode'] ?? '') ?>">
+  </div>
+</div>
+
+<input type="hidden" name="birth_lat" id="birth_lat"
+       value="<?= htmlspecialchars($user['birth_lat'] ?? '') ?>">
+<input type="hidden" name="birth_lng" id="birth_lng"
+       value="<?= htmlspecialchars($user['birth_lng'] ?? '') ?>">
+
+</div>
+
+<!-- ================= CONTACT DETAILS ================= -->
+<h6 class="form-section-title">Contact Details</h6>
+
+<div class="form-row">
+  <div class="form-col">
+    <label>Email <?= $user['email_verified'] ? '<span style="color:#28a745">✓ Verified</span>' : '<span style="color:#dc3545">✗ Not Verified</span>' ?></label>
+    <input type="email" class="form-control readonly"
+           value="<?= htmlspecialchars($user['email']) ?>" readonly>
+  </div>
+
+  <div class="form-col">
+    <label>Country Code</label>
+    <input type="text" class="form-control readonly" value="+91" readonly>
+    <input type="hidden" name="country_code" value="+91">
+  </div>
+
+  <div class="form-col">
+    <label>Mobile 
+    <!-- DISABLED - Mobile verification status -->
+    <!-- <?= $user['mobile_verified'] ? '<span style="color:#28a745">✓ Verified</span>' : '<span style="color:#dc3545">✗ Not Verified</span>' ?> -->
+    </label>
+    <input type="text" name="mobile" class="form-control"
+           value="<?= htmlspecialchars($user['mobile'] ?? '') ?>">
+  </div>
+</div>
+
+<div class="actions">
+  <button type="submit" class="btn-primary">Update Profile</button>
+  <a href="dashboard.php" class="btn-secondary">Cancel</a>
+</div>
+
+</form>
+
+</main>
+</div>
+</div>
+
 <script>
-const phoneMap = {
-    "IN": "+91",
-    "NP": "+977",
-    "BD": "+880",
-    "LK": "+94",
-    "BT": "+975"
+const userData = <?= json_encode($user) ?>;
+
+function fillSelect(sel, data, label, selectedValue = ''){
+  sel.innerHTML = `<option value="">${label}</option>`;
+  data.forEach(v=>{
+    const o = new Option(v.village || v, v.village || v);
+    if(v.latitude){
+      o.dataset.lat=v.latitude;
+      o.dataset.lng=v.longitude;
+      o.dataset.pin=v.pincode;
+    }
+    if(selectedValue && (v.village || v) === selectedValue){
+      o.selected = true;
+    }
+    sel.add(o);
+  });
+  sel.disabled=false;
+}
+
+/* PRESENT LOCATION - Load with existing data */
+fetch('../ajax/india-location.php?type=states')
+.then(r=>r.json()).then(d=>{
+  const selected = present_state.dataset.selected;
+  fillSelect(present_state, d, 'Select State', selected);
+  
+  if(selected){
+    fetch(`../ajax/india-location.php?type=districts&state=${encodeURIComponent(selected)}`)
+    .then(r=>r.json()).then(d=>{
+      const distSelected = present_district.dataset.selected;
+      fillSelect(present_district, d, 'Select District', distSelected);
+      
+      if(distSelected){
+        fetch(`../ajax/india-location.php?type=villages&state=${encodeURIComponent(selected)}&district=${encodeURIComponent(distSelected)}`)
+        .then(r=>r.json()).then(d=>{
+          const villageSelected = present_village.dataset.selected;
+          fillSelect(present_village, d, 'Select Village', villageSelected);
+        });
+      }
+    });
+  }
+});
+
+present_state.onchange=()=>{
+  fetch(`../ajax/india-location.php?type=districts&state=${encodeURIComponent(present_state.value)}`)
+  .then(r=>r.json()).then(d=>fillSelect(present_district,d,'Select District'));
 };
 
-document.getElementById("country")?.addEventListener("change", function () {
-    let code = phoneMap[this.value];
-    if (code) {
-        document.getElementById("country_code").value = code;
-    }
+present_district.onchange=()=>{
+  fetch(`../ajax/india-location.php?type=villages&state=${encodeURIComponent(present_state.value)}&district=${encodeURIComponent(present_district.value)}`)
+  .then(r=>r.json()).then(d=>fillSelect(present_village,d,'Select Village'));
+};
+
+present_village.onchange=()=>{
+  const o=present_village.selectedOptions[0];
+  present_lat.value=o.dataset.lat||'';
+  present_lng.value=o.dataset.lng||'';
+  present_pincode.value=o.dataset.pin||'';
+  present_pincode_view.value=o.dataset.pin||'';
+};
+
+/* BIRTH TOGGLE */
+document.querySelectorAll('input[name="birth_same_as_present"]').forEach(r=>{
+  r.onchange=()=>birthBlock.style.display=(r.value==='no'&&r.checked)?'block':'none';
 });
+
+/* BIRTH LOCATION - Load with existing data */
+fetch('../ajax/india-location.php?type=states')
+.then(r=>r.json()).then(d=>{
+  const selected = birth_state.dataset.selected;
+  fillSelect(birth_state, d, 'Select State', selected);
+  
+  if(selected){
+    fetch(`../ajax/india-location.php?type=districts&state=${encodeURIComponent(selected)}`)
+    .then(r=>r.json()).then(d=>{
+      const distSelected = birth_district.dataset.selected;
+      fillSelect(birth_district, d, 'Select District', distSelected);
+      
+      if(distSelected){
+        fetch(`../ajax/india-location.php?type=villages&state=${encodeURIComponent(selected)}&district=${encodeURIComponent(distSelected)}`)
+        .then(r=>r.json()).then(d=>{
+          const villageSelected = birth_village.dataset.selected;
+          fillSelect(birth_village, d, 'Select Village', villageSelected);
+        });
+      }
+    });
+  }
+});
+
+birth_state.onchange=()=>{
+  fetch(`../ajax/india-location.php?type=districts&state=${encodeURIComponent(birth_state.value)}`)
+  .then(r=>r.json()).then(d=>fillSelect(birth_district,d,'Select District'));
+};
+
+birth_district.onchange=()=>{
+  fetch(`../ajax/india-location.php?type=villages&state=${encodeURIComponent(birth_state.value)}&district=${encodeURIComponent(birth_district.value)}`)
+  .then(r=>r.json()).then(d=>fillSelect(birth_village,d,'Select Village'));
+};
+
+birth_village.onchange=()=>{
+  const o=birth_village.selectedOptions[0];
+  birth_lat.value=o.dataset.lat||'';
+  birth_lng.value=o.dataset.lng||'';
+  birth_pincode.value=o.dataset.pin||'';
+  birth_pincode_view.value=o.dataset.pin||'';
+};
 </script>
+
+<?php include "../includes/footer.php"; ?>

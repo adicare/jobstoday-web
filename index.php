@@ -1,258 +1,142 @@
 <?php
 if (session_status() === PHP_SESSION_NONE) session_start();
-include(__DIR__ . '/includes/header.php');
 include(__DIR__ . '/config/config.php');
+include(__DIR__ . '/includes/header.php');
 
-// detect login
 $isLoggedIn = isset($_SESSION['applicant_id']);
 
-// dropdowns
-$skills = $conn->query("SELECT id, skill_name FROM skills_master ORDER BY skill_name ASC");
-$states = $conn->query("SELECT id, state_name FROM state_master ORDER BY state_name ASC");
+/* Fetch applicant photo */
+$photoPath = "/jobsweb/assets/user-icon.png";
+if ($isLoggedIn) {
+    $pid = intval($_SESSION['applicant_id']);
+    $q = $conn->query("SELECT photo FROM job_seekers WHERE id=$pid LIMIT 1");
+    if ($q && $q->num_rows > 0) {
+        $row = $q->fetch_assoc();
+        if (!empty($row['photo'])) {
+            $photoPath = "/jobsweb/uploads/photos/" . $row['photo'];
+        }
+    }
+}
 
-// jobs list
-$jobs = $conn->query("SELECT id,title,company,location FROM jobs ORDER BY id DESC");
-
-// latest job
-$latestRow = $conn->query("SELECT id FROM jobs ORDER BY id DESC LIMIT 1");
-$latestJobId = ($latestRow && $latestRow->num_rows>0) ? intval($latestRow->fetch_assoc()['id']) : 0;
-
-// sliders
-$coursesRes = $conn->query("SELECT id,course_title AS title,image_path FROM trainer_courses ORDER BY id DESC LIMIT 12");
-$expertsRes  = $conn->query("SELECT id,full_name AS name,profile_photo AS image FROM trainer_profiles ORDER BY id DESC LIMIT 12");
+/* Body class */
+$bodyClass = $isLoggedIn ? "logged-in" : "";
 ?>
+<body class="<?= $bodyClass ?>">
 
-<!-- External CSS -->
-<link rel="stylesheet" href="/jobsweb/assets/css/home.css">
+<!-- SEARCH BAR -->
+<?php include(__DIR__ . "/includes/search-bar.php"); ?>
 
-<!-- SEARCH PANEL -->
-<form id="jobSearchForm" class="search-bar-full" onsubmit="event.preventDefault();">
-
-  <input type="text" name="keywords" placeholder="Keywords">
-
-  <select name="work_mode">
-    <option value="">Work Type</option>
-    <option value="On-site">On-site</option>
-    <option value="Work From Home">Work From Home</option>
-    <option value="Hybrid">Hybrid</option>
-  </select>
-
-  <select name="skill">
-    <option value="">Skill</option>
-    <?php if($skills): while($sk=$skills->fetch_assoc()): ?>
-      <option value="<?= $sk['id'] ?>"><?= htmlspecialchars($sk['skill_name']) ?></option>
-    <?php endwhile; endif; ?>
-  </select>
-
-  <select name="state" id="stateSelect">
-    <option value="">State</option>
-    <?php if($states): while($st=$states->fetch_assoc()): ?>
-      <option value="<?= $st['id'] ?>"><?= htmlspecialchars($st['state_name']) ?></option>
-    <?php endwhile; endif; ?>
-  </select>
-
-  <select name="city" id="citySelect"><option value="">City</option></select>
-
-  <button class="btn-search">Search</button>
-</form>
+<link rel="stylesheet" href="/jobsweb/assets/css/home.css?v=<?= time() ?>">
 
 <!-- MAIN GRID -->
 <div class="page-grid">
 
-  <!-- LEFT COLUMN -->
-  <div class="left-panel">
-    <div class="left-box" id="jobList">
-      <?php if($jobs): while($job=$jobs->fetch_assoc()): ?>
-        <div class="job-row" data-id="<?= $job['id'] ?>">
-          <strong><?= htmlspecialchars($job['title']) ?></strong><br>
-          <small><?= htmlspecialchars($job['company']) ?> • <?= htmlspecialchars($job['location']) ?></small>
+    <!-- LEFT PANEL -->
+    <div class="left-panel">
+        <div class="left-box">
+
+            <?php if (!$isLoggedIn): ?>
+                <?php include(__DIR__ . '/includes/welcome-card.php'); ?>
+            <?php else: ?>
+                <?php include(__DIR__ . '/includes/profile-card.php'); ?>
+            <?php endif; ?>
+
         </div>
-      <?php endwhile; endif; ?>
     </div>
-  </div>
 
-  <!-- MIDDLE COLUMN -->
-  <div class="mid-panel">
-    <div class="middle-box" id="jobPreview">
-      <h3>Select a job to see details</h3>
-    </div>
-  </div>
+    <!-- JOB LIST PANEL -->
+    <div class="mid-left-panel">
+        <div class="middle-left-box">
 
-  <!-- RIGHT COLUMN -->
-  <div class="right-panel">
-    <div class="right-box">
+            <div class="panel-heading">Jobs</div>
 
-      <?php if(!$isLoggedIn): ?>
-        <h3>Welcome to JobsToday</h3>
-        <p class="right-sub">Discover opportunities that match your skills.</p>
+            <?php if ($isLoggedIn): ?>
+            <div class="left-tabs">
+                <button class="tab-btn" onclick="loadLeftList('all')">All</button>
+                <button class="tab-btn" onclick="loadLeftList('recommended')">Recommended</button>
+                <button class="tab-btn" onclick="loadLeftList('saved')">Saved</button>
+                <button class="tab-btn" onclick="loadLeftList('applied')">Applied</button>
+            </div>
+            <?php endif; ?>
 
-        <a class="login-btn" href="/jobsweb/public/login.php">Login</a>
+            <div id="jobList">
+                <?php include(__DIR__ . '/includes/job-list.php'); ?>
+            </div>
 
-      <?php else: ?>
-
-        <div class="profile-block">
-          <img src="/jobsweb/assets/user-icon.png">
-          <div>
-            <strong><?= htmlspecialchars($_SESSION['applicant_name']) ?></strong><br>
-            <small><?= htmlspecialchars($_SESSION['applicant_skill']) ?></small>
-          </div>
         </div>
-
-        <a class="login-btn" href="/jobsweb/applicant/edit-profile.php">Update Profile</a>
-
-      <?php endif; ?>
-
-      <hr>
-
-      <!-- Recommended Jobs -->
-      <strong>Recommended Jobs</strong>
-      <?php
-        $rj = $conn->query("SELECT id,title FROM jobs ORDER BY id DESC LIMIT 3");
-        if($rj): while($row=$rj->fetch_assoc()): ?>
-          <a class="rec-item rec-job" data-id="<?= $row['id'] ?>">
-            <?= htmlspecialchars($row['title']) ?>
-          </a>
-      <?php endwhile; endif; ?>
-
-      <hr>
-
-      <!-- Recommended Courses -->
-      <strong>Recommended Courses</strong>
-      <?php
-        $rc = $conn->query("SELECT id,course_title AS title FROM trainer_courses ORDER BY id DESC LIMIT 1");
-        if($rc && $rc->num_rows>0): $cr=$rc->fetch_assoc(); ?>
-          <a class="rec-item" href="/jobsweb/public/course.php?id=<?= $cr['id'] ?>">
-            <?= htmlspecialchars($cr['title']) ?>
-          </a>
-      <?php endif; ?>
-
-      <hr>
-
-      <!-- Recommended Experts -->
-      <strong>Recommended Experts</strong>
-      <?php
-        $re = $conn->query("SELECT id,full_name AS name FROM trainer_profiles ORDER BY id DESC LIMIT 1");
-        if($re && $re->num_rows>0): $ex=$re->fetch_assoc(); ?>
-          <a class="rec-item" href="/jobsweb/public/expert.php?id=<?= $ex['id'] ?>">
-            <?= htmlspecialchars($ex['name']) ?>
-          </a>
-      <?php endif; ?>
-
     </div>
-  </div>
 
-  <!-- COLUMN-4 SLIDERS -->
-  <div class="slider-column">
-    <div class="slider-content">
-
-      <!-- COURSES -->
-      <div class="slider-box">
-        <div class="slider-head">Courses</div>
-
-        <div class="swiper courses-swiper">
-          <div class="swiper-wrapper">
-
-            <?php if($coursesRes): while($c=$coursesRes->fetch_assoc()): ?>
-              <div class="swiper-slide" data-id="<?= $c['id'] ?>">
-                <img class="slider-thumb" src="<?= htmlspecialchars($c['image_path'] ?: '/jobsweb/assets/sample1.jpg') ?>">
-                <div class="slider-title"><?= htmlspecialchars($c['title']) ?></div>
-              </div>
-            <?php endwhile; endif; ?>
-
-          </div>
-          <div class="swiper-pagination"></div>
+    <!-- JOB PREVIEW PANEL -->
+    <div class="mid-right-panel">
+        <div class="middle-right-box" id="jobPreview">
+            <h3>Select a job to view details</h3>
         </div>
-      </div>
-
-      <!-- EXPERTS -->
-      <div class="slider-box">
-        <div class="slider-head">Experts</div>
-
-        <div class="swiper experts-swiper">
-          <div class="swiper-wrapper">
-
-            <?php if($expertsRes): while($e=$expertsRes->fetch_assoc()): ?>
-              <div class="swiper-slide" data-id="<?= $e['id'] ?>">
-                <img class="slider-thumb" src="<?= htmlspecialchars($e['image'] ?: '/jobsweb/assets/sample3.jpg') ?>">
-                <div class="slider-title"><?= htmlspecialchars($e['name']) ?></div>
-              </div>
-            <?php endwhile; endif; ?>
-
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-      </div>
-
     </div>
-  </div>
 
-</div><!-- GRID END -->
+    <!-- RIGHT PANEL (AFTER LOGIN) -->
+    <?php if ($isLoggedIn): ?>
+    <div class="right-panel">
+        <div class="right-box">
+            <?php include(__DIR__ . '/includes/widgets-panel.php'); ?>
+            <?php include(__DIR__ . '/includes/mini-courses.php'); ?>
+        </div>
+    </div>
+    <?php endif; ?>
 
-<!-- JS -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
-<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+</div><!-- END GRID -->
+
+<!-- APPLY POPUP -->
+<?php include(__DIR__ . '/includes/apply-popup.php'); ?>
+
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
 <script>
-function initSwipers(){
-  const cfg={
-    loop:true,
-    speed:700,
-    autoplay:{ delay:3000, disableOnInteraction:false },
-    pagination:{ el:'.swiper-pagination', clickable:true },
-    slidesPerView:1,
-    spaceBetween:12
-  };
-  new Swiper('.courses-swiper', cfg);
-  new Swiper('.experts-swiper', cfg);
+/* SELECT JOB */
+$(document).on("click", ".job-row", function() {
+    $(".job-row").removeClass("job-active");
+    $(this).addClass("job-active");
+
+    let id = $(this).data("id");
+
+    $.post("/jobsweb/ajax/get-job.php", { id: id }, function(data) {
+        $("#jobPreview").html(data);
+    });
+});
+
+/* LOAD JOB LIST */
+function loadLeftList(type) {
+    $("#jobList").html("<div class='loading'>Loading...</div>");
+    $.post("/jobsweb/ajax/get-jobs.php", { type: type }, function(data) {
+        $("#jobList").html(data);
+
+        // auto-select first job after list refresh
+        let firstJob = $("#jobList .job-row").first().data("id");
+        if (firstJob) {
+            $.post("/jobsweb/ajax/get-job.php", { id: firstJob }, function(html) {
+                $("#jobPreview").html(html);
+            });
+        }
+    });
 }
 
-document.addEventListener('DOMContentLoaded', function(){
+/* AUTO-LOAD LATEST JOB (BEFORE + AFTER LOGIN) */
+$(document).ready(function() {
 
-  initSwipers();
+    $.post("/jobsweb/ajax/get-jobs.php", { type: "all" }, function(list) {
+        $("#jobList").html(list);
 
-  var latest = <?= json_encode($latestJobId) ?>;
-  if(latest){
-    let $r = $('.job-row[data-id="'+latest+'"]');
-    if($r.length) $r.addClass('job-active');
-    $.post('/jobsweb/ajax/get-job.php', {id:latest}, function(d){
-      $('#jobPreview').html(d);
+        let firstJob = $("#jobList .job-row").first().data("id");
+
+        if (firstJob) {
+            $.post("/jobsweb/ajax/get-job.php", { id: firstJob }, function(html) {
+                $("#jobPreview").html(html);
+            });
+        }
     });
-  }
-
-  $(document).on('click','.job-row',function(){
-    $('.job-row').removeClass('job-active');
-    $(this).addClass('job-active');
-    $.post('/jobsweb/ajax/get-job.php',{id:$(this).data('id')},function(d){
-      $('#jobPreview').html(d);
-    });
-  });
-
-  $(document).on('click','.courses-swiper .swiper-slide',function(){
-    var id=$(this).data('id'); if(id) window.location="/jobsweb/public/course.php?id="+id;
-  });
-
-  $(document).on('click','.experts-swiper .swiper-slide',function(){
-    var id=$(this).data('id'); if(id) window.location="/jobsweb/public/expert.php?id="+id;
-  });
-
-  $(document).on('click','.rec-job',function(e){
-    e.preventDefault();
-    var id=$(this).data('id');
-    var $left=$('.job-row[data-id="'+id+'"]');
-
-    if($left.length){
-      $left.trigger('click');
-      $('#jobList').scrollTop($left.position().top - 50);
-    } else {
-      $.post('/jobsweb/ajax/get-job.php',{id:id},function(d){
-        $('#jobPreview').html(d);
-      });
-    }
-  });
 
 });
 </script>
-<script src="/jobsweb/assets/js/apply-handler.js"></script>
-<?php include(__DIR__ . '/includes/footer.php'); ?>
 
+<?php include(__DIR__ . "/includes/footer.php"); ?>
+</body>
+</html>

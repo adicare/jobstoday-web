@@ -1,0 +1,1838 @@
+Country 	State 	District 	Tehsil 	Village 	Pin code	Lat	Long 
+LK	Central Province	29	Kandy	Kandy	20000	7.2955	80.6356
+LK	Central Province	29	Kandy	Halloluwa	20032	7.2031	80.3386
+LK	Central Province	29	Kandy	Yatihalagala	20034	7.2932	80.5982
+LK	Central Province	29	Kandy	lhala Kobbekaduwa	20042	7.3154	80.5887
+LK	Central Province	29	Kandy	Sangarajapura	20044	7.3154	80.5887
+LK	Central Province	29	Kandy	Kulugammana	20048	7.3154	80.5887
+LK	Central Province	29	Kandy	Uduwa	20052	7.3637	80.4845
+LK	Central Province	29	Kandy	Hataraliyadda	20060	7.3369	80.4658
+LK	Central Province	29	Kandy	Aludeniya	20062	7.3686	80.4672
+LK	Central Province	29	Kandy	Dedunupitiya	20068	7.3353	80.4313
+LK	Central Province	29	Kandy	Nugawela	20072	7.3333	80.6
+LK	Central Province	29	Kandy	Werellagama	20080	7.3167	80.5833
+LK	Central Province	29	Kandy	Pallekotuwa	20084	7.3373	80.5663
+LK	Central Province	29	Kandy	Kumburegama	20086	7.358	80.5493
+LK	Central Province	29	Kandy	Harankahawa	20092	7.4012	80.5289
+LK	Central Province	29	Kandy	Udahingulwala	20094	7.4012	80.5289
+LK	Central Province	29	Kandy	Gallellagama	20095	7.4012	80.5289
+LK	Central Province	29	Kandy	Galagedara	20100	7.373	80.5206
+LK	Central Province	29	Kandy	Poholiyadda	20106	7.3472	80.5208
+LK	Central Province	29	Kandy	Wettawa	20108	7.3526	80.5147
+LK	Central Province	29	Kandy	Minigamuwa	20109	7.3376	80.5026
+LK	Central Province	29	Kandy	Pujapitiya	20112	7.3742	80.586
+LK	Central Province	29	Kandy	Pattiya Watta	20118	7.3742	80.586
+LK	Central Province	29	Kandy	Medawala Harispattuwa	20120	7.3449	80.6814
+LK	Central Province	29	Kandy	Dolapihilla	20126	7.3899	80.5794
+LK	Central Province	29	Kandy	Rambukwella	20128	7.3	80.7833
+LK	Central Province	29	Kandy	Batugoda	20132	7.362	80.5891
+LK	Central Province	29	Kandy	Watagoda Harispattuwa	20134	7.356	80.6051
+LK	Central Province	29	Kandy	Ambatenna	20136	7.3501	80.6211
+LK	Central Province	29	Kandy	Alawatugoda	20140	7.4042	80.6087
+LK	Central Province	29	Kandy	Wilanagama	20142	7.4042	80.6087
+LK	Central Province	29	Kandy	Ankumbura	20150	7.4333	80.5667
+LK	Central Province	29	Kandy	Galhinna	20152	7.4162	80.5639
+LK	Central Province	29	Kandy	Batagolladeniya	20154	7.4173	80.5617
+LK	Central Province	29	Kandy	Ampitiya	20160	7.2715	80.656
+LK	Central Province	29	Kandy	Uduwela	20164	7.2754	80.6697
+LK	Central Province	29	Kandy	Tennekumbura	20166	7.2809	80.6531
+LK	Central Province	29	Kandy	Kundasale	20168	7.2737	80.7001
+LK	Central Province	29	Kandy	Menikhinna	20170	7.3184	80.6995
+LK	Central Province	29	Kandy	Lunuketiya Maditta	20172	7.3332	80.7127
+LK	Central Province	29	Kandy	Naranpanawa	20176	7.3481	80.7259
+LK	Central Province	29	Kandy	Rajawella	20180	7.2959	80.7361
+LK	Central Province	29	Kandy	Gomagoda	20184	7.3245	80.7313
+LK	Central Province	29	Kandy	Kengalla	20186	7.2945	80.711
+LK	Central Province	29	Kandy	Gurudeniya	20189	7.2642	80.6859
+LK	Central Province	29	Kandy	Nattarampotha	20194	7.3022	80.6762
+LK	Central Province	29	Kandy	Pilawala	20196	7.3022	80.6762
+LK	Central Province	29	Kandy	Ketawala Leula	20198	7.3022	80.6762
+LK	Central Province	29	Kandy	Talatuoya	20200	7.2507	80.6899
+LK	Central Province	29	Kandy	Etulgama	20202	7.2425	80.6687
+LK	Central Province	29	Kandy	Nugaliyadda	20204	7.2291	80.6889
+LK	Central Province	29	Kandy	Kapuliyadde	20206	7.2408	80.6825
+LK	Central Province	29	Kandy	Marassana	20210	7.2251	80.7352
+LK	Central Province	29	Kandy	Kolabissa	20212	7.2278	80.7174
+LK	Central Province	29	Kandy	Godamunna	20214	7.2305	80.6995
+LK	Central Province	29	Kandy	Mahamedagama	20216	7.2278	80.7174
+LK	Central Province	29	Kandy	Bawlana	20218	7.2278	80.7174
+LK	Central Province	29	Kandy	Murutalawa	20232	7.2928	80.572
+LK	Central Province	29	Kandy	Yahalatenna	20234	7.2928	80.572
+LK	Central Province	29	Kandy	Polgolla	20250	7.3308	80.6461
+LK	Central Province	29	Kandy	Madawala Bazaar	20260	7.2574	80.6715
+LK	Central Province	29	Kandy	Gunnepana	20270	7.2574	80.6715
+LK	Central Province	29	Kandy	Kadugannawa	20300	7.2547	80.5242
+LK	Central Province	29	Kandy	Ketakumbura	20306	7.2103	80.5795
+LK	Central Province	29	Kandy	Balana	20308	7.2706	80.4832
+LK	Central Province	29	Kandy	Peradeniya	20400	7.2622	80.5841
+LK	Central Province	29	Kandy	Uda Peradeniya	20404	7.2622	80.5841
+LK	Central Province	29	Kandy	Megoda Kalugamuwa	20409	7.2622	80.5841
+LK	Central Province	29	Kandy	Hindagala	20414	7.2333	80.6
+LK	Central Province	29	Kandy	Nillambe	20418	7.1513	80.6419
+LK	Central Province	29	Kandy	Galaha	20420	7.1979	80.6645
+LK	Central Province	29	Kandy	Deltota	20430	7.1944	80.6917
+LK	Central Province	29	Kandy	Handawalapitiya	20438	7.1944	80.6917
+LK	Central Province	29	Kandy	Hewaheta	20440	7.107	80.7648
+LK	Central Province	29	Kandy	Kiribathkumbura	20442	7.107	80.7648
+LK	Central Province	29	Kandy	Pilimatalawa	20450	7.2689	80.5441
+LK	Central Province	29	Kandy	Wattappola	20454	7.2373	80.5431
+LK	Central Province	29	Kandy	Danture	20465	7.2825	80.5352
+LK	Central Province	29	Kandy	Menikdiwela	20470	7.2892	80.5041
+LK	Central Province	29	Kandy	Handessa	20480	7.2333	80.5833
+LK	Central Province	29	Kandy	Leemagahakotuwa	20482	7.2333	80.5833
+LK	Central Province	29	Kandy	Gampola	20500	7.1643	80.5696
+LK	Central Province	29	Kandy	Udahentenna	20506	7.0969	80.5128
+LK	Central Province	29	Kandy	Dolosbage	20510	7.0808	80.4693
+LK	Central Province	29	Kandy	Pattitalawa	20511	7.1145	80.4699
+LK	Central Province	29	Kandy	Meetalawa	20512	7.0976	80.4696
+LK	Central Province	29	Kandy	Hondiyadeniya	20524	7.1049	80.5917
+LK	Central Province	29	Kandy	Muruthagahamulla	20526	7.1049	80.5917
+LK	Central Province	29	Kandy	Doluwa	20532	7.1794	80.598
+LK	Central Province	29	Kandy	Panwilatenna	20544	7.1574	80.6373
+LK	Central Province	29	Kandy	Pupuressa	20546	7.1262	80.6692
+LK	Central Province	29	Kandy	Ulapane	20562	7.1031	80.5572
+LK	Central Province	29	Kandy	Mawatura	20564	7.1	80.5667
+LK	Central Province	29	Kandy	Atabage	20574	7.1354	80.6091
+LK	Central Province	29	Kandy	Paradeka	20578	7.1123	80.607
+LK	Central Province	29	Kandy	Pussellawa	20580	7.1073	80.6322
+LK	Central Province	29	Kandy	Weligalla	20610	7.1907	80.5865
+LK	Central Province	29	Kandy	Gelioya	20620	7.2157	80.5967
+LK	Central Province	29	Kandy	Velamboda	20640	7.0447	80.5235
+LK	Central Province	29	Kandy	Bambaragahaela	20644	7.0447	80.5235
+LK	Central Province	29	Kandy	Nawalapitiya	20650	7.0534	80.5321
+LK	Central Province	29	Kandy	Pasbage	20654	7.035	80.5244
+LK	Central Province	29	Kandy	Gonawalapatana	20656	7.035	80.5244
+LK	Central Province	29	Kandy	Dekinda	20658	7.0167	80.5167
+LK	Central Province	29	Kandy	Mapakanda	20662	7.0243	80.5504
+LK	Central Province	29	Kandy	Galaboda	20664	6.9864	80.5295
+LK	Central Province	29	Kandy	Weligampola	20666	7.0243	80.5504
+LK	Central Province	29	Kandy	Rambukpitiya	20676	7.0359	80.5174
+LK	Central Province	29	Kandy	Mailapitiya	20702	7.1998	80.7552
+LK	Central Province	29	Kandy	Unuwinna	20708	7.1998	80.7552
+LK	Central Province	29	Kandy	Hanguranketha	20710	7.1252	80.7879
+LK	Central Province	29	Kandy	Gonagantenna	20712	7.1252	80.7879
+LK	Central Province	29	Kandy	Marymount Colony	20714	7.1252	80.7879
+LK	Central Province	29	Kandy	Udawatta	20722	7.1727	80.8149
+LK	Central Province	29	Kandy	lllagolla	20724	7.1727	80.8149
+LK	Central Province	29	Kandy	Rikillagaskada	20730	7.144	80.7834
+LK	Central Province	29	Kandy	Ekiriya	20732	7.1474	80.7562
+LK	Central Province	29	Kandy	Pallebowala	20734	7.1402	80.7792
+LK	Central Province	29	Kandy	Karandagolla	20738	7.1293	80.798
+LK	Central Province	29	Kandy	Elamulla	20742	7.0542	80.7792
+LK	Central Province	29	Kandy	Mandaram Nuwara	20744	7.0642	80.7844
+LK	Central Province	29	Kandy	Maturata	20748	7.0742	80.7897
+LK	Central Province	29	Kandy	Katugastota	20800	7.3276	80.6212
+LK	Central Province	29	Kandy	Udatalawinna	20802	7.343	80.6463
+LK	Central Province	29	Kandy	Wattegama	20810	7.3493	80.6808
+LK	Central Province	29	Kandy	Doragamuwa	20816	7.3638	80.6557
+LK	Central Province	29	Kandy	Rathukohodigala	20818	7.3566	80.6683
+LK	Central Province	29	Kandy	Jambugahapitiya	20822	7.3792	80.6429
+LK	Central Province	29	Kandy	Dunuwila	20824	7.3792	80.6429
+LK	Central Province	29	Kandy	Makkanigama	20828	7.3792	80.6429
+LK	Central Province	29	Kandy	Panvila	20830	7.0665	80.6919
+LK	Central Province	29	Kandy	Tawalantenna	20838	7.0665	80.6919
+LK	Central Province	29	Kandy	Madulkele	20840	7.3979	80.731
+LK	Central Province	29	Kandy	Akurana	20850	7.3667	80.6167
+LK	Central Province	29	Kandy	Teldeniya	20900	7.2969	80.7686
+LK	Central Province	29	Kandy	Kumbukkandura	20902	7.3147	80.7616
+LK	Central Province	29	Kandy	Senarathwela	20904	7.3147	80.7616
+LK	Central Province	29	Kandy	Putuhapuwa	20906	7.3325	80.7545
+LK	Central Province	29	Kandy	Werapitya	20908	7.3147	80.7616
+LK	Central Province	29	Kandy	Wendaruwa	20914	7.3076	80.887
+LK	Central Province	29	Kandy	Udispattuwa	20916	7.3076	80.887
+LK	Central Province	29	Kandy	Makuldeniya	20921	7.3333	80.7833
+LK	Central Province	29	Kandy	Rangala	20922	7.3539	80.7853
+LK	Central Province	29	Kandy	Mimure	20923	7.4333	80.8333
+LK	Central Province	29	Kandy	Kahataliyadda	20924	7.376	80.8213
+LK	Central Province	29	Kandy	Kalugala	20926	7.3833	80.8833
+LK	Central Province	29	Kandy	Kobonila	20928	7.376	80.8213
+LK	Central Province	29	Kandy	Bopana	20932	7.3	80.9
+LK	Central Province	29	Kandy	Uduwahinna	20934	7.2833	80.8917
+LK	Central Province	29	Kandy	Madugalla	20938	7.2667	80.8833
+LK	Central Province	29	Kandy	Medamahanuwara	20940	7.3	80.85
+LK	Central Province	29	Kandy	Mahadoraliyadda	20945	7.3	80.85
+LK	Central Province	29	Kandy	Hunnasgiriya	20948	7.3	80.85
+LK	Central Province	29	Kandy	Ududumbara	20950	7.3076	80.887
+LK	Central Province	29	Kandy	Hasalaka	20960	7.2879	80.9616
+LK	Central Province	29	Kandy	Ulpothagama	20965	7.1592	80.9898
+LK	Central Province	29	Kandy	Batumulla	20966	7.4167	80.9333
+LK	Central Province	29	Kandy	Barawardhana Oya	20967	7.2879	80.9616
+LK	Central Province	29	Kandy	Kolongoda	20971	7.3076	80.887
+LK	Central Province	29	Kandy	Weragantota	20982	7.3167	80.9833
+LK	Central Province	29	Kandy	Minipe	20983	7.2182	80.9775
+LK	Central Province	29	Kandy	Handaganawa	20984	7.2833	80.9833
+LK	Central Province	29	Kandy	Ambagahapelessa	20986	7.2197	80.9958
+LK	Central Province	29	Kandy	Rantembe	20990	7.3076	80.887
+LK	Central Province	29	Matale	Matale	21000	7.4698	80.6217
+LK	Central Province	29	Matale	Alwatta	21004	7.4432	80.662
+LK	Central Province	29	Matale	Udatenna	21006	7.4167	80.65
+LK	Central Province	29	Matale	Leliambe	21008	7.4324	80.6501
+LK	Central Province	29	Matale	Wehigala	21009	7.4	80.6667
+LK	Central Province	29	Matale	Elkaduwa	21012	7.4145	80.6825
+LK	Central Province	29	Matale	Karagahinna	21014	7.3601	80.382
+LK	Central Province	29	Matale	Katudeniya	21016	7.3058	80.0814
+LK	Central Province	29	Matale	Ovilikanda	21020	7.45	80.5667
+LK	Central Province	29	Matale	Dankanda	21032	7.5293	80.6989
+LK	Central Province	29	Matale	Kiwula	21042	7.5193	80.5657
+LK	Central Province	29	Matale	Muwandeniya	21044	7.5167	80.5333
+LK	Central Province	29	Matale	Dunkolawatta	21046	7.5193	80.5657
+LK	Central Province	29	Matale	Walawela	21048	7.5219	80.5981
+LK	Central Province	29	Matale	Udasgiriya	21051	7.5324	80.5774
+LK	Central Province	29	Matale	Dullewa	21054	7.508	80.6003
+LK	Central Province	29	Matale	Melipitiya	21055	7.5492	80.5874
+LK	Central Province	29	Matale	Yatawatta	21056	7.5649	80.5821
+LK	Central Province	29	Matale	Selagama	21058	7.5916	80.5899
+LK	Central Province	29	Matale	Metihakka	21062	7.5368	80.6582
+LK	Central Province	29	Matale	Imbulgolla	21064	7.5716	80.6707
+LK	Central Province	29	Matale	Kaikawala	21066	7.5072	80.6569
+LK	Central Province	29	Matale	Gammaduwa	21068	7.5686	80.6961
+LK	Central Province	29	Matale	Palapathwela	21070	7.6083	80.6595
+LK	Central Province	29	Matale	Kavudupelella	21072	7.5813	80.6267
+LK	Central Province	29	Matale	Madawala Ulpotha	21074	7.6083	80.6595
+LK	Central Province	29	Matale	Opalgala	21076	7.6353	80.6923
+LK	Central Province	29	Matale	Nalanda	21082	7.6606	80.6424
+LK	Central Province	29	Matale	Naula	21090	7.7047	80.6542
+LK	Central Province	29	Matale	Lenadora	21094	7.7519	80.6608
+LK	Central Province	29	Matale	Dambulla	21100	7.86	80.6517
+LK	Central Province	29	Matale	Kandalama	21106	7.8667	80.7167
+LK	Central Province	29	Matale	Erawula Junction	21108	7.8633	80.6842
+LK	Central Province	29	Matale	Kalundawa	21112	7.8	80.7167
+LK	Central Province	29	Matale	Wewalawewa	21114	7.8103	80.6669
+LK	Central Province	29	Matale	Talakiriyagama	21116	7.8206	80.6172
+LK	Central Province	29	Matale	Sigiriya	21120	7.9518	80.7426
+LK	Central Province	29	Matale	Kibissa	21122	7.9412	80.7252
+LK	Central Province	29	Matale	Inamaluwa	21124	7.9314	80.6845
+LK	Central Province	29	Matale	Mahawela	21140	7.5869	80.6072
+LK	Central Province	29	Matale	Akuramboda	21142	7.6467	80.6014
+LK	Central Province	29	Matale	Mananwatta	21144	7.6168	80.6043
+LK	Central Province	29	Matale	Pallepola	21152	7.6246	80.6006
+LK	Central Province	29	Matale	Millawana	21154	7.6503	80.5772
+LK	Central Province	29	Matale	Madipola	21156	7.6833	80.5833
+LK	Central Province	29	Matale	Wahacotte	21160	7.7142	80.5972
+LK	Central Province	29	Matale	Galewela	21200	7.7589	80.5683
+LK	Central Province	29	Matale	Dewahuwa	21206	7.7589	80.5683
+LK	Central Province	29	Matale	Bambaragaswewa	21212	7.7833	80.5333
+LK	Central Province	29	Matale	Beligamuwa	21214	7.7167	80.55
+LK	Central Province	29	Matale	Ukuwela	21300	7.4228	80.6167
+LK	Central Province	29	Matale	Rattota	21400	7.5205	80.6798
+LK	Central Province	29	Matale	Etanawala	21402	7.5205	80.6798
+LK	Central Province	29	Matale	Gangala Puwakpitiya	21404	7.5205	80.6798
+LK	Central Province	29	Matale	lllukkumbura	21406	7.5205	80.6798
+LK	Central Province	29	Matale	Welangahawatte	21408	7.5205	80.6798
+LK	Central Province	29	Matale	Kongahawela	21500	7.6742	80.7171
+LK	Central Province	29	Matale	Pubbiliya	21502	7.7333	80.7167
+LK	Central Province	29	Matale	Ambana	21504	7.6579	80.6909
+LK	Central Province	29	Matale	Talagoda Junction	21506	7.6885	80.7082
+LK	Central Province	29	Matale	Ataragallewa	21512	7.6622	80.7728
+LK	Central Province	29	Matale	Hattota Amuna	21514	7.6622	80.7728
+LK	Central Province	29	Matale	Laggala Pallegama	21520	7.6622	80.7728
+LK	Central Province	29	Matale	Ranamuregama	21524	7.6622	80.7728
+LK	Central Province	29	Matale	Wilgamuwa	21530	7.6622	80.7728
+LK	Central Province	29	Matale	Perakanatta	21532	7.6622	80.7728
+LK	Central Province	29	Matale	Nugagolla	21534	7.6622	80.7728
+LK	Central Province	29	Matale	Handungamuwa	21536	7.6622	80.7728
+LK	Central Province	29	Matale	Dunuwilapitiya	21538	7.6622	80.7728
+LK	Central Province	29	Matale	Devagiriya	21552	7.5833	80.9667
+LK	Central Province	29	Matale	Maraka	21554	7.5833	80.9667
+LK	Central Province	29	Nuwara Eliya	Kotmale	20560	7.0142	80.5897
+LK	Central Province	29	Nuwara Eliya	Maswela	20566	7.0667	80.6333
+LK	Central Province	29	Nuwara Eliya	Doragala	20567	7.071	80.5867
+LK	Central Province	29	Nuwara Eliya	Nayapana Janapadaya	20568	7.071	80.5867
+LK	Central Province	29	Nuwara Eliya	Katukitula	20588	7.0741	80.6584
+LK	Central Province	29	Nuwara Eliya	Ramboda	20590	7.0457	80.6876
+LK	Central Province	29	Nuwara Eliya	Labukele	20592	7.0457	80.6876
+LK	Central Province	29	Nuwara Eliya	Ketaboola	20660	7.0243	80.5504
+LK	Central Province	29	Nuwara Eliya	Hapugastalawa	20668	7.0621	80.5713
+LK	Central Province	29	Nuwara Eliya	Harangalagama	20669	7.0243	80.5504
+LK	Central Province	29	Nuwara Eliya	Nawathispane	20670	7.0359	80.5174
+LK	Central Province	29	Nuwara Eliya	Ambagamuwa Udabulathgama	20678	7.0359	80.5174
+LK	Central Province	29	Nuwara Eliya	Ginigathena	20680	6.9903	80.4877
+LK	Central Province	29	Nuwara Eliya	Pitawala	20682	6.9984	80.4513
+LK	Central Province	29	Nuwara Eliya	Dagampitiya	20684	6.9759	80.4738
+LK	Central Province	29	Nuwara Eliya	Ambatalawa	20686	6.9658	80.4958
+LK	Central Province	29	Nuwara Eliya	Kelanigama	20688	6.9826	80.4772
+LK	Central Province	29	Nuwara Eliya	Padiyapelella	20750	7.0877	80.8044
+LK	Central Province	29	Nuwara Eliya	Munwatta	20752	7.1174	80.8099
+LK	Central Province	29	Nuwara Eliya	Hatton	22000	6.8916	80.5955
+LK	Central Province	29	Nuwara Eliya	Dunukedeniya	22002	7	80.6333
+LK	Central Province	29	Nuwara Eliya	Rozella	22008	6.9317	80.5495
+LK	Central Province	29	Nuwara Eliya	Watawala	22010	6.9442	80.5377
+LK	Central Province	29	Nuwara Eliya	Patana	22012	7.5158	80.6829
+LK	Central Province	29	Nuwara Eliya	Wijebahukanda	22018	7.011	80.6238
+LK	Central Province	29	Nuwara Eliya	Maldeniya	22021	7.0276	80.652
+LK	Central Province	29	Nuwara Eliya	Hedunuwewa	22024	7.0276	80.652
+LK	Central Province	29	Nuwara Eliya	Widulipura	22032	6.9268	80.4888
+LK	Central Province	29	Nuwara Eliya	Laxapana	22034	6.9268	80.4888
+LK	Central Province	29	Nuwara Eliya	Morahenagama	22036	6.9268	80.4888
+LK	Central Province	29	Nuwara Eliya	Kottellena	22040	6.9359	80.4583
+LK	Central Province	29	Nuwara Eliya	Hangarapitiya	22044	6.9182	80.472
+LK	Central Province	29	Nuwara Eliya	Hitigegama	22046	6.9536	80.4446
+LK	Central Province	29	Nuwara Eliya	Dikoya	22050	6.8713	80.6
+LK	Central Province	29	Nuwara Eliya	Norwood	22058	6.8377	80.6079
+LK	Central Province	29	Nuwara Eliya	Bogawantalawa	22060	6.7994	80.665
+LK	Central Province	29	Nuwara Eliya	Maskeliya	22070	6.8343	80.5676
+LK	Central Province	29	Nuwara Eliya	Nissanka Uyana	22075	6.8343	80.5676
+LK	Central Province	29	Nuwara Eliya	Kotagala	22080	6.9284	80.6061
+LK	Central Province	29	Nuwara Eliya	Lindula	22090	6.9217	80.685
+LK	Central Province	29	Nuwara Eliya	Agarapathana	22094	6.9217	80.685
+LK	Central Province	29	Nuwara Eliya	Bopattalawa	22095	6.9217	80.685
+LK	Central Province	29	Nuwara Eliya	Dayagama Bazaar	22096	6.9217	80.685
+LK	Central Province	29	Nuwara Eliya	Talawakele	22100	6.9371	80.6581
+LK	Central Province	29	Nuwara Eliya	Watagoda	22110	6.9704	80.6493
+LK	Central Province	29	Nuwara Eliya	Pundaluoya	22120	7.0151	80.6697
+LK	Central Province	29	Nuwara Eliya	Nanuoya	22150	6.9742	80.659
+LK	Central Province	29	Nuwara Eliya	Nuwara Eliya	22200	6.9708	80.7829
+LK	Central Province	29	Nuwara Eliya	Santhipura	22202	6.9708	80.7829
+LK	Central Province	29	Nuwara Eliya	Haggala	22208	6.9708	80.7829
+LK	Central Province	29	Nuwara Eliya	Ruwaneliya	22212	6.873	80.8106
+LK	Central Province	29	Nuwara Eliya	Mipilimana	22214	6.873	80.8106
+LK	Central Province	29	Nuwara Eliya	Ambewela	22216	6.873	80.8106
+LK	Central Province	29	Nuwara Eliya	Kandapola	22220	6.9894	80.8127
+LK	Central Province	29	Nuwara Eliya	Gonakele	22226	7.0568	80.8074
+LK	Central Province	29	Nuwara Eliya	Halgranoya	22240	7.0486	80.8898
+LK	Central Province	29	Nuwara Eliya	Rupaha	22245	7.036	80.904
+LK	Central Province	29	Nuwara Eliya	Kumbukwela	22246	7.0612	80.8757
+LK	Central Province	29	Nuwara Eliya	Udapussallawa	22250	7.0308	80.9105
+LK	Central Province	29	Nuwara Eliya	Kurupanawela	22252	7.009	80.9052
+LK	Central Province	29	Nuwara Eliya	Mipanawa	22254	7.0373	80.923
+LK	Central Province	29	Nuwara Eliya	Madulla	22256	7.0462	80.9034
+LK	Central Province	29	Nuwara Eliya	Harasbedda	22262	7.0493	80.8744
+LK	Central Province	29	Nuwara Eliya	Walapane	22270	7.1141	80.8511
+LK	Central Province	29	Nuwara Eliya	Kumbalgamuwa	22272	7.1141	80.8511
+LK	Central Province	29	Nuwara Eliya	Keerthi Bandarapura	22274	7.1141	80.8511
+LK	Central Province	29	Nuwara Eliya	Nildandahinna	22280	7.0679	80.8939
+LK	Central Province	29	Nuwara Eliya	Kalaganwatta	22282	7.1	80.9
+LK	Central Province	29	Nuwara Eliya	Udamadura	22285	7.0854	80.9165
+LK	Central Province	29	Nuwara Eliya	Teripeha	22287	7.1181	80.9179
+LK	North Central Province	30	Anuradhapura	Anuradhapura	50000	8.3565	80.4173
+LK	North Central Province	30	Anuradhapura	Perimiyankulama	50004	8.2667	80.5333
+LK	North Central Province	30	Anuradhapura	Galkadawala	50006	8.6044	80.681
+LK	North Central Province	30	Anuradhapura	Saliyapura	50008	8.4225	81.0541
+LK	North Central Province	30	Anuradhapura	Viharapalugama	50012	8.3955	80.3103
+LK	North Central Province	30	Anuradhapura	Elayapattuwa	50014	8.3955	80.3103
+LK	North Central Province	30	Anuradhapura	Tantirimale	50016	8.3955	80.3103
+LK	North Central Province	30	Anuradhapura	Pemaduwa	50020	8.3322	80.3645
+LK	North Central Province	30	Anuradhapura	Mahawilachchiya	50022	8.3322	80.3645
+LK	North Central Province	30	Anuradhapura	Pandulagama	50029	8.3322	80.3645
+LK	North Central Province	30	Anuradhapura	Gnanikulama	50036	8.25	80.5167
+LK	North Central Province	30	Anuradhapura	Sravasthipura	50042	8.2629	80.4325
+LK	North Central Province	30	Anuradhapura	Hidogama	50044	8.2591	80.3983
+LK	North Central Province	30	Anuradhapura	Nachchaduwa	50046	8.2667	80.4667
+LK	North Central Province	30	Anuradhapura	Parasangahawewa	50055	8.3864	80.3725
+LK	North Central Province	30	Anuradhapura	Gambirigaswewa	50057	8.2377	80.3368
+LK	North Central Province	30	Anuradhapura	Kurundankulama	50062	8.2	80.45
+LK	North Central Province	30	Anuradhapura	Galkulama	50064	8.2667	80.5
+LK	North Central Province	30	Anuradhapura	Uttimaduwa	50067	8.25	80.55
+LK	North Central Province	30	Anuradhapura	Sivalakulama	50068	8.25	80.6333
+LK	North Central Province	30	Anuradhapura	Tirappane	50072	8.3	80.5833
+LK	North Central Province	30	Anuradhapura	Maradankadawala	50080	8.1268	80.5621
+LK	North Central Province	30	Anuradhapura	Walagambahuwa	50086	8.15	80.5
+LK	North Central Province	30	Anuradhapura	Labunoruwa	50088	8.1667	80.6
+LK	North Central Province	30	Anuradhapura	Kekirawa	50100	8.0385	80.5941
+LK	North Central Province	30	Anuradhapura	Tammennawa	50104	8.0909	80.356
+LK	North Central Province	30	Anuradhapura	Vijithapura	50110	7.9	80.5261
+LK	North Central Province	30	Anuradhapura	Palagala	50111	7.9	80.5261
+LK	North Central Province	30	Anuradhapura	Andiyagala	50112	7.9	80.5261
+LK	North Central Province	30	Anuradhapura	Galkiriyagama	50120	7.9425	80.565
+LK	North Central Province	30	Anuradhapura	Pubbogama	50122	7.9261	80.5936
+LK	North Central Province	30	Anuradhapura	Halmillawa Dambulla	50124	7.9517	80.5913
+LK	North Central Province	30	Anuradhapura	Maha Elagamuwa	50126	7.9865	80.6153
+LK	North Central Province	30	Anuradhapura	Madatugama	50130	7.942	80.628
+LK	North Central Province	30	Anuradhapura	Kitulhitiyawa	50132	7.9185	80.631
+LK	North Central Province	30	Anuradhapura	Ganewalpola	50142	8.0933	80.6215
+LK	North Central Province	30	Anuradhapura	Palugaswewa	50144	8.0577	80.707
+LK	North Central Province	30	Anuradhapura	Habarana	50150	8.0363	80.7467
+LK	North Central Province	30	Anuradhapura	Awukana	50169	7.9969	80.5461
+LK	North Central Province	30	Anuradhapura	Galnewa	50170	8.0257	80.4803
+LK	North Central Province	30	Anuradhapura	Kalankuttiya	50174	8.05	80.3833
+LK	North Central Province	30	Anuradhapura	Hurigaswewa	50176	8.0759	80.373
+LK	North Central Province	30	Anuradhapura	Negampaha	50180	7.998	80.4595
+LK	North Central Province	30	Anuradhapura	Maneruwa	50182	7.9173	80.4859
+LK	North Central Province	30	Anuradhapura	Siyambalewa	50184	7.9474	80.5172
+LK	North Central Province	30	Anuradhapura	Mahabulankulama	50196	7.9969	80.5461
+LK	North Central Province	30	Anuradhapura	Nochchiyagama	50200	8.2631	80.2044
+LK	North Central Province	30	Anuradhapura	Pahala Halmillewa	50206	8.1334	80.3599
+LK	North Central Province	30	Anuradhapura	Udunuwara Colony	50207	8.1982	80.2822
+LK	North Central Province	30	Anuradhapura	Galadivulwewa	50210	7.9218	80.0859
+LK	North Central Province	30	Anuradhapura	Ranorawa	50212	7.9267	80.1213
+LK	North Central Province	30	Anuradhapura	Dunumadalawa	50214	7.9169	80.0505
+LK	North Central Province	30	Anuradhapura	Pahala Maragahawe	50220	8.1929	80.1457
+LK	North Central Province	30	Anuradhapura	Horiwila	50222	8.1929	80.1457
+LK	North Central Province	30	Anuradhapura	Gemunupura	50224	8.1929	80.1457
+LK	North Central Province	30	Anuradhapura	Kalaoya	50226	8.1929	80.1457
+LK	North Central Province	30	Anuradhapura	Talawa	50230	8.2364	80.3476
+LK	North Central Province	30	Anuradhapura	Karagahawewa	50232	8.2453	80.3307
+LK	North Central Province	30	Anuradhapura	Malwanagama	50236	8.2409	80.3391
+LK	North Central Province	30	Anuradhapura	Tambuttegama	50240	8.15	80.3
+LK	North Central Province	30	Anuradhapura	Telhiriyawa	50242	8.1535	80.3244
+LK	North Central Province	30	Anuradhapura	Pahalagama	50244	8.1988	80.2808
+LK	North Central Province	30	Anuradhapura	Rajanganaya	50246	8.062	80.251
+LK	North Central Province	30	Anuradhapura	Angamuwa	50248	8.1812	80.2013
+LK	North Central Province	30	Anuradhapura	Kiralogama	50259	8.1971	80.3798
+LK	North Central Province	30	Anuradhapura	Eppawala	50260	8.1426	80.403
+LK	North Central Province	30	Anuradhapura	Katiyawa	50261	7.6208	80.5515
+LK	North Central Province	30	Anuradhapura	lhala Halmillewa	50262	7.8817	80.4772
+LK	North Central Province	30	Anuradhapura	Mahailluppallama	50270	8.1056	80.3107
+LK	North Central Province	30	Anuradhapura	lpologama	50280	8.0875	80.5154
+LK	North Central Province	30	Anuradhapura	Kagama	50282	8.0839	80.5586
+LK	North Central Province	30	Anuradhapura	Senapura	50284	8.0911	80.4722
+LK	North Central Province	30	Anuradhapura	Kalakarambewa	50288	8.0875	80.5154
+LK	North Central Province	30	Anuradhapura	Mihintale	50300	8.3593	80.5103
+LK	North Central Province	30	Anuradhapura	lhalagama	50304	8.3593	80.5103
+LK	North Central Province	30	Anuradhapura	Mahakanadarawa	50306	8.3593	80.5103
+LK	North Central Province	30	Anuradhapura	Maradankalla	50308	8.3593	80.5103
+LK	North Central Province	30	Anuradhapura	Kahatagasdigiliya	50320	8.4214	80.6865
+LK	North Central Province	30	Anuradhapura	Mulkiriyawa	50324	8.4214	80.6865
+LK	North Central Province	30	Anuradhapura	Parakumpura	50326	8.4214	80.6865
+LK	North Central Province	30	Anuradhapura	Mahapothana	50327	8.4214	80.6865
+LK	North Central Province	30	Anuradhapura	Megodawewa	50334	8.2333	80.7333
+LK	North Central Province	30	Anuradhapura	Padikaramaduwa	50338	8.2333	80.7333
+LK	North Central Province	30	Anuradhapura	Namalpura	50339	8.2333	80.7333
+LK	North Central Province	30	Anuradhapura	Muriyakadawala	50344	8.2333	80.65
+LK	North Central Province	30	Anuradhapura	Morakewa	50349	8.5052	80.7887
+LK	North Central Province	30	Anuradhapura	Horawpatana	50350	8.3889	80.766
+LK	North Central Province	30	Anuradhapura	Parangiyawadiya	50354	8.4945	80.8654
+LK	North Central Province	30	Anuradhapura	Dematawewa	50356	8.2833	80.6667
+LK	North Central Province	30	Anuradhapura	Welimuwapotana	50358	8.3889	80.766
+LK	North Central Province	30	Anuradhapura	Kapugallawa	50370	8.3558	80.6894
+LK	North Central Province	30	Anuradhapura	Seeppukulama	50380	8.3804	80.5888
+LK	North Central Province	30	Anuradhapura	Upuldeniya	50382	8.3916	80.6079
+LK	North Central Province	30	Anuradhapura	Mailagaswewa	50384	8.3916	80.6079
+LK	North Central Province	30	Anuradhapura	Rampathwila	50386	8.4028	80.6269
+LK	North Central Province	30	Anuradhapura	Galenbindunuwewa	50390	8.2833	80.7167
+LK	North Central Province	30	Anuradhapura	Getalawa	50392	8.3	80.7333
+LK	North Central Province	30	Anuradhapura	Dutuwewa	50393	8.3167	80.75
+LK	North Central Province	30	Anuradhapura	Hurulunikawewa	50394	8.3	80.7333
+LK	North Central Province	30	Anuradhapura	Pandukabayapura	50448	8.4661	80.5484
+LK	North Central Province	30	Anuradhapura	Rambewa	50450	8.4423	80.5054
+LK	North Central Province	30	Anuradhapura	Kendewa	50452	8.4858	80.6067
+LK	North Central Province	30	Anuradhapura	Kallanchiya	50454	8.4592	80.5643
+LK	North Central Province	30	Anuradhapura	Wahamalgollewa	50492	8.4771	80.5173
+LK	North Central Province	30	Anuradhapura	Medawachchiya	50500	8.5345	80.4923
+LK	North Central Province	30	Anuradhapura	Kebithigollewa	50500	8.5345	80.4923
+LK	North Central Province	30	Anuradhapura	Punewa	50506	8.6113	80.4715
+LK	North Central Province	30	Anuradhapura	Kirigalwewa	50511	8.4941	80.4801
+LK	North Central Province	30	Anuradhapura	Pihimbiyagolewa	50512	8.4941	80.4801
+LK	North Central Province	30	Anuradhapura	Rathmalgahawewa	50514	8.4941	80.4801
+LK	North Central Province	30	Anuradhapura	Walahaviddawewa	50516	8.4941	80.4801
+LK	North Central Province	30	Anuradhapura	Etaweeragollewa	50518	8.4941	80.4801
+LK	North Central Province	30	Anuradhapura	Halmillawetiya	50552	8.3407	80.2796
+LK	North Central Province	30	Anuradhapura	Gonahaddenawa	50554	8.5287	80.5148
+LK	North Central Province	30	Anuradhapura	Kalawedi Ulpotha	50556	8.5287	80.5148
+LK	North Central Province	30	Anuradhapura	Tittagonewa	50558	8.7167	80.75
+LK	North Central Province	30	Anuradhapura	Kahatagollewa	50562	8.4445	80.647
+LK	North Central Province	30	Anuradhapura	Wahalkada	50564	8.3807	80.4436
+LK	North Central Province	30	Anuradhapura	Bogahawewa	50566	8.3169	80.2401
+LK	North Central Province	30	Anuradhapura	Pulmoddai	50567	8.3807	80.4436
+LK	North Central Province	30	Anuradhapura	Padaviya	50570	8.4941	80.4801
+LK	North Central Province	30	Anuradhapura	Padavi Maithripura	50572	8.4941	80.4801
+LK	North Central Province	30	Anuradhapura	Mahasenpura	50574	8.4941	80.4801
+LK	North Central Province	30	Anuradhapura	Padavi Parakramapura	50582	8.4941	80.4801
+LK	North Central Province	30	Anuradhapura	Etawatunuwewa	50584	8.4941	80.4801
+LK	North Central Province	30	Anuradhapura	Welioya Project	50586	8.4941	80.4801
+LK	North Central Province	30	Anuradhapura	Padavi Sripura	50587	8.4941	80.4801
+LK	North Central Province	30	Anuradhapura	Padavi Sritissapura	50588	8.4941	80.4801
+LK	North Central Province	30	Polonnaruwa	Polonnaruwa	51000	7.9397	81.0027
+LK	North Central Province	30	Polonnaruwa	Kalingaela	51002	7.9615	81.043
+LK	North Central Province	30	Polonnaruwa	Onegama	51004	7.9833	81.0833
+LK	North Central Province	30	Polonnaruwa	Lakshauyana	51006	7.9615	81.043
+LK	North Central Province	30	Polonnaruwa	Unagalavehera	51008	7.9615	81.043
+LK	North Central Province	30	Polonnaruwa	Alutwewa	51014	7.95	80.55
+LK	North Central Province	30	Polonnaruwa	Parakramasamudraya	51016	7.95	80.55
+LK	North Central Province	30	Polonnaruwa	Jayanthipura	51024	8	81
+LK	North Central Province	30	Polonnaruwa	Giritale	51026	7.9833	80.9333
+LK	North Central Province	30	Polonnaruwa	Dimbulagala	51031	7.9167	80.55
+LK	North Central Province	30	Polonnaruwa	Kashyapapura	51032	7.9167	80.55
+LK	North Central Province	30	Polonnaruwa	Pelatiyawa	51033	7.9167	80.55
+LK	North Central Province	30	Polonnaruwa	Ellewewa	51034	7.9167	80.55
+LK	North Central Province	30	Polonnaruwa	Kalukele Badanagala	51037	7.9167	80.55
+LK	North Central Province	30	Polonnaruwa	Nuwaragala	51039	7.9167	80.55
+LK	North Central Province	30	Polonnaruwa	Wijayabapura	51042	8.0167	81.0833
+LK	North Central Province	30	Polonnaruwa	Talpotha	51044	8.0167	81.0833
+LK	North Central Province	30	Polonnaruwa	Palugasdamana	51046	8.0167	81.0833
+LK	North Central Province	30	Polonnaruwa	Tambala	51049	8.0167	81.0833
+LK	North Central Province	30	Polonnaruwa	Pulastigama	51050	7.9675	80.9572
+LK	North Central Province	30	Polonnaruwa	Sungavila	51052	7.9675	80.9572
+LK	North Central Province	30	Polonnaruwa	Sevanapitiya	51062	7.9667	81.1667
+LK	North Central Province	30	Polonnaruwa	Mutugala	51064	7.9667	81.1667
+LK	North Central Province	30	Polonnaruwa	Nawasenapura	51066	7.9667	81.1667
+LK	North Central Province	30	Polonnaruwa	Welikanda	51070	7.9516	81.2452
+LK	North Central Province	30	Polonnaruwa	Aselapura	51072	7.9516	81.2452
+LK	North Central Province	30	Polonnaruwa	Mahawela Sinhapura	51076	7.9516	81.2452
+LK	North Central Province	30	Polonnaruwa	Tamankaduwa	51089	7.9675	80.9572
+LK	North Central Province	30	Polonnaruwa	Mampitiya	51090	7.9675	80.9572
+LK	North Central Province	30	Polonnaruwa	Dalukana	51092	7.9675	80.9572
+LK	North Central Province	30	Polonnaruwa	Dewagala	51094	7.9675	80.9572
+LK	North Central Province	30	Polonnaruwa	Nelumwewa	51096	7.9675	80.9572
+LK	North Central Province	30	Polonnaruwa	Hansayapalama	51098	7.9675	80.9572
+LK	North Central Province	30	Polonnaruwa	Aralaganwila	51100	7.8912	80.7957
+LK	North Central Province	30	Polonnaruwa	Pimburattewa	51102	7.8912	80.7957
+LK	North Central Province	30	Polonnaruwa	Divuldamana	51104	7.8912	80.7957
+LK	North Central Province	30	Polonnaruwa	Damminna	51106	7.8912	80.7957
+LK	North Central Province	30	Polonnaruwa	Maduruoya	51108	7.8912	80.7957
+LK	North Central Province	30	Polonnaruwa	Diyabeduma	51225	7.8833	80.8833
+LK	North Central Province	30	Polonnaruwa	Attanakadawala	51235	7.85	80.8667
+LK	North Central Province	30	Polonnaruwa	Kottapitiya	51244	7.8125	80.84
+LK	North Central Province	30	Polonnaruwa	Jayasiripura	51246	7.8125	80.84
+LK	North Central Province	30	Polonnaruwa	Bakamuna	51250	7.7833	80.8167
+LK	North Central Province	30	Polonnaruwa	Orubendi Siyambalawa	51256	7.7539	80.8025
+LK	North Central Province	30	Polonnaruwa	Elahera	51258	7.7244	80.7883
+LK	North Central Province	30	Polonnaruwa	Galoya Junction	51375	7.8912	80.7957
+LK	North Central Province	30	Polonnaruwa	Sinhagama	51378	7.8912	80.7957
+LK	North Central Province	30	Polonnaruwa	Hingurakgoda	51400	8.0333	80.95
+LK	North Central Province	30	Polonnaruwa	Hingurakdamana	51408	8.0375	81.0297
+LK	North Central Province	30	Polonnaruwa	Minneriya	51410	8.0465	80.9025
+LK	North Central Province	30	Polonnaruwa	Kumaragama	51412	7.7569	80.3862
+LK	North Central Province	30	Polonnaruwa	Kawudulla	51414	7.7569	80.3862
+LK	North Central Province	30	Polonnaruwa	Galamuna	51416	7.4673	79.8699
+LK	North Central Province	30	Polonnaruwa	Yodaela	51422	7.5781	79.8681
+LK	North Central Province	30	Polonnaruwa	Yudaganawa	51424	7.5781	79.8681
+LK	North Central Province	30	Polonnaruwa	Divulankadawala	51428	7.5781	79.8681
+LK	North Central Province	30	Polonnaruwa	Medirigiriya	51500	7.9	80.4833
+LK	North Central Province	30	Polonnaruwa	Diyasenpura	51504	7.9	80.4833
+LK	North Central Province	30	Polonnaruwa	Mahatalakolawewa	51506	7.9	80.4833
+LK	North Central Province	30	Polonnaruwa	Meegaswewa	51508	7.9	80.4833
+LK	North Central Province	30	Polonnaruwa	Kawuduluwewa Stagell	51514	7.9	80.4833
+LK	North Central Province	30	Polonnaruwa	Maha Ambagaswewa	51518	7.9	80.4833
+LK	North Western Province	32	Kurunegala	Kurunegala	60000	7.4863	80.3623
+LK	North Western Province	32	Kurunegala	Kudagalgamuwa	60003	7.5351	80.3321
+LK	North Western Province	32	Kurunegala	Minhettiya	60004	7.584	80.3018
+LK	North Western Province	32	Kurunegala	Doratiyawa	60013	7.4578	80.383
+LK	North Western Province	32	Kurunegala	Indulgodakanda	60016	7.4253	80.4084
+LK	North Western Province	32	Kurunegala	Demataluwa	60024	7.5219	80.2898
+LK	North Western Province	32	Kurunegala	Ithanawatta	60025	7.4478	80.3475
+LK	North Western Province	32	Kurunegala	Boyagane	60027	7.4501	80.3415
+LK	North Western Province	32	Kurunegala	Kohilagedara	60028	7.4141	80.3659
+LK	North Western Province	32	Kurunegala	Kosgolla	60029	7.4052	80.3927
+LK	North Western Province	32	Kurunegala	Hindagolla	60034	7.484	80.4118
+LK	North Western Province	32	Kurunegala	Ambakote	60036	7.492	80.4532
+LK	North Western Province	32	Kurunegala	Morathiha	60038	7.5073	80.4875
+LK	North Western Province	32	Kurunegala	Ridigama	60040	7.5473	80.4963
+LK	North Western Province	32	Kurunegala	Delwite	60044	7.5102	80.5211
+LK	North Western Province	32	Kurunegala	Iriyagolla	60045	7.4731	80.5458
+LK	North Western Province	32	Kurunegala	Alawatuwala	60047	7.5102	80.5211
+LK	North Western Province	32	Kurunegala	Panagamuwa	60052	7.5551	80.4577
+LK	North Western Province	32	Kurunegala	Pihimbuwa	60053	7.4607	80.5171
+LK	North Western Province	32	Kurunegala	Kanadeniyawala	60054	7.4382	80.541
+LK	North Western Province	32	Kurunegala	Pilessa	60058	7.4546	80.4141
+LK	North Western Province	32	Kurunegala	Mawathagama	60060	7.4086	80.3091
+LK	North Western Province	32	Kurunegala	Kahapathwala	60062	7.2934	80.4557
+LK	North Western Province	32	Kurunegala	Inguruwatta	60064	7.1783	80.6023
+LK	North Western Province	32	Kurunegala	Meetanwala	60066	7.2934	80.4557
+LK	North Western Province	32	Kurunegala	Puswelitenna	60072	7.3746	80.3664
+LK	North Western Province	32	Kurunegala	Anhandiya	60074	7.262	80.2651
+LK	North Western Province	32	Kurunegala	Buluwala	60076	7.4873	80.4676
+LK	North Western Province	32	Kurunegala	Weuda	60080	7.4104	80.4814
+LK	North Western Province	32	Kurunegala	Uhumiya	60094	7.463	80.2924
+LK	North Western Province	32	Kurunegala	Kalugamuwa	60096	7.4498	80.2614
+LK	North Western Province	32	Kurunegala	Narammala	60100	7.4337	80.1971
+LK	North Western Province	32	Kurunegala	Karagahagedara	60106	7.4996	80.0548
+LK	North Western Province	32	Kurunegala	Bogamulla	60107	7.4666	80.126
+LK	North Western Province	32	Kurunegala	Lonahettiya	60108	7.4666	80.126
+LK	North Western Province	32	Kurunegala	Pahamune	60112	7.4774	80.1961
+LK	North Western Province	32	Kurunegala	Metiyagane	60121	7.3972	80.1745
+LK	North Western Province	32	Kurunegala	Muruthenge	60122	7.3972	80.1745
+LK	North Western Province	32	Kurunegala	Dambadeniya	60130	7.3633	80.1653
+LK	North Western Province	32	Kurunegala	Ihala Katugampala	60135	7.3633	80.1653
+LK	North Western Province	32	Kurunegala	Giriulla	60140	7.3211	80.1235
+LK	North Western Province	32	Kurunegala	Narangoda	60152	7.3753	80.0813
+LK	North Western Province	32	Kurunegala	Bopitiya	60155	7.3191	80.0824
+LK	North Western Province	32	Kurunegala	Elibichchiya	60156	7.3146	80.0516
+LK	North Western Province	32	Kurunegala	Pannala	60160	7.333	80.0329
+LK	North Western Province	32	Kurunegala	Labbala	60162	7.3423	80.079
+LK	North Western Province	32	Kurunegala	Gonawila	60170	7.3204	79.9974
+LK	North Western Province	32	Kurunegala	Daraluwa	60174	7.3573	79.9829
+LK	North Western Province	32	Kurunegala	Sandalankawa	60176	7.3389	79.9901
+LK	North Western Province	32	Kurunegala	Horambawa	60181	7.4475	80.1819
+LK	North Western Province	32	Kurunegala	Alahitiyawa	60182	7.4741	80.1709
+LK	North Western Province	32	Kurunegala	Kekunagolla	60183	7.4939	80.1697
+LK	North Western Province	32	Kurunegala	Kirimetiyawa	60184	7.5104	80.136
+LK	North Western Province	32	Kurunegala	Nakkawatta	60186	7.4541	80.1358
+LK	North Western Province	32	Kurunegala	Kithalawa	60188	7.476	80.1589
+LK	North Western Province	32	Kurunegala	Wewagama	60195	7.4167	80.1
+LK	North Western Province	32	Kurunegala	Walakumburumulla	60198	7.4217	80.0119
+LK	North Western Province	32	Kurunegala	Kuliyapitiya	60200	7.4688	80.0401
+LK	North Western Province	32	Kurunegala	Yakwila	60202	7.3843	80.0355
+LK	North Western Province	32	Kurunegala	Wadumunnegedara	60204	7.4073	79.9731
+LK	North Western Province	32	Kurunegala	Welpalla	60206	7.4374	80.0554
+LK	North Western Province	32	Kurunegala	Thalahitimulla	60208	7.428	80.0194
+LK	North Western Province	32	Kurunegala	Madakumburumulla	60209	7.442	79.993
+LK	North Western Province	32	Kurunegala	Ihala Gomugomuwa	60211	7.5135	80.0754
+LK	North Western Province	32	Kurunegala	Kirindawa	60212	7.4982	80.0977
+LK	North Western Province	32	Kurunegala	Anukkane	60214	7.5013	80.1123
+LK	North Western Province	32	Kurunegala	Munamaldeniya	60218	7.5469	80.0652
+LK	North Western Province	32	Kurunegala	Magulagama	60221	7.5413	80.0941
+LK	North Western Province	32	Kurunegala	Nagollagoda	60226	7.5255	80.0643
+LK	North Western Province	32	Kurunegala	Tharana Udawela	60227	7.5255	80.0643
+LK	North Western Province	32	Kurunegala	Deegalla	60228	7.5097	80.0346
+LK	North Western Province	32	Kurunegala	llukhena	60232	7.5477	79.9797
+LK	North Western Province	32	Kurunegala	Padiwela	60236	7.5477	79.9797
+LK	North Western Province	32	Kurunegala	lhala Kadigamuwa	60238	7.5477	79.9797
+LK	North Western Province	32	Kurunegala	Welipennagahamulla	60240	7.4328	79.9253
+LK	North Western Province	32	Kurunegala	Udubaddawa	60250	7.4759	79.9655
+LK	North Western Province	32	Kurunegala	Dummalasuriya	60260	7.4893	79.8925
+LK	North Western Province	32	Kurunegala	Watuwatta	60262	7.5241	79.9193
+LK	North Western Province	32	Kurunegala	Etungahakotuwa	60266	7.5209	79.9716
+LK	North Western Province	32	Kurunegala	Alawwa	60280	7.2971	80.2343
+LK	North Western Province	32	Kurunegala	Wennoruwa	60284	7.3646	80.2183
+LK	North Western Province	32	Kurunegala	Maharachchimulla	60286	7.3434	80.2082
+LK	North Western Province	32	Kurunegala	Keppitiwalana	60288	7.326	80.1821
+LK	North Western Province	32	Kurunegala	Bujjomuwa	60291	7.4558	80.0511
+LK	North Western Province	32	Kurunegala	Nawatalwatta	60292	7.4558	80.0511
+LK	North Western Province	32	Kurunegala	Polgahawela	60300	7.3381	80.3003
+LK	North Western Province	32	Kurunegala	Metikumbura	60304	7.359	80.3139
+LK	North Western Province	32	Kurunegala	Talawattegedara	60306	7.3816	80.2989
+LK	North Western Province	32	Kurunegala	Aragoda	60308	7.3573	80.3425
+LK	North Western Province	32	Kurunegala	Panaliya	60312	7.3391	80.335
+LK	North Western Province	32	Kurunegala	Yatigaloluwa	60314	7.3315	80.2633
+LK	North Western Province	32	Kurunegala	Wadakada	60318	7.399	80.2641
+LK	North Western Province	32	Kurunegala	Pothuhera	60330	7.4214	80.3303
+LK	North Western Province	32	Kurunegala	Maspotha	60344	7.8667	80.2167
+LK	North Western Province	32	Kurunegala	Bamunukotuwa	60347	7.8667	80.2167
+LK	North Western Province	32	Kurunegala	Panadaragama	60348	7.8667	80.2167
+LK	North Western Province	32	Kurunegala	Katupota	60350	7.537	80.1899
+LK	North Western Province	32	Kurunegala	Moragane	60354	7.5501	80.1406
+LK	North Western Province	32	Kurunegala	Kosdeniya	60356	7.5724	80.1397
+LK	North Western Province	32	Kurunegala	Wariyapola	60400	7.6177	80.245
+LK	North Western Province	32	Kurunegala	Wellagala	60402	7.6176	80.2815
+LK	North Western Province	32	Kurunegala	Malagane	60404	7.6608	80.2839
+LK	North Western Province	32	Kurunegala	Minuwangete	60406	7.7167	80.25
+LK	North Western Province	32	Kurunegala	Mirihanagama	60408	7.6532	80.2651
+LK	North Western Province	32	Kurunegala	Kobeigane	60410	7.6569	80.1307
+LK	North Western Province	32	Kurunegala	Hengamuwa	60414	7.7	80.1
+LK	North Western Province	32	Kurunegala	Alahengama	60416	7.6784	80.1154
+LK	North Western Province	32	Kurunegala	Kanattewewa	60422	7.6167	80.2
+LK	North Western Province	32	Kurunegala	Bandara Koswatta	60424	7.6095	80.1721
+LK	North Western Province	32	Kurunegala	Tuttiripitigama	60426	7.6023	80.1442
+LK	North Western Province	32	Kurunegala	Hettipola	60430	7.6033	80.0752
+LK	North Western Province	32	Kurunegala	Mandapola	60434	7.6338	80.1061
+LK	North Western Province	32	Kurunegala	Sunandapura	60436	7.6377	80.0637
+LK	North Western Province	32	Kurunegala	Boraluwewa	60437	7.6833	80.05
+LK	North Western Province	32	Kurunegala	Kuratihena	60438	7.6304	80.0235
+LK	North Western Province	32	Kurunegala	Pihimbiya Ratmale	60439	7.6377	80.0637
+LK	North Western Province	32	Kurunegala	Halmillawewa	60441	7.5963	80.0034
+LK	North Western Province	32	Kurunegala	Bingiriya	60450	7.6004	79.9345
+LK	North Western Province	32	Kurunegala	Tisogama	60453	7.6049	79.9443
+LK	North Western Province	32	Kurunegala	Weerapokuna	60454	7.6476	79.9904
+LK	North Western Province	32	Kurunegala	Wellarawa	60456	7.5666	79.908
+LK	North Western Province	32	Kurunegala	Hiruwalpola	60458	7.6049	79.9443
+LK	North Western Province	32	Kurunegala	Padeniya	60461	7.6556	80.2223
+LK	North Western Province	32	Kurunegala	Awulegama	60462	7.6556	80.2223
+LK	North Western Province	32	Kurunegala	Welawa Juncton	60464	7.6556	80.2223
+LK	North Western Province	32	Kurunegala	Wannigama	60465	7.6556	80.2223
+LK	North Western Province	32	Kurunegala	Nikaweratiya	60470	7.7503	80.1159
+LK	North Western Province	32	Kurunegala	Divullegoda	60472	7.75	80.2
+LK	North Western Province	32	Kurunegala	Hulogedara	60474	7.7833	80.1833
+LK	North Western Province	32	Kurunegala	Thimbiriyawa	60476	7.7667	80.1333
+LK	North Western Province	32	Kurunegala	Hulugalla	60477	7.7825	80.1378
+LK	North Western Province	32	Kurunegala	Sirisetagama	60478	7.7777	80.1506
+LK	North Western Province	32	Kurunegala	Mahagirilla	60479	7.8333	80.1333
+LK	North Western Province	32	Kurunegala	Nabadewa	60482	7.6833	80.0667
+LK	North Western Province	32	Kurunegala	Kotawehera	60483	7.7911	80.1023
+LK	North Western Province	32	Kurunegala	Meewellawa	60484	7.85	80.15
+LK	North Western Province	32	Kurunegala	Digannewa	60485	7.8811	80.1092
+LK	North Western Province	32	Kurunegala	Hilogama	60486	7.75	80.0833
+LK	North Western Province	32	Kurunegala	Wannirasnayakapura	60490	7.6851	80.1541
+LK	North Western Province	32	Kurunegala	Kadigawa	60492	7.715	79.9896
+LK	North Western Province	32	Kurunegala	Monnekulama	60495	7.8333	80.0667
+LK	North Western Province	32	Kurunegala	Torayaya	60499	7.5069	80.4061
+LK	North Western Province	32	Kurunegala	lbbagamuwa	60500	7.5979	80.457
+LK	North Western Province	32	Kurunegala	Kirindigalla	60502	7.5617	80.4807
+LK	North Western Province	32	Kurunegala	Kumbukwewa	60506	7.6342	80.4333
+LK	North Western Province	32	Kurunegala	Kumbukgeta	60508	7.5979	80.457
+LK	North Western Province	32	Kurunegala	Maeliya	60512	7.7411	80.4169
+LK	North Western Province	32	Kurunegala	Makulpotha	60514	7.7422	80.4467
+LK	North Western Province	32	Kurunegala	Mahamukalanyaya	60516	7.7417	80.4318
+LK	North Western Province	32	Kurunegala	Periyakadneluwa	60518	7.7417	80.4318
+LK	North Western Province	32	Kurunegala	Gokaralla	60522	7.6539	80.4367
+LK	North Western Province	32	Kurunegala	Dodangaslanda	60530	7.5729	80.5377
+LK	North Western Province	32	Kurunegala	Maduragoda	60532	7.5729	80.5377
+LK	North Western Province	32	Kurunegala	Melsiripura	60540	7.6442	80.5095
+LK	North Western Province	32	Kurunegala	Diddeniya	60544	7.6729	80.4793
+LK	North Western Province	32	Kurunegala	Hiriyala Lenawa	60546	7.6668	80.4796
+LK	North Western Province	32	Kurunegala	Kimbulwanaoya	60548	7.6668	80.4796
+LK	North Western Province	32	Kurunegala	Nelliya	60549	7.6833	80.45
+LK	North Western Province	32	Kurunegala	Madahapola	60552	7.7061	80.4964
+LK	North Western Province	32	Kurunegala	Pansiyagama	60554	7.7061	80.4964
+LK	North Western Province	32	Kurunegala	Panliyadda	60558	7.7061	80.4964
+LK	North Western Province	32	Kurunegala	Wellawa	60570	7.5556	80.3728
+LK	North Western Province	32	Kurunegala	Thalwita	60572	7.583	80.3667
+LK	North Western Province	32	Kurunegala	Makulwewa	60578	7.6103	80.3607
+LK	North Western Province	32	Kurunegala	Nikadalupotha	60580	7.6097	80.3925
+LK	North Western Province	32	Kurunegala	Hunupola	60582	7.6097	80.3925
+LK	North Western Province	32	Kurunegala	Thambagalla	60584	7.6097	80.3925
+LK	North Western Province	32	Kurunegala	Nagollagama	60590	7.7667	80.3
+LK	North Western Province	32	Kurunegala	Maho	60600	7.8228	80.2778
+LK	North Western Province	32	Kurunegala	Karambe	60602	7.7833	80.3333
+LK	North Western Province	32	Kurunegala	Balalla	60604	7.8	80.25
+LK	North Western Province	32	Kurunegala	Ridibendiella	60606	7.802	80.287
+LK	North Western Province	32	Kurunegala	Medivawa	60612	7.7498	80.3762
+LK	North Western Province	32	Kurunegala	Polpitigama	60620	7.8142	80.4042
+LK	North Western Province	32	Kurunegala	Ulpotha Pallekele	60622	7.8071	80.4188
+LK	North Western Province	32	Kurunegala	Thalakolawewa	60624	7.8	80.4333
+LK	North Western Province	32	Kurunegala	Konwewa	60630	7.6833	80.4167
+LK	North Western Province	32	Kurunegala	Moragollagama	60640	7.75	80.3
+LK	North Western Province	32	Kurunegala	Siyambalangamuwa	60646	7.6734	80.4748
+LK	North Western Province	32	Kurunegala	Ambanpola	60650	7.6214	80.4958
+LK	North Western Province	32	Kurunegala	Galgamuwa	60700	7.9965	80.2675
+LK	North Western Province	32	Kurunegala	Palukadawala	60704	7.947	80.2811
+LK	North Western Province	32	Kurunegala	Ataragalla	60706	7.9718	80.2743
+LK	North Western Province	32	Kurunegala	Gallewa	60712	7.9645	80.3232
+LK	North Western Province	32	Kurunegala	Makulewa	60714	8.0987	80.3427
+LK	North Western Province	32	Kurunegala	Ehetuwewa	60716	7.9334	80.34
+LK	North Western Province	32	Kurunegala	Embogama	60718	7.915	80.3626
+LK	North Western Province	32	Kurunegala	Wannikudawewa	60721	8.0107	80.2979
+LK	North Western Province	32	Kurunegala	Wannilhalagama	60722	8.0107	80.2979
+LK	North Western Province	32	Kurunegala	Mahananneriya	60724	8.0107	80.2979
+LK	North Western Province	32	Kurunegala	Mahagalkadawala	60731	8.0617	80.2936
+LK	North Western Province	32	Kurunegala	Usgala Siyabmalangamuwa	60732	8.0862	80.2271
+LK	North Western Province	32	Kurunegala	Tambutta	60734	8.0806	80.2311
+LK	North Western Province	32	Kurunegala	Pahalagiribawa	60735	8.0862	80.2271
+LK	North Western Province	32	Kurunegala	Saliya Asokapura	60736	8.0862	80.2271
+LK	North Western Province	32	Kurunegala	Solepura	60737	8.0862	80.2271
+LK	North Western Province	32	Kurunegala	Solewewa	60738	8.0862	80.2271
+LK	North Western Province	32	Kurunegala	Warawewa	60739	8.1162	80.1565
+LK	North Western Province	32	Kurunegala	Meegalawa	60750	7.9935	80.381
+LK	North Western Province	32	Kurunegala	Girathalana	60752	7.9935	80.381
+LK	North Western Province	32	Kurunegala	Kudakatnoruwa	60754	7.9935	80.381
+LK	North Western Province	32	Puttalam	Chilaw	61000	7.5758	79.7953
+LK	North Western Province	32	Puttalam	Udappuwa	61004	7.7477	79.7878
+LK	North Western Province	32	Puttalam	Wijeyakatupotha	61006	7.6618	79.7915
+LK	North Western Province	32	Puttalam	Wilpotha	61008	7.6618	79.7915
+LK	North Western Province	32	Puttalam	Adippala	61012	7.5789	79.8428
+LK	North Western Province	32	Puttalam	Mugunuwatawana	61014	7.5861	79.855
+LK	North Western Province	32	Puttalam	Ilippadeniya	61018	7.5716	79.8307
+LK	North Western Province	32	Puttalam	Karawitagara	61022	7.5303	79.7929
+LK	North Western Province	32	Puttalam	Ambakandawila	61024	7.5303	79.7929
+LK	North Western Province	32	Puttalam	Kumarakattuwa	61032	7.6577	79.8982
+LK	North Western Province	32	Puttalam	Pallama	61040	7.6841	79.9183
+LK	North Western Province	32	Puttalam	Serukele	61042	7.7313	79.9163
+LK	North Western Province	32	Puttalam	Waikkal	61110	7.2833	79.85
+LK	North Western Province	32	Puttalam	Nainamadama	61120	7.374	79.8842
+LK	North Western Province	32	Puttalam	Dankotuwa	61130	7.2964	79.8715
+LK	North Western Province	32	Puttalam	Bujjampola	61136	7.3299	79.9272
+LK	North Western Province	32	Puttalam	Lihiriyagama	61138	7.3461	79.9286
+LK	North Western Province	32	Puttalam	Yogiyana	61144	7.2915	79.9212
+LK	North Western Province	32	Puttalam	Lunuwila	61150	7.3462	79.8634
+LK	North Western Province	32	Puttalam	Ihala Kottaramulla	61154	7.382	79.8749
+LK	North Western Province	32	Puttalam	Koswatta	61158	7.3692	79.893
+LK	North Western Province	32	Puttalam	Pothuwatawana	61162	7.4921	79.9109
+LK	North Western Province	32	Puttalam	Wennappuwa	61170	7.3454	79.8386
+LK	North Western Province	32	Puttalam	Katuneriya	61180	7.3685	79.8314
+LK	North Western Province	32	Puttalam	Nattandiya	61190	7.4123	79.8624
+LK	North Western Province	32	Puttalam	Dunkannawa	61192	7.4265	79.8985
+LK	North Western Province	32	Puttalam	Muttibendiwila	61195	7.4541	79.8806
+LK	North Western Province	32	Puttalam	Watugahamulla	61198	7.4662	79.9101
+LK	North Western Province	32	Puttalam	Marawila	61210	7.4106	79.828
+LK	North Western Province	32	Puttalam	Mahawewa	61220	7.5139	79.9207
+LK	North Western Province	32	Puttalam	Toduwawa	61224	7.4925	79.8061
+LK	North Western Province	32	Puttalam	Kudawewa	61226	7.8857	80.0312
+LK	North Western Province	32	Puttalam	Madampe	61230	7.4979	79.8381
+LK	North Western Province	32	Puttalam	Galmuruwa	61233	7.5	79.8833
+LK	North Western Province	32	Puttalam	Panirendawa	61234	7.5575	79.8846
+LK	North Western Province	32	Puttalam	Kakkapalliya	61236	7.5306	79.8189
+LK	North Western Province	32	Puttalam	Bangadeniya	61238	7.627	79.8195
+LK	North Western Province	32	Puttalam	Rajakadaluwa	61242	7.6519	79.8339
+LK	North Western Province	32	Puttalam	Nalladarankattuwa	61244	7.6946	79.8363
+LK	North Western Province	32	Puttalam	Battuluoya	61246	7.6733	79.8351
+LK	North Western Province	32	Puttalam	Mundel	61250	7.8087	79.8246
+LK	North Western Province	32	Puttalam	Kottantivu	61252	7.8513	79.7899
+LK	North Western Province	32	Puttalam	Baranankattuwa	61262	7.7931	79.8601
+LK	North Western Province	32	Puttalam	Angunawila	61264	7.7753	79.8581
+LK	North Western Province	32	Puttalam	Mangalaeliya	61266	7.8501	79.8156
+LK	North Western Province	32	Puttalam	Madurankuliya	61270	7.8701	79.8229
+LK	North Western Province	32	Puttalam	Mahakumbukkadawala	61272	7.8393	79.8924
+LK	North Western Province	32	Puttalam	Mukkutoduwawa	61274	7.901	79.7534
+LK	North Western Province	32	Puttalam	Palaviya	61280	7.6767	79.8497
+LK	North Western Province	32	Puttalam	Puttalam	61300	8.0362	79.8283
+LK	North Western Province	32	Puttalam	Ismailpuram	61302	8.0362	79.8283
+LK	North Western Province	32	Puttalam	Vanathawilluwa	61306	8.0362	79.8283
+LK	North Western Province	32	Puttalam	Karativponparappi	61307	8.0362	79.8283
+LK	North Western Province	32	Puttalam	Eluwankulama	61308	8.0362	79.8283
+LK	North Western Province	32	Puttalam	Sirambiadiya	61312	8.112	80.0059
+LK	North Western Province	32	Puttalam	Karuwalagaswewa	61314	8.0638	79.9757
+LK	North Western Province	32	Puttalam	Ihala Puliyankulama	61316	8.1601	80.036
+LK	North Western Province	32	Puttalam	Tabbowa	61322	8.0993	79.8684
+LK	North Western Province	32	Puttalam	Saliyawewa Junction	61324	8.0993	79.8684
+LK	North Western Province	32	Puttalam	Puttalam Cement Factory	61326	8.0993	79.8684
+LK	North Western Province	32	Puttalam	Attawilluwa	61328	8.0993	79.8684
+LK	North Western Province	32	Puttalam	Mampuri	61341	7.9991	79.7391
+LK	North Western Province	32	Puttalam	Norachcholai	61342	7.9991	79.7391
+LK	North Western Province	32	Puttalam	Ettale	61343	7.9991	79.7391
+LK	North Western Province	32	Puttalam	Talawila Church	61344	7.9991	79.7391
+LK	North Western Province	32	Puttalam	Palliwasalturai	61354	8.0993	79.8684
+LK	North Western Province	32	Puttalam	Kurinjanpitiya	61356	8.0993	79.8684
+LK	North Western Province	32	Puttalam	Kandakuliya	61358	8.0993	79.8684
+LK	North Western Province	32	Puttalam	Kalpitiya	61360	8.2372	79.7628
+LK	North Western Province	32	Puttalam	Kirimundalama	61362	8.2372	79.7628
+LK	North Western Province	32	Puttalam	Anamaduwa	61500	7.8786	80.008
+LK	North Western Province	32	Puttalam	Uridyawa	61502	7.8226	79.9715
+LK	North Western Province	32	Puttalam	Siyambalagashene	61504	7.8226	79.9715
+LK	North Western Province	32	Puttalam	Mudalakkuliya	61506	7.8124	79.96
+LK	North Western Province	32	Puttalam	Andigama	61508	7.7768	79.9465
+LK	North Western Province	32	Puttalam	Mahauswewa	61512	7.9536	80.0573
+LK	North Western Province	32	Puttalam	Inginimitiya	61514	7.9468	80.1277
+LK	North Western Province	32	Puttalam	Kuruketiyawa	61516	8.0246	80.0513
+LK	North Western Province	32	Puttalam	Nawagattegama	61520	8	80.1167
+LK	North Western Province	32	Puttalam	Kottukachchiya	61532	7.9524	79.928
+LK	North Western Province	32	Puttalam	Kalladiya	61534	7.9524	79.928
+LK	Sabaragamuwa Province	33	Kegalle	Kegalle	71000	7.2523	80.3436
+LK	Sabaragamuwa Province	33	Kegalle	Deldeniya	71009	7.2863	80.3626
+LK	Sabaragamuwa Province	33	Kegalle	Hiriwadunna	71014	7.287	80.3783
+LK	Sabaragamuwa Province	33	Kegalle	Molagoda	71016	7.2578	80.3819
+LK	Sabaragamuwa Province	33	Kegalle	Deewala Pallegama	71022	7.2393	80.2857
+LK	Sabaragamuwa Province	33	Kegalle	Yattogoda	71029	7.2393	80.2857
+LK	Sabaragamuwa Province	33	Kegalle	Damunupola	71034	7.1813	80.3339
+LK	Sabaragamuwa Province	33	Kegalle	Watura	71035	7.1845	80.3794
+LK	Sabaragamuwa Province	33	Kegalle	Debathgama	71037	7.1807	80.4251
+LK	Sabaragamuwa Province	33	Kegalle	Pothukoladeniya	71039	7.1822	80.3795
+LK	Sabaragamuwa Province	33	Kegalle	Aruggammana	71041	7.1305	80.2991
+LK	Sabaragamuwa Province	33	Kegalle	Beligala(Sab)	71044	7.2189	80.3017
+LK	Sabaragamuwa Province	33	Kegalle	Helamada	71046	7.3073	80.3043
+LK	Sabaragamuwa Province	33	Kegalle	Dewalegama	71050	7.2801	80.3186
+LK	Sabaragamuwa Province	33	Kegalle	Imbulgasdeniya	71055	7.3101	80.3161
+LK	Sabaragamuwa Province	33	Kegalle	Nelundeniya	71060	7.2267	80.2728
+LK	Sabaragamuwa Province	33	Kegalle	Tuntota	71062	7.4944	79.9094
+LK	Sabaragamuwa Province	33	Kegalle	Mahapallegama	71063	7.3605	80.0911
+LK	Sabaragamuwa Province	33	Kegalle	Rambukkana	71100	7.3164	80.3906
+LK	Sabaragamuwa Province	33	Kegalle	Parape	71105	7.3667	80.4167
+LK	Sabaragamuwa Province	33	Kegalle	Thotawella	71106	7.3563	80.3983
+LK	Sabaragamuwa Province	33	Kegalle	Hewadiwela	71108	7.3858	80.3878
+LK	Sabaragamuwa Province	33	Kegalle	Udagaldeniya	71113	7.3511	80.3511
+LK	Sabaragamuwa Province	33	Kegalle	Dombemada	71115	7.3798	80.3469
+LK	Sabaragamuwa Province	33	Kegalle	Yatagama	71116	7.3224	80.3552
+LK	Sabaragamuwa Province	33	Kegalle	Pattampitiya	71130	7.3124	80.4339
+LK	Sabaragamuwa Province	33	Kegalle	Undugoda	71200	7.1456	80.3633
+LK	Sabaragamuwa Province	33	Kegalle	Kabagamuwa	71202	7.1335	80.3389
+LK	Sabaragamuwa Province	33	Kegalle	Alawatura	71204	7.1259	80.3246
+LK	Sabaragamuwa Province	33	Kegalle	Bossella	71208	7.1471	80.3992
+LK	Sabaragamuwa Province	33	Kegalle	Hettimulla	71210	7.2094	80.358
+LK	Sabaragamuwa Province	33	Kegalle	Maharangalla	71211	7.2094	80.358
+LK	Sabaragamuwa Province	33	Kegalle	Morontota	71220	7.173	80.3612
+LK	Sabaragamuwa Province	33	Kegalle	Gantuna	71222	7.173	80.3612
+LK	Sabaragamuwa Province	33	Kegalle	Bulathkohupitiya	71230	7.1032	80.3344
+LK	Sabaragamuwa Province	33	Kegalle	Ampagala	71232	7.0673	80.2955
+LK	Sabaragamuwa Province	33	Kegalle	Wegalla	71234	7.0967	80.3041
+LK	Sabaragamuwa Province	33	Kegalle	Udapotha	71236	7.0821	80.3759
+LK	Sabaragamuwa Province	33	Kegalle	Dedugala	71237	7.0991	80.4016
+LK	Sabaragamuwa Province	33	Kegalle	Ruwanwella	71300	7.0427	80.2517
+LK	Sabaragamuwa Province	33	Kegalle	Wahakula	71303	7.0593	80.2084
+LK	Sabaragamuwa Province	33	Kegalle	Waharaka	71304	7.096	80.1878
+LK	Sabaragamuwa Province	33	Kegalle	Galpatha(Sab)	71312	7.0494	80.2324
+LK	Sabaragamuwa Province	33	Kegalle	Imbulana	71313	7.0632	80.2544
+LK	Sabaragamuwa Province	33	Kegalle	Lewangama	71315	7.0494	80.2324
+LK	Sabaragamuwa Province	33	Kegalle	Gonagala	71318	7.0356	80.2104
+LK	Sabaragamuwa Province	33	Kegalle	Amitirigala	71320	7.0273	80.1836
+LK	Sabaragamuwa Province	33	Kegalle	Batuwita	71321	7.0537	80.1701
+LK	Sabaragamuwa Province	33	Kegalle	Malmaduwa	71325	7.1364	80.2738
+LK	Sabaragamuwa Province	33	Kegalle	Yatapana	71326	7.1369	80.3068
+LK	Sabaragamuwa Province	33	Kegalle	Galigamuwa Town	71350	7.2032	80.2956
+LK	Sabaragamuwa Province	33	Kegalle	Hakahinna	71352	7.2032	80.2956
+LK	Sabaragamuwa Province	33	Kegalle	Pitagaldeniya	71360	7.1453	80.2839
+LK	Sabaragamuwa Province	33	Kegalle	Atale	71363	7.1453	80.2839
+LK	Sabaragamuwa Province	33	Kegalle	Kotiyakumbura	71370	7.1238	80.2864
+LK	Sabaragamuwa Province	33	Kegalle	Kannattota	71372	7.0805	80.2794
+LK	Sabaragamuwa Province	33	Kegalle	Dehiowita	71400	6.9776	80.2624
+LK	Sabaragamuwa Province	33	Kegalle	Deloluwa	71401	6.9582	80.3174
+LK	Sabaragamuwa Province	33	Kegalle	Anhettigama	71403	6.9221	80.374
+LK	Sabaragamuwa Province	33	Kegalle	Noori	71407	6.9558	80.396
+LK	Sabaragamuwa Province	33	Kegalle	Maliboda	71411	6.8886	80.4285
+LK	Sabaragamuwa Province	33	Kegalle	Hinguralakanda	71417	6.9154	80.2972
+LK	Sabaragamuwa Province	33	Kegalle	Boralankada	71418	6.9721	80.3285
+LK	Sabaragamuwa Province	33	Kegalle	Deraniyagala	71430	6.9314	80.3352
+LK	Sabaragamuwa Province	33	Kegalle	Miyanawita	71432	6.9037	80.35
+LK	Sabaragamuwa Province	33	Kegalle	Mawanella	71500	7.2519	80.4453
+LK	Sabaragamuwa Province	33	Kegalle	Kondeniya	71501	7.265	80.433
+LK	Sabaragamuwa Province	33	Kegalle	Ambulugala	71503	7.2376	80.4168
+LK	Sabaragamuwa Province	33	Kegalle	Galatara	71505	7.2167	80.4167
+LK	Sabaragamuwa Province	33	Kegalle	Makehelwala	71507	7.2825	80.4736
+LK	Sabaragamuwa Province	33	Kegalle	Alutnuwara	71508	7.2333	80.4667
+LK	Sabaragamuwa Province	33	Kegalle	Ussapitiya	71510	7.2162	80.4483
+LK	Sabaragamuwa Province	33	Kegalle	Hingula	71520	7.2457	80.4664
+LK	Sabaragamuwa Province	33	Kegalle	Udumulla	71521	7.454	80.3993
+LK	Sabaragamuwa Province	33	Kegalle	Dewanagala	71527	7.2159	80.4704
+LK	Sabaragamuwa Province	33	Kegalle	Hemmatagama	71530	7.1736	80.5002
+LK	Sabaragamuwa Province	33	Kegalle	Kehelpannala	71533	7.1664	80.5187
+LK	Sabaragamuwa Province	33	Kegalle	Aranayaka	71540	7.1509	80.4614
+LK	Sabaragamuwa Province	33	Kegalle	Talgaspitiya	71541	7.1647	80.4793
+LK	Sabaragamuwa Province	33	Kegalle	Ambalakanda	71546	7.1366	80.4524
+LK	Sabaragamuwa Province	33	Kegalle	Warakapola	71600	7.2226	80.1887
+LK	Sabaragamuwa Province	33	Kegalle	Dorawaka	71601	7.1839	80.2198
+LK	Sabaragamuwa Province	33	Kegalle	Niyadurupola	71602	7.1665	80.2189
+LK	Sabaragamuwa Province	33	Kegalle	Galapitamada	71603	7.1374	80.2333
+LK	Sabaragamuwa Province	33	Kegalle	Dunumala	71605	7.1746	80.2058
+LK	Sabaragamuwa Province	33	Kegalle	Algama	71607	7.1627	80.1681
+LK	Sabaragamuwa Province	33	Kegalle	Tulhiriya	71610	7.2699	80.2256
+LK	Sabaragamuwa Province	33	Kegalle	Bopitiya (SAB)	71612	7.2523	80.2248
+LK	Sabaragamuwa Province	33	Kegalle	Tholangamuwa	71619	7.2347	80.2239
+LK	Sabaragamuwa Province	33	Kegalle	Weragala	71622	7.138	80.2568
+LK	Sabaragamuwa Province	33	Kegalle	Yatiyantota	71700	7.0279	80.2946
+LK	Sabaragamuwa Province	33	Kegalle	Weeoya	71702	7.0549	80.3693
+LK	Sabaragamuwa Province	33	Kegalle	Malalpola	71704	7.0579	80.3419
+LK	Sabaragamuwa Province	33	Kegalle	Berannawa	71706	7.0676	80.4123
+LK	Sabaragamuwa Province	33	Kegalle	Seaforth Colony	71708	7.0663	80.4283
+LK	Sabaragamuwa Province	33	Kegalle	Welihelatenna	71712	7.0281	80.3348
+LK	Sabaragamuwa Province	33	Kegalle	Hakbellawaka	71715	7.0281	80.3348
+LK	Sabaragamuwa Province	33	Kegalle	Migastenna Sabara	71716	7.0281	80.3348
+LK	Sabaragamuwa Province	33	Kegalle	Kitulgala	71720	6.9966	80.4068
+LK	Sabaragamuwa Province	33	Kegalle	Mahabage	71722	7.0225	80.4333
+LK	Sabaragamuwa Province	33	Kegalle	Teligama	71724	7.0079	80.3798
+LK	Sabaragamuwa Province	33	Ratnapura	Ratnapura	70000	6.6828	80.3992
+LK	Sabaragamuwa Province	33	Ratnapura	Malwala Junction	70001	6.707	80.4336
+LK	Sabaragamuwa Province	33	Ratnapura	Gillimale	70002	6.7292	80.439
+LK	Sabaragamuwa Province	33	Ratnapura	Sri Palabaddala	70004	6.7838	80.4462
+LK	Sabaragamuwa Province	33	Ratnapura	Kudawa	70005	6.7432	80.4772
+LK	Sabaragamuwa Province	33	Ratnapura	Hidellana	70012	6.7161	80.3795
+LK	Sabaragamuwa Province	33	Ratnapura	Kahangama	70016	6.6983	80.3688
+LK	Sabaragamuwa Province	33	Ratnapura	Dodampe	70017	6.7272	80.3255
+LK	Sabaragamuwa Province	33	Ratnapura	Karangoda	70018	6.6821	80.3674
+LK	Sabaragamuwa Province	33	Ratnapura	Dambuluwana	70019	6.7105	80.3324
+LK	Sabaragamuwa Province	33	Ratnapura	Medagalatur	70021	6.6405	80.2867
+LK	Sabaragamuwa Province	33	Ratnapura	Ayagama	70024	6.6358	80.3083
+LK	Sabaragamuwa Province	33	Ratnapura	Gawaragiriya	70026	6.6453	80.2652
+LK	Sabaragamuwa Province	33	Ratnapura	Elapatha	70032	6.6546	80.3712
+LK	Sabaragamuwa Province	33	Ratnapura	Udaniriella	70034	6.6546	80.3712
+LK	Sabaragamuwa Province	33	Ratnapura	Ratna Hangamuwa	70036	6.6546	80.3712
+LK	Sabaragamuwa Province	33	Ratnapura	Niralagama	70038	6.6546	80.3712
+LK	Sabaragamuwa Province	33	Ratnapura	Marapana	70041	6.6444	80.4446
+LK	Sabaragamuwa Province	33	Ratnapura	Dela	70042	6.6195	80.4502
+LK	Sabaragamuwa Province	33	Ratnapura	Udakarawita	70044	6.581	80.4534
+LK	Sabaragamuwa Province	33	Ratnapura	Pebotuwa	70045	6.5434	80.4528
+LK	Sabaragamuwa Province	33	Ratnapura	Delwala	70046	6.5169	80.4658
+LK	Sabaragamuwa Province	33	Ratnapura	Lellopitiya	70056	6.6627	80.4847
+LK	Sabaragamuwa Province	33	Ratnapura	Gallella	70062	6.855	80.3554
+LK	Sabaragamuwa Province	33	Ratnapura	Wewelwatta	70066	6.855	80.3554
+LK	Sabaragamuwa Province	33	Ratnapura	Pelmadulla	70070	6.6222	80.541
+LK	Sabaragamuwa Province	33	Ratnapura	Opanayaka	70080	6.6081	80.6181
+LK	Sabaragamuwa Province	33	Ratnapura	Akarella	70082	6.5773	80.6686
+LK	Sabaragamuwa Province	33	Ratnapura	Balangoda	70100	6.6466	80.7007
+LK	Sabaragamuwa Province	33	Ratnapura	Talakolahinna	70101	6.6112	80.7142
+LK	Sabaragamuwa Province	33	Ratnapura	Weligepola	70104	6.5683	80.715
+LK	Sabaragamuwa Province	33	Ratnapura	Hatangala	70105	6.5366	80.7455
+LK	Sabaragamuwa Province	33	Ratnapura	Handagiriya	70106	6.5239	80.8085
+LK	Sabaragamuwa Province	33	Ratnapura	Hatarabage	70108	6.6552	80.7571
+LK	Sabaragamuwa Province	33	Ratnapura	Mahawalatenna	70112	6.5881	80.746
+LK	Sabaragamuwa Province	33	Ratnapura	Wikiliya	70114	6.6192	80.7415
+LK	Sabaragamuwa Province	33	Ratnapura	Rajawaka	70116	6.6003	80.7976
+LK	Sabaragamuwa Province	33	Ratnapura	Mulgama	70117	6.6427	80.8155
+LK	Sabaragamuwa Province	33	Ratnapura	Tanjantenna	70118	6.6328	80.8548
+LK	Sabaragamuwa Province	33	Ratnapura	Kaltota	70122	6.6821	80.6757
+LK	Sabaragamuwa Province	33	Ratnapura	Welipathayaya	70124	6.6821	80.6757
+LK	Sabaragamuwa Province	33	Ratnapura	Meddekanda	70127	6.6763	80.6625
+LK	Sabaragamuwa Province	33	Ratnapura	Morahela	70129	6.6878	80.689
+LK	Sabaragamuwa Province	33	Ratnapura	Pinnawala	70130	6.7087	80.6789
+LK	Sabaragamuwa Province	33	Ratnapura	Bolthumbe	70131	6.71	80.6398
+LK	Sabaragamuwa Province	33	Ratnapura	Pambagolla	70133	6.7282	80.6921
+LK	Sabaragamuwa Province	33	Ratnapura	lmbulpe	70134	6.71	80.6398
+LK	Sabaragamuwa Province	33	Ratnapura	Rassagala	70135	6.6922	80.6385
+LK	Sabaragamuwa Province	33	Ratnapura	Gurubewilagama	70136	6.6911	80.576
+LK	Sabaragamuwa Province	33	Ratnapura	Waleboda	70138	6.7298	80.6135
+LK	Sabaragamuwa Province	33	Ratnapura	Belihuloya	70140	6.7181	80.7671
+LK	Sabaragamuwa Province	33	Ratnapura	Samanalawewa	70142	6.7181	80.7671
+LK	Sabaragamuwa Province	33	Ratnapura	Ihalagama	70144	6.7181	80.7671
+LK	Sabaragamuwa Province	33	Ratnapura	Halpe	70145	6.7181	80.7671
+LK	Sabaragamuwa Province	33	Ratnapura	Kahawatta	70150	6.5825	80.5755
+LK	Sabaragamuwa Province	33	Ratnapura	Panapitiya	70152	6.526	80.5581
+LK	Sabaragamuwa Province	33	Ratnapura	Udaha Hawupe	70154	6.5393	80.5484
+LK	Sabaragamuwa Province	33	Ratnapura	Gabbela	70156	6.5168	80.5451
+LK	Sabaragamuwa Province	33	Ratnapura	Madalagama	70158	6.5317	80.515
+LK	Sabaragamuwa Province	33	Ratnapura	Godakawela	70160	6.5063	80.6434
+LK	Sabaragamuwa Province	33	Ratnapura	Ranwala	70162	6.9022	80.4267
+LK	Sabaragamuwa Province	33	Ratnapura	Hapugastenna	70164	7.0881	80.1713
+LK	Sabaragamuwa Province	33	Ratnapura	NawinnaPinnakanda	70165	6.8322	80.4138
+LK	Sabaragamuwa Province	33	Ratnapura	Pallebedda	70170	6.4544	80.7388
+LK	Sabaragamuwa Province	33	Ratnapura	Halwinna	70171	6.443	80.7175
+LK	Sabaragamuwa Province	33	Ratnapura	Kolambageara	70180	6.636	80.6645
+LK	Sabaragamuwa Province	33	Ratnapura	Udawalawe	70190	6.636	80.6645
+LK	Sabaragamuwa Province	33	Ratnapura	Gangeyaya	70195	6.636	80.6645
+LK	Sabaragamuwa Province	33	Ratnapura	Embilipitiya	70200	6.3439	80.8489
+LK	Sabaragamuwa Province	33	Ratnapura	Tunkama	70205	6.29	80.8943
+LK	Sabaragamuwa Province	33	Ratnapura	Mulendiyawala	70212	6.2945	80.7625
+LK	Sabaragamuwa Province	33	Ratnapura	Omalpe	70215	6.3292	80.6918
+LK	Sabaragamuwa Province	33	Ratnapura	Panamura	70218	6.3118	80.7271
+LK	Sabaragamuwa Province	33	Ratnapura	Padalangala	70230	6.2675	80.9022
+LK	Sabaragamuwa Province	33	Ratnapura	Atakalanpanna	70294	6.5293	80.6085
+LK	Sabaragamuwa Province	33	Ratnapura	Hiramadagama	70296	6.5293	80.6085
+LK	Sabaragamuwa Province	33	Ratnapura	Makandura Sabara	70298	6.5293	80.6085
+LK	Sabaragamuwa Province	33	Ratnapura	Rakwana	70300	6.4725	80.6106
+LK	Sabaragamuwa Province	33	Ratnapura	Demuwatha	70332	6.4188	80.6387
+LK	Sabaragamuwa Province	33	Ratnapura	Pothupitiya	70338	6.4188	80.6387
+LK	Sabaragamuwa Province	33	Ratnapura	Ittakanda	70342	6.4003	80.6288
+LK	Sabaragamuwa Province	33	Ratnapura	Bomluwageaina	70344	6.4003	80.6288
+LK	Sabaragamuwa Province	33	Ratnapura	Ullinduwawa	70345	6.3649	80.6089
+LK	Sabaragamuwa Province	33	Ratnapura	Bulutota	70346	6.4357	80.6488
+LK	Sabaragamuwa Province	33	Ratnapura	Vijeriya	70348	6.4003	80.6288
+LK	Sabaragamuwa Province	33	Ratnapura	Kolonna	70350	6.4021	80.6865
+LK	Sabaragamuwa Province	33	Ratnapura	Kella Junction	70352	6.4021	80.6865
+LK	Sabaragamuwa Province	33	Ratnapura	Nivitigala	70400	6.6094	80.4186
+LK	Sabaragamuwa Province	33	Ratnapura	Kolombugama	70403	6.5681	80.4947
+LK	Sabaragamuwa Province	33	Ratnapura	Doloswalakanda	70404	6.5573	80.467
+LK	Sabaragamuwa Province	33	Ratnapura	Watapotha	70408	6.5905	80.5033
+LK	Sabaragamuwa Province	33	Ratnapura	Kalawana	70450	6.5391	80.4039
+LK	Sabaragamuwa Province	33	Ratnapura	Daugala	70455	6.4952	80.4232
+LK	Sabaragamuwa Province	33	Ratnapura	Waturawa	70456	6.489	80.4276
+LK	Sabaragamuwa Province	33	Ratnapura	Veddagala	70459	6.4574	80.4381
+LK	Sabaragamuwa Province	33	Ratnapura	Panapola	70461	6.4329	80.455
+LK	Sabaragamuwa Province	33	Ratnapura	Nawalakanda	70469	6.5124	80.3315
+LK	Sabaragamuwa Province	33	Ratnapura	Pimbura	70472	6.5728	80.169
+LK	Sabaragamuwa Province	33	Ratnapura	Kiriella	70480	6.7446	80.2662
+LK	Sabaragamuwa Province	33	Ratnapura	Matuwagalagama	70482	6.7745	80.2344
+LK	Sabaragamuwa Province	33	Ratnapura	Karandana	70488	6.8045	80.2027
+LK	Sabaragamuwa Province	33	Ratnapura	Ellagawa	70492	6.7359	80.2188
+LK	Sabaragamuwa Province	33	Ratnapura	Minipura Dumbara	70494	6.7359	80.2188
+LK	Sabaragamuwa Province	33	Ratnapura	Dumbara Manana	70495	6.7359	80.2188
+LK	Sabaragamuwa Province	33	Ratnapura	Kuruwita	70500	6.7765	80.3621
+LK	Sabaragamuwa Province	33	Ratnapura	Sudagala	70502	6.7928	80.3913
+LK	Sabaragamuwa Province	33	Ratnapura	Batatota	70504	6.8267	80.3673
+LK	Sabaragamuwa Province	33	Ratnapura	Eratna	70506	6.7987	80.3736
+LK	Sabaragamuwa Province	33	Ratnapura	Teppanawa	70512	6.7804	80.3164
+LK	Sabaragamuwa Province	33	Ratnapura	Parakaduwa	70550	6.8271	80.3126
+LK	Sabaragamuwa Province	33	Ratnapura	Ellaulla	70552	6.8559	80.3123
+LK	Sabaragamuwa Province	33	Ratnapura	Godagampola	70556	6.8848	80.3119
+LK	Sabaragamuwa Province	33	Ratnapura	Eheliyagoda	70600	6.8502	80.2624
+LK	Sabaragamuwa Province	33	Ratnapura	Erepola	70602	6.8126	80.2427
+LK	Sabaragamuwa Province	33	Ratnapura	Mitipola	70604	6.8279	80.2251
+LK	Sabaragamuwa Province	33	Ratnapura	Ellawala	70606	6.8092	80.2699
+LK	Sabaragamuwa Province	33	Ratnapura	Panawala	70612	6.8867	80.2716
+LK	Sabaragamuwa Province	33	Ratnapura	Getahetta	70620	6.9052	80.2193
+LK	Southern Province	34	Galle	Galle	80000	6.0367	80.217
+LK	Southern Province	34	Galle	Wakwella	80042	6.0949	80.2026
+LK	Southern Province	34	Galle	Anangoda	80044	6.0663	80.2468
+LK	Southern Province	34	Galle	Walahanduwa	80046	6.0568	80.2475
+LK	Southern Province	34	Galle	Ankokkawala	80048	6.0471	80.2902
+LK	Southern Province	34	Galle	Gonamulla Junction	80054	6.0647	80.3013
+LK	Southern Province	34	Galle	Hiyare	80056	6.0647	80.3013
+LK	Southern Province	34	Galle	Talagampola	80058	6.0647	80.3013
+LK	Southern Province	34	Galle	Kottawagama	80062	6.1439	80.3353
+LK	Southern Province	34	Galle	Nakiyadeniya	80064	6.1439	80.3353
+LK	Southern Province	34	Galle	Udugama	80070	6.2211	80.3336
+LK	Southern Province	34	Galle	Panangala	80075	6.2628	80.3223
+LK	Southern Province	34	Galle	Hiniduma	80080	6.3126	80.3116
+LK	Southern Province	34	Galle	Neluwa	80082	6.3757	80.3604
+LK	Southern Province	34	Galle	Warukandeniya	80084	6.3834	80.4182
+LK	Southern Province	34	Galle	Pannimulla Panagoda	80086	6.3572	80.3634
+LK	Southern Province	34	Galle	Akmeemana	80090	6.1818	80.3036
+LK	Southern Province	34	Galle	Meda-Keembiya	80092	6.1818	80.3036
+LK	Southern Province	34	Galle	Wanduramba	80100	6.1305	80.2521
+LK	Southern Province	34	Galle	Yatalamatta	80107	6.1619	80.2766
+LK	Southern Province	34	Galle	Udalamatta	80108	6.1828	80.2952
+LK	Southern Province	34	Galle	Nagoda	80110	6.1958	80.2742
+LK	Southern Province	34	Galle	Mapalagama	80112	6.2307	80.3254
+LK	Southern Province	34	Galle	Parana ThanaYamgoda	80114	6.2133	80.2998
+LK	Southern Province	34	Galle	Mapalagama Central	80116	6.2133	80.2998
+LK	Southern Province	34	Galle	Wanchawela	80120	6.0359	80.3156
+LK	Southern Province	34	Galle	Angulugaha	80122	6.0359	80.3156
+LK	Southern Province	34	Galle	lmaduwa	80130	6.1265	80.4898
+LK	Southern Province	34	Galle	Hawpe	80132	6.1265	80.4898
+LK	Southern Province	34	Galle	Ihala Walpola	80134	6.1265	80.4898
+LK	Southern Province	34	Galle	Kananke Bazaar	80136	6.1265	80.4898
+LK	Southern Province	34	Galle	Opatha	80142	6.3587	80.1412
+LK	Southern Province	34	Galle	Banagala	80143	6.2882	80.2376
+LK	Southern Province	34	Galle	Malgalla Talangalla	80144	6.3285	80.2408
+LK	Southern Province	34	Galle	Halvitigala Colony	80146	6.3285	80.2408
+LK	Southern Province	34	Galle	Tawalama	80148	6.3387	80.3437
+LK	Southern Province	34	Galle	Yakkalamulla	80150	6.1098	80.3454
+LK	Southern Province	34	Galle	Karagoda	80151	6.0931	80.3781
+LK	Southern Province	34	Galle	Magedara	80152	6.1036	80.4062
+LK	Southern Province	34	Galle	Uluvitike	80168	6.1763	80.3065
+LK	Southern Province	34	Galle	Poddala	80170	6.112	80.2105
+LK	Southern Province	34	Galle	Baddegama	80200	6.1652	80.1782
+LK	Southern Province	34	Galle	Ampegama	80204	6.1916	80.1463
+LK	Southern Province	34	Galle	Agaliya	80212	6.193	80.2006
+LK	Southern Province	34	Galle	Unenwitiya	80214	6.2456	80.2234
+LK	Southern Province	34	Galle	Weihena	80216	6.2982	80.2463
+LK	Southern Province	34	Galle	Ginimellagaha	80220	6.1438	80.159
+LK	Southern Province	34	Galle	Gonapinuwala	80230	6.1458	80.1384
+LK	Southern Province	34	Galle	Hikkaduwa	80240	6.1407	80.1012
+LK	Southern Province	34	Galle	Tiranagama	80244	6.1282	80.1245
+LK	Southern Province	34	Galle	Dodanduwa	80250	6.0962	80.1351
+LK	Southern Province	34	Galle	Ratgama	80260	6.0941	80.1429
+LK	Southern Province	34	Galle	Boossa	80270	6.0733	80.1577
+LK	Southern Province	34	Galle	Gintota	80280	6.0559	80.1774
+LK	Southern Province	34	Galle	Ambalangoda	80300	6.2355	80.0538
+LK	Southern Province	34	Galle	Godahena	80302	6.2393	80.0752
+LK	Southern Province	34	Galle	Kahawa	80312	6.1832	80.0734
+LK	Southern Province	34	Galle	Nindana	80318	6.2033	80.103
+LK	Southern Province	34	Galle	Batapola	80320	6.2216	80.1254
+LK	Southern Province	34	Galle	Kuleegoda	80328	6.2216	80.1254
+LK	Southern Province	34	Galle	Meetiyagoda	80330	6.1915	80.0895
+LK	Southern Province	34	Galle	Aluthwala	80332	6.1776	80.1386
+LK	Southern Province	34	Galle	Watugedara	80340	6.2545	80.0576
+LK	Southern Province	34	Galle	Uragasmanhandiya	80350	6.3429	80.0927
+LK	Southern Province	34	Galle	Uragaha	80352	6.3589	80.1181
+LK	Southern Province	34	Galle	Rantotuwila	80354	6.3847	80.097
+LK	Southern Province	34	Galle	Karandeniya	80360	6.2704	80.0794
+LK	Southern Province	34	Galle	Elpitiya	80400	6.2908	80.1626
+LK	Southern Province	34	Galle	Ella Tanabaddegama	80402	6.2899	80.1978
+LK	Southern Province	34	Galle	Talgaspe	80406	6.3081	80.1985
+LK	Southern Province	34	Galle	Porawagama	80408	6.2707	80.2324
+LK	Southern Province	34	Galle	Nawadagala	80416	6.3113	80.1333
+LK	Southern Province	34	Galle	Pitigala	80420	6.3517	80.2162
+LK	Southern Province	34	Galle	Amugoda	80422	6.3205	80.2173
+LK	Southern Province	34	Galle	Mattaka	80424	6.3041	80.2522
+LK	Southern Province	34	Galle	lhalahewessa	80432	6.2995	80.1968
+LK	Southern Province	34	Galle	Ganegoda	80440	6.3223	80.1516
+LK	Southern Province	34	Galle	Ethkandura	80458	6.2995	80.1968
+LK	Southern Province	34	Galle	Kahaduwa	80460	6.2159	80.2072
+LK	Southern Province	34	Galle	Talgaswela	80470	6.2995	80.1968
+LK	Southern Province	34	Galle	Bentota	80500	6.4254	79.9948
+LK	Southern Province	34	Galle	Gonagalpura	80502	6.4015	80.0291
+LK	Southern Province	34	Galle	Haburugala	80506	6.4001	80.0361
+LK	Southern Province	34	Galle	Miriswatta	80508	6.379	80.0563
+LK	Southern Province	34	Galle	lnduruwa	80510	6.3557	80.0304
+LK	Southern Province	34	Galle	Balapitiya	80550	6.278	80.0366
+LK	Southern Province	34	Galle	Ahungalla	80562	6.3136	80.0322
+LK	Southern Province	34	Galle	Kosgoda	80570	6.338	80.0262
+LK	Southern Province	34	Galle	Unawatuna	80600	6.0212	80.2503
+LK	Southern Province	34	Galle	Talpe	80615	5.9999	80.2787
+LK	Southern Province	34	Galle	Habaraduwa	80630	5.9977	80.2958
+LK	Southern Province	34	Galle	Ahangama	80650	5.9896	80.3598
+LK	Southern Province	34	Galle	Dikkumbura	80654	6.0116	80.3729
+LK	Southern Province	34	Hambantota	Hambantota	82000	6.1241	81.1185
+LK	Southern Province	34	Hambantota	Bundala	82002	6.1899	81.267
+LK	Southern Province	34	Hambantota	Weligatta	82004	6.2049	81.1976
+LK	Southern Province	34	Hambantota	Bandagiriya Colony	82005	6.1903	81.1721
+LK	Southern Province	34	Hambantota	Gonnoruwa	82006	6.2423	81.1053
+LK	Southern Province	34	Hambantota	Pahala Andarawewa	82008	6.1903	81.1721
+LK	Southern Province	34	Hambantota	Sooriyawewa Town	82010	6.1903	81.1721
+LK	Southern Province	34	Hambantota	Migahajandur	82014	6.1903	81.1721
+LK	Southern Province	34	Hambantota	Mahagalwewa	82016	6.1903	81.1721
+LK	Southern Province	34	Hambantota	Ranmuduwewa	82018	6.1903	81.1721
+LK	Southern Province	34	Hambantota	Ambalantota	82100	6.1196	81.0214
+LK	Southern Province	34	Hambantota	Beragama	82102	6.1493	81.0413
+LK	Southern Province	34	Hambantota	RU/Ridiyagama	82106	6.1344	81.0028
+LK	Southern Province	34	Hambantota	Lunama	82108	6.1074	80.9783
+LK	Southern Province	34	Hambantota	Mamadala	82109	6.1614	80.9701
+LK	Southern Province	34	Hambantota	Barawakumbuka	82110	6.2231	80.9308
+LK	Southern Province	34	Hambantota	Hungama	82120	6.1087	80.9309
+LK	Southern Province	34	Hambantota	Ranna	82125	6.0985	80.8807
+LK	Southern Province	34	Hambantota	Kahandamodara	82126	6.0705	80.8958
+LK	Southern Province	34	Hambantota	Netolpitiya	82135	6.0634	80.8363
+LK	Southern Province	34	Hambantota	Tangalla	82200	6.024	80.7911
+LK	Southern Province	34	Hambantota	Angunakolapelessa	82220	6.164	80.8913
+LK	Southern Province	34	Hambantota	Vitharandeniya	82232	6.1781	80.7994
+LK	Southern Province	34	Hambantota	Weeraketiya	82240	6.151	80.7643
+LK	Southern Province	34	Hambantota	Mulkirigala	82242	6.1315	80.7305
+LK	Southern Province	34	Hambantota	Wekandawela	82246	6.1423	80.776
+LK	Southern Province	34	Hambantota	Hakuruwela	82248	6.1443	80.8332
+LK	Southern Province	34	Hambantota	Julampitiya	82252	6.2212	80.7383
+LK	Southern Province	34	Hambantota	Medamulana	82254	6.1783	80.7692
+LK	Southern Province	34	Hambantota	Middeniya	82270	6.2502	80.7634
+LK	Southern Province	34	Hambantota	Kariyamaditta	82274	6.2554	80.8254
+LK	Southern Province	34	Hambantota	Ratmalwala	82276	6.2686	80.85
+LK	Southern Province	34	Hambantota	Uswewa	82278	6.2475	80.8628
+LK	Southern Province	34	Hambantota	Nakulugamuwa	82300	6.1905	80.9357
+LK	Southern Province	34	Hambantota	Beliatta	82400	6.0496	80.7325
+LK	Southern Province	34	Hambantota	Goda Koggalla	82401	6.0496	80.7325
+LK	Southern Province	34	Hambantota	Ihala Beligalla	82412	6.0947	80.7411
+LK	Southern Province	34	Hambantota	Nihiluwa	82414	6.0833	80.7
+LK	Southern Province	34	Hambantota	Modarawana	82416	6.1257	80.7112
+LK	Southern Province	34	Hambantota	Yatigala	82418	6.1056	80.692
+LK	Southern Province	34	Hambantota	Getamanna	82420	6.0333	80.6833
+LK	Southern Province	34	Hambantota	Walasmulla	82450	6.1521	80.6941
+LK	Southern Province	34	Hambantota	Pallekanda	82454	6.4572	80.7187
+LK	Southern Province	34	Hambantota	Horewelagoda	82456	6.3047	80.7064
+LK	Southern Province	34	Hambantota	Bowalagama	82458	6.3047	80.7064
+LK	Southern Province	34	Hambantota	Ittademaliya	82462	6.1565	80.7256
+LK	Southern Province	34	Hambantota	Katuwana	82500	6.2683	80.6971
+LK	Southern Province	34	Hambantota	Uda Gomadiya	82504	6.2683	80.6971
+LK	Southern Province	34	Hambantota	Kirama	82550	6.2098	80.6632
+LK	Southern Province	34	Hambantota	Rammalawarapitiya	82554	6.2098	80.6632
+LK	Southern Province	34	Hambantota	Gangulandeniya	82586	6.2833	80.7182
+LK	Southern Province	34	Hambantota	Tissamaharama	82600	6.2765	81.2865
+LK	Southern Province	34	Hambantota	Gonagamuwa Uduwila	82602	6.2466	81.2933
+LK	Southern Province	34	Hambantota	Magama	82608	6.2167	81.3
+LK	Southern Province	34	Hambantota	Ranakeliya	82612	6.2187	81.322
+LK	Southern Province	34	Hambantota	Kirinda	82614	6.2186	81.3256
+LK	Southern Province	34	Hambantota	Weerawila NewTown	82615	6.2782	81.2872
+LK	Southern Province	34	Hambantota	Beralihela	82618	6.3391	81.2571
+LK	Southern Province	34	Hambantota	Ellagala	82619	6.3362	81.2441
+LK	Southern Province	34	Hambantota	Kawantissapura	82622	6.2908	81.2463
+LK	Southern Province	34	Hambantota	Weerawila	82632	6.2594	81.2164
+LK	Southern Province	34	Hambantota	Lunugamwehera	82634	6.3434	81.2001
+LK	Southern Province	34	Hambantota	Padawkema	82636	6.3599	81.1778
+LK	Southern Province	34	Hambantota	Udamattala	82638	6.3391	81.1337
+LK	Southern Province	34	Matara	Matara	81000	5.9485	80.5353
+LK	Southern Province	34	Matara	Naimana	81017	6.0249	80.5641
+LK	Southern Province	34	Matara	Kekanadurra	81020	6.0249	80.5641
+LK	Southern Province	34	Matara	Ratmale	81030	5.9667	80.65
+LK	Southern Province	34	Matara	Aparekka	81032	6	80.6
+LK	Southern Province	34	Matara	Yatiyana	81034	6.0333	80.6
+LK	Southern Province	34	Matara	Diyagaha	81038	5.9833	80.5667
+LK	Southern Province	34	Matara	Palatuwa	81050	5.9833	80.5167
+LK	Southern Province	34	Matara	Sultanagoda	81051	5.9667	80.5
+LK	Southern Province	34	Matara	Telijjawila	81060	6.0249	80.5641
+LK	Southern Province	34	Matara	Ransegoda	81064	6.0249	80.5641
+LK	Southern Province	34	Matara	Makandura	81070	6.1368	80.5568
+LK	Southern Province	34	Matara	Mulatiyana Junction	81071	6.1919	80.5697
+LK	Southern Province	34	Matara	Gomilamawarala	81072	6.1919	80.5697
+LK	Southern Province	34	Matara	Rotumba	81074	6.2469	80.5826
+LK	Southern Province	34	Matara	Karagoda Uyangoda	81082	6.0249	80.5641
+LK	Southern Province	34	Matara	Nadugala	81092	5.9833	80.5333
+LK	Southern Province	34	Matara	Kamburupitiya	81100	6.0833	80.5667
+LK	Southern Province	34	Matara	Karaputugala	81106	6.0833	80.6
+LK	Southern Province	34	Matara	Horapawita	81108	6.1069	80.5866
+LK	Southern Province	34	Matara	Devinuwara (Dondra)	81160	5.9319	80.6069
+LK	Southern Province	34	Matara	Gandara	81170	5.9333	80.6
+LK	Southern Province	34	Matara	Kottegoda	81180	6.0278	80.592
+LK	Southern Province	34	Matara	Dikwella	81200	5.9667	80.6833
+LK	Southern Province	34	Matara	Walasgala	81220	5.9911	80.7019
+LK	Southern Province	34	Matara	Urugamuwa	81230	6.0116	80.6437
+LK	Southern Province	34	Matara	Thihagoda	81280	6.0167	80.5667
+LK	Southern Province	34	Matara	Puhulwella	81290	6.05	80.6167
+LK	Southern Province	34	Matara	Walakanda	81294	6.0333	80.65
+LK	Southern Province	34	Matara	Hakmana	81300	6.0836	80.6445
+LK	Southern Province	34	Matara	Narawelpita	81302	6.0836	80.6445
+LK	Southern Province	34	Matara	Miella	81312	6.1175	80.6797
+LK	Southern Province	34	Matara	Denagama	81314	6.1146	80.6606
+LK	Southern Province	34	Matara	Radawela	81316	6.1337	80.6142
+LK	Southern Province	34	Matara	Karatota	81318	6.0667	80.6667
+LK	Southern Province	34	Matara	Deiyandara	81320	6.1446	80.5978
+LK	Southern Province	34	Matara	Parapamulla	81322	6.1596	80.6211
+LK	Southern Province	34	Matara	Handugala	81326	6.1895	80.6193
+LK	Southern Province	34	Matara	Akuressa	81400	6.1007	80.4693
+LK	Southern Province	34	Matara	Athuraliya	81402	6.1083	80.4884
+LK	Southern Province	34	Matara	Wilpita	81404	6.1041	80.5134
+LK	Southern Province	34	Matara	Godapitiya	81408	6.1201	80.4825
+LK	Southern Province	34	Matara	Bopagoda	81412	6.1564	80.4872
+LK	Southern Province	34	Matara	Urumutta	81414	6.1563	80.5151
+LK	Southern Province	34	Matara	Maramba	81416	6.1563	80.5011
+LK	Southern Province	34	Matara	Diyalape	81422	6.1215	80.4552
+LK	Southern Province	34	Matara	Maliduwa	81424	6.1252	80.4069
+LK	Southern Province	34	Matara	Pitabeddara	81450	6.2014	80.4593
+LK	Southern Province	34	Matara	Deegala Lenama	81452	6.2223	80.465
+LK	Southern Province	34	Matara	Derangala	81454	6.2432	80.4706
+LK	Southern Province	34	Matara	Kiriwelkele	81456	6.2223	80.465
+LK	Southern Province	34	Matara	Siyambalagoda	81462	6.0667	80.7667
+LK	Southern Province	34	Matara	Morawaka	81470	6.2594	80.4889
+LK	Southern Province	34	Matara	Pahala Millawa	81472	6.297	80.469
+LK	Southern Province	34	Matara	Paragala	81474	6.2328	80.5321
+LK	Southern Province	34	Matara	Alapaladeniya	81475	6.2738	80.4557
+LK	Southern Province	34	Matara	Dellawa	81477	6.3355	80.4488
+LK	Southern Province	34	Matara	Kalubowitiyana	81478	6.3167	80.4
+LK	Southern Province	34	Matara	Waralla	81479	6.2739	80.5333
+LK	Southern Province	34	Matara	Kotapola	81480	6.296	80.5421
+LK	Southern Province	34	Matara	Deniyaya	81500	6.3461	80.5515
+LK	Southern Province	34	Matara	Viharahena	81508	6.3664	80.5903
+LK	Southern Province	34	Matara	Kiriweldola	81514	6.3679	80.5306
+LK	Southern Province	34	Matara	Kolawenigama	81522	6.3235	80.5101
+LK	Southern Province	34	Matara	Mediripitiya	81524	6.3392	80.4921
+LK	Southern Province	34	Matara	Lankagama	81526	6.355	80.4742
+LK	Southern Province	34	Matara	Moragala Kirillapone	81532	6.2886	80.5975
+LK	Southern Province	34	Matara	Pothdeniya	81538	6.2886	80.5975
+LK	Southern Province	34	Matara	Beralapanathara	81541	6.3412	80.5424
+LK	Southern Province	34	Matara	Urubokka	81600	6.3041	80.6312
+LK	Southern Province	34	Matara	Dampahala	81612	6.2717	80.631
+LK	Southern Province	34	Matara	Bengamuwa	81614	6.2592	80.6012
+LK	Southern Province	34	Matara	Pasgoda	81615	6.2654	80.6161
+LK	Southern Province	34	Matara	Weligama	81700	5.975	80.4297
+LK	Southern Province	34	Matara	Penetiyana	81722	6.0333	80.45
+LK	Southern Province	34	Matara	Denipitiya	81730	5.9667	80.45
+LK	Southern Province	34	Matara	Mirissa	81740	5.9333	80.45
+LK	Southern Province	34	Matara	Kamburugamuwa	81750	5.9486	80.5006
+LK	Province of Uva	35	Badulla	Badulla	90000	6.9895	81.0557
+LK	Province of Uva	35	Badulla	Soranatota	90008	7.0331	81.0508
+LK	Province of Uva	35	Badulla	Timbirigaspitiya	90012	7.0195	81.0672
+LK	Province of Uva	35	Badulla	Egodawela	90013	7.065	81.0619
+LK	Province of Uva	35	Badulla	Taldena	90014	7.0956	81.0479
+LK	Province of Uva	35	Badulla	Meegahakiula	90015	7.0866	81.0689
+LK	Province of Uva	35	Badulla	Ketawatta	90016	7.094	81.0912
+LK	Province of Uva	35	Badulla	Arawa	90017	7.1591	81.0761
+LK	Province of Uva	35	Badulla	Baduluoya	90019	7.0866	81.0689
+LK	Province of Uva	35	Badulla	Kandaketya	90020	7.1089	81.0089
+LK	Province of Uva	35	Badulla	Maliyadda	90022	7.1089	81.0089
+LK	Province of Uva	35	Badulla	Rilpola	90026	7.1089	81.0089
+LK	Province of Uva	35	Badulla	Spring Valley	90028	7.1089	81.0089
+LK	Province of Uva	35	Badulla	Wineethagama	90034	7.0057	81.0533
+LK	Province of Uva	35	Badulla	Nelumgama	90042	7.0053	81.0743
+LK	Province of Uva	35	Badulla	Sirimalgoda	90044	7.0031	81.0829
+LK	Province of Uva	35	Badulla	Kuttiyagolla	90046	7.0214	81.0879
+LK	Province of Uva	35	Badulla	Kendagolla	90048	6.9977	81.1086
+LK	Province of Uva	35	Badulla	Kahataruppa	90052	7.0333	81.1167
+LK	Province of Uva	35	Badulla	Hali Ela	90060	6.9536	81.0299
+LK	Province of Uva	35	Badulla	Uva Uduwara	90061	7.0218	80.9957
+LK	Province of Uva	35	Badulla	Uva Deegalla	90062	7.0218	80.9957
+LK	Province of Uva	35	Badulla	Jangulla	90063	7.0218	80.9957
+LK	Province of Uva	35	Badulla	Narangala	90064	7.0218	80.9957
+LK	Province of Uva	35	Badulla	Galauda	90065	7.034	80.9861
+LK	Province of Uva	35	Badulla	Beramada	90066	7.0544	80.9785
+LK	Province of Uva	35	Badulla	Godunna	90067	7.0691	80.9803
+LK	Province of Uva	35	Badulla	Landewela	90068	6.9977	81.0039
+LK	Province of Uva	35	Badulla	Kandegedara	90070	7.0276	81.0339
+LK	Province of Uva	35	Badulla	Pathanewatta	90071	7.0276	81.0339
+LK	Province of Uva	35	Badulla	Tennepanguwa	90072	7.0276	81.0339
+LK	Province of Uva	35	Badulla	Demodara	90080	6.9002	81.0555
+LK	Province of Uva	35	Badulla	Gawarawela	90082	6.9	81.0639
+LK	Province of Uva	35	Badulla	Ella	90090	6.8756	81.0463
+LK	Province of Uva	35	Badulla	Uva Karandagolla	90091	6.8336	81.0705
+LK	Province of Uva	35	Badulla	Ballaketuwa	90092	6.8667	81.1
+LK	Province of Uva	35	Badulla	Helapupula	90094	6.8586	81.0723
+LK	Province of Uva	35	Badulla	Bandarawela	90100	6.8334	80.9853
+LK	Province of Uva	35	Badulla	Kebillawela	90102	6.811	80.9962
+LK	Province of Uva	35	Badulla	Dulgolla	90104	7.2388	80.7293
+LK	Province of Uva	35	Badulla	Liyangahawela	90106	6.9251	80.9389
+LK	Province of Uva	35	Badulla	Ambadandegama	90108	6.8173	81.0448
+LK	Province of Uva	35	Badulla	Heeloya	90112	6.8447	81.0199
+LK	Province of Uva	35	Badulla	Makulella	90114	6.8447	81.0199
+LK	Province of Uva	35	Badulla	Helahalpe	90122	6.8885	81.0357
+LK	Province of Uva	35	Badulla	Diganatenna	90132	6.8667	80.9667
+LK	Province of Uva	35	Badulla	Mirahawatta	90134	6.8718	80.9445
+LK	Province of Uva	35	Badulla	Pattiyagedara	90138	6.8751	80.979
+LK	Province of Uva	35	Badulla	Ettampitiya	90140	6.9387	80.9717
+LK	Province of Uva	35	Badulla	Diyatalawa	90150	6.8007	80.9546
+LK	Province of Uva	35	Badulla	Haputale	90160	6.7681	80.9595
+LK	Province of Uva	35	Badulla	Ratkarawwa	90164	6.8	80.9167
+LK	Province of Uva	35	Badulla	Nikapotha	90165	6.7333	80.9667
+LK	Province of Uva	35	Badulla	Akkarasiyaya	90166	6.7797	80.9208
+LK	Province of Uva	35	Badulla	Ohiya	90168	6.8173	80.8403
+LK	Province of Uva	35	Badulla	Boralanda	90170	6.827	80.894
+LK	Province of Uva	35	Badulla	Pitapola	90171	6.8097	80.893
+LK	Province of Uva	35	Badulla	Haldummulla	90180	6.7603	80.8844
+LK	Province of Uva	35	Badulla	Soragune	90183	6.8294	80.8806
+LK	Province of Uva	35	Badulla	Kiriwanagama	90184	6.9682	80.9118
+LK	Province of Uva	35	Badulla	Kalupahana	90186	6.7596	80.8455
+LK	Province of Uva	35	Badulla	Uva Tenna	90188	6.8294	80.8806
+LK	Province of Uva	35	Badulla	Koslanda	90190	6.7434	81.0189
+LK	Province of Uva	35	Badulla	Uva Mawelagama	90192	6.7434	81.0189
+LK	Province of Uva	35	Badulla	Welimada	90200	6.9044	80.9044
+LK	Province of Uva	35	Badulla	Amunumulla	90204	6.8664	80.9084
+LK	Province of Uva	35	Badulla	Galedanda	90206	6.8258	80.9291
+LK	Province of Uva	35	Badulla	Gurutalawa	90208	6.8362	80.9122
+LK	Province of Uva	35	Badulla	Puhulpola	90212	6.9028	80.9238
+LK	Province of Uva	35	Badulla	Dikkapitiya	90214	6.7422	80.9733
+LK	Province of Uva	35	Badulla	Nugatalawa	90216	6.8994	80.8806
+LK	Province of Uva	35	Badulla	Medawela Udukinda	90218	6.8481	80.9259
+LK	Province of Uva	35	Badulla	Perawella	90222	6.9378	80.8389
+LK	Province of Uva	35	Badulla	Hangunnawa	90224	6.9513	80.8729
+LK	Province of Uva	35	Badulla	Uduhawara	90226	6.9667	80.8667
+LK	Province of Uva	35	Badulla	Uvaparanagama	90230	6.8833	80.901
+LK	Province of Uva	35	Badulla	Ambagasdowa	90300	6.9232	80.8936
+LK	Province of Uva	35	Badulla	Bowela	90302	6.95	80.9333
+LK	Province of Uva	35	Badulla	Lunuwatta	90310	6.9334	80.9006
+LK	Province of Uva	35	Badulla	Bambarapana	90322	7.0032	80.9678
+LK	Province of Uva	35	Badulla	Dimbulana	90324	7	80.95
+LK	Province of Uva	35	Badulla	Ambagahawatta	90326	7.0167	80.9551
+LK	Province of Uva	35	Badulla	Maspanna	90328	7.0167	80.95
+LK	Province of Uva	35	Badulla	Yalagamuwa	90329	7.0469	80.9525
+LK	Province of Uva	35	Badulla	Keppetipola	90350	6.8975	80.8705
+LK	Province of Uva	35	Badulla	Kalubululanda	90352	6.8621	80.8791
+LK	Province of Uva	35	Badulla	Bogahakumbura	90354	6.8631	80.8639
+LK	Province of Uva	35	Badulla	Kandepuhulpola	90356	6.838	80.8638
+LK	Province of Uva	35	Badulla	Hewanakumbura	90358	6.8902	80.8473
+LK	Province of Uva	35	Badulla	Boragas	90362	6.9097	80.8356
+LK	Province of Uva	35	Badulla	Silmiyapura	90364	6.9097	80.8356
+LK	Province of Uva	35	Badulla	Passara	90500	6.9346	81.1574
+LK	Province of Uva	35	Badulla	Bibilegama	90502	6.8945	81.1361
+LK	Province of Uva	35	Badulla	Miriyabedda	90504	6.9	81.1667
+LK	Province of Uva	35	Badulla	Kotamuduna	90506	6.8929	81.1841
+LK	Province of Uva	35	Badulla	Hingurukaduwa	90508	6.8288	81.1573
+LK	Province of Uva	35	Badulla	Gamewela	90512	6.9186	81.2056
+LK	Province of Uva	35	Badulla	Medawelagama	90518	6.976	81.1712
+LK	Province of Uva	35	Badulla	Pelagahatenna	90522	6.9644	81.1584
+LK	Province of Uva	35	Badulla	Hopton	90524	6.9644	81.1584
+LK	Province of Uva	35	Badulla	Lunugala	90530	7.0369	81.2017
+LK	Province of Uva	35	Badulla	Arawakumbura	90532	7.0849	81.1982
+LK	Province of Uva	35	Badulla	Pallekiruwa	90534	7.0098	81.2362
+LK	Province of Uva	35	Badulla	Madulsima	90535	7.0334	81.1687
+LK	Province of Uva	35	Badulla	Metigahatenna	90540	6.9667	81.0833
+LK	Province of Uva	35	Badulla	Atakiriya	90542	7.0698	81.1023
+LK	Province of Uva	35	Badulla	Pitamaruwa	90544	7.1162	81.1262
+LK	Province of Uva	35	Badulla	Kalugahakandura	90546	7.1264	81.0975
+LK	Province of Uva	35	Badulla	Namunukula	90580	6.9041	81.1211
+LK	Province of Uva	35	Badulla	Maussagolla	90582	6.9091	81.1323
+LK	Province of Uva	35	Badulla	Miyanakandura	90584	6.8619	81.1486
+LK	Province of Uva	35	Badulla	Mahiyanganaya	90700	7.2444	81.1167
+LK	Province of Uva	35	Badulla	Uraniya	90702	7.2333	81.1
+LK	Province of Uva	35	Badulla	Ridimaliyadda	90704	7.2333	81.1
+LK	Province of Uva	35	Badulla	Yalwela	90706	7.2667	81.15
+LK	Province of Uva	35	Badulla	Arawatta	90712	7.3333	81.05
+LK	Province of Uva	35	Badulla	Dambana	90714	7.3583	81.1083
+LK	Province of Uva	35	Badulla	Wewatta	90716	7.3833	81.1667
+LK	Province of Uva	35	Badulla	Sorabora Colony	90718	7.3583	81.1083
+LK	Province of Uva	35	Badulla	Aluttaramma	90722	7.2221	81.0612
+LK	Province of Uva	35	Badulla	Hebarawa	90724	7.2221	81.0612
+LK	Province of Uva	35	Badulla	Divulapelessa	90726	7.2221	81.0612
+LK	Province of Uva	35	Badulla	Kuruwitenna	90728	7.2221	81.0612
+LK	Province of Uva	35	Badulla	Mapakadawewa	90730	7.3	81.1167
+LK	Province of Uva	35	Badulla	Uva Tissapura	90734	7.3	81.1167
+LK	Province of Uva	35	Badulla	Aluketiyawa	90736	7.3	81.1167
+LK	Province of Uva	35	Badulla	Keselpotha	90738	7.3	81.1167
+LK	Province of Uva	35	Badulla	Girandurukotte	90750	7.4	81.05
+LK	Province of Uva	35	Badulla	Galporuyaya	90752	7.4	81.05
+LK	Province of Uva	35	Badulla	Malgoda	90754	7.4	81.05
+LK	Province of Uva	35	Badulla	Pahalarathkinda	90756	7.4	81.05
+LK	Province of Uva	35	Badulla	Idalgashinna	96167	6.7819	80.8931
+LK	Province of Uva	35	Moneragala	Sewanagala	70250	6.3424	80.7847
+LK	Province of Uva	35	Moneragala	Kiriibbanwewa	70252	6.3424	80.7847
+LK	Province of Uva	35	Moneragala	Ekamutugama	70254	6.3424	80.7847
+LK	Province of Uva	35	Moneragala	Mahagama Colony	70256	6.3424	80.7847
+LK	Province of Uva	35	Moneragala	Monaragala	91000	6.8714	81.3487
+LK	Province of Uva	35	Moneragala	Pangura	91002	6.9825	81.3244
+LK	Province of Uva	35	Moneragala	Nakkala	91003	6.8875	81.2939
+LK	Province of Uva	35	Moneragala	Hulandawa	91004	6.8515	81.3427
+LK	Province of Uva	35	Moneragala	Wedikumbura	91005	6.8349	81.3879
+LK	Province of Uva	35	Moneragala	Marawa	91006	6.8169	81.3743
+LK	Province of Uva	35	Moneragala	Obbegoda	91007	6.9242	81.3493
+LK	Province of Uva	35	Moneragala	Galabedda	91008	6.9196	81.3805
+LK	Province of Uva	35	Moneragala	Dombagahawela	91010	6.9016	81.4425
+LK	Province of Uva	35	Moneragala	Ethimalewewa	91020	6.7689	81.4863
+LK	Province of Uva	35	Moneragala	Wilaoya	91022	6.8261	81.4907
+LK	Province of Uva	35	Moneragala	Kotiyagala	91024	6.7117	81.4818
+LK	Province of Uva	35	Moneragala	Siyambalanduwa	91030	6.9067	81.5461
+LK	Province of Uva	35	Moneragala	Kandaudapanguwa	91032	6.975	81.5149
+LK	Province of Uva	35	Moneragala	Buddama	91038	7.0434	81.4838
+LK	Province of Uva	35	Moneragala	Inginiyagala	91040	7.2233	81.541
+LK	Province of Uva	35	Moneragala	Nelliyadda	91042	7.2233	81.541
+LK	Province of Uva	35	Moneragala	Dambagalla	91050	6.9557	81.367
+LK	Province of Uva	35	Moneragala	Mariarawa	91052	6.9754	81.473
+LK	Province of Uva	35	Moneragala	Uva Gangodagama	91054	7.0113	81.4147
+LK	Province of Uva	35	Moneragala	Ruwalwela	91056	7.0262	81.386
+LK	Province of Uva	35	Moneragala	Baduluwela	91058	7.0878	81.4329
+LK	Province of Uva	35	Moneragala	Okkampitiya	91060	6.7456	81.3057
+LK	Province of Uva	35	Moneragala	Badalkumbura	91070	6.8922	81.2396
+LK	Province of Uva	35	Moneragala	Kumbukkana	91098	6.8235	81.3068
+LK	Province of Uva	35	Moneragala	Buttala	91100	6.7608	81.2488
+LK	Province of Uva	35	Moneragala	Moretuwegama	91108	6.7608	81.2488
+LK	Province of Uva	35	Moneragala	Uva Pelwatta	91112	6.7608	81.2488
+LK	Province of Uva	35	Moneragala	Warunagama	91198	6.7608	81.2488
+LK	Province of Uva	35	Moneragala	Wellawaya	91200	6.7264	81.1046
+LK	Province of Uva	35	Moneragala	Siyambalagune	91202	6.8043	81.1386
+LK	Province of Uva	35	Moneragala	Randeniya	91204	6.7856	81.109
+LK	Province of Uva	35	Moneragala	Weherayaya Handapanagala	91206	6.7721	81.1174
+LK	Province of Uva	35	Moneragala	Ettiliwewa	91250	6.682	81.1048
+LK	Province of Uva	35	Moneragala	Balaharuwa	91295	6.5716	81.049
+LK	Province of Uva	35	Moneragala	Uva Kudaoya	91298	6.5219	81.1228
+LK	Province of Uva	35	Moneragala	Tanamalwila	91300	6.4331	81.1285
+LK	Province of Uva	35	Moneragala	Angunakolawewa	91302	6.4004	81.0877
+LK	Province of Uva	35	Moneragala	Suriara	91306	6.4555	81.0577
+LK	Province of Uva	35	Moneragala	Hambegamuwa	91308	6.5331	80.9568
+LK	Province of Uva	35	Moneragala	Kotawehera Mankada	91312	6.4555	81.0577
+LK	Province of Uva	35	Moneragala	Kataragama	91400	6.4134	81.3346
+LK	Province of Uva	35	Moneragala	Sella Kataragama	91405	6.4134	81.3346
+LK	Province of Uva	35	Moneragala	Bibile	91500	7.1577	81.2192
+LK	Province of Uva	35	Moneragala	Ekiriyankumbura	91502	7.3	81.2167
+LK	Province of Uva	35	Moneragala	Pitakumbura	91505	7.1841	81.2816
+LK	Province of Uva	35	Moneragala	Nilgala	91508	7.1925	81.3759
+LK	Province of Uva	35	Moneragala	Kotagama	91512	7.1236	81.1902
+LK	Province of Uva	35	Moneragala	Diyakobala	91514	7.1056	81.2314
+LK	Province of Uva	35	Moneragala	Ayiwela	91516	7.1084	81.2411
+LK	Province of Uva	35	Moneragala	Nannapurawa	91519	7.0847	81.2629
+LK	Province of Uva	35	Moneragala	Medagana	91550	6.9979	81.2821
+LK	Province of Uva	35	Moneragala	Kandawinna	91552	6.9979	81.2821
+LK	Province of Uva	35	Moneragala	Bakinigahawela	91554	6.9979	81.2821
+LK	Western Province	36	Colombo	Fort	100	6.9392	79.8436
+LK	Western Province	36	Colombo	Slave lsland	200	7.3267	80.5226
+LK	Western Province	36	Colombo	Slave Island	200	6.9167	79.85
+LK	Western Province	36	Colombo	Colpetty	300	6.8833	79.85
+LK	Western Province	36	Colombo	Bambalapitiya	400	6.8914	79.8522
+LK	Western Province	36	Colombo	Havelock Town	500	6.8841	79.8608
+LK	Western Province	36	Colombo	Wellawatta	600	6.8753	79.8611
+LK	Western Province	36	Colombo	Kirulapone	600	6.8753	79.8611
+LK	Western Province	36	Colombo	Borella	800	6.9177	79.8742
+LK	Western Province	36	Colombo	Kotahena	1300	6.9459	79.8617
+LK	Western Province	36	Colombo	Mutwal	1500	6.95	79.8667
+LK	Western Province	36	Colombo	Sri Jayawardenepu	10100	6.8868	79.9551
+LK	Western Province	36	Colombo	Malabe	10115	6.9083	79.9649
+LK	Western Province	36	Colombo	Talawatugoda	10116	6.8738	79.9378
+LK	Western Province	36	Colombo	Hokandara	10118	6.891	79.9513
+LK	Western Province	36	Colombo	Battaramulla	10120	6.8964	79.9181
+LK	Western Province	36	Colombo	Athurugiriya	10150	6.8687	79.9998
+LK	Western Province	36	Colombo	Homagama	10200	6.844	80.0024
+LK	Western Province	36	Colombo	Mullegama	10202	6.8796	80.0131
+LK	Western Province	36	Colombo	Habarakada	10204	6.8708	80.0092
+LK	Western Province	36	Colombo	Pitipana Homagama	10206	6.848	80.0098
+LK	Western Province	36	Colombo	Kiriwattuduwa	10208	6.7977	80.0146
+LK	Western Province	36	Colombo	Pannipitiya	10230	6.8462	79.9448
+LK	Western Province	36	Colombo	Hiripitya	10232	6.8462	79.9448
+LK	Western Province	36	Colombo	Nugegoda	10250	6.8735	79.8899
+LK	Western Province	36	Colombo	Maharagama	10280	6.848	79.9265
+LK	Western Province	36	Colombo	Boralesgamuwa	10290	6.8382	79.9104
+LK	Western Province	36	Colombo	Piliyandala	10300	6.7999	79.9249
+LK	Western Province	36	Colombo	Deltara	10302	6.7841	79.9117
+LK	Western Province	36	Colombo	Siddamulla	10304	6.8232	79.9586
+LK	Western Province	36	Colombo	Madapatha	10306	6.768	79.929
+LK	Western Province	36	Colombo	Polgasowita	10320	6.7865	79.9657
+LK	Western Province	36	Colombo	Dehiwala	10350	6.8523	79.8656
+LK	Western Province	36	Colombo	Mount Lavinia	10370	6.8339	79.8644
+LK	Western Province	36	Colombo	Moratuwa	10400	6.773	79.8816
+LK	Western Province	36	Colombo	Padukka	10500	6.8408	80.0897
+LK	Western Province	36	Colombo	Horagala	10502	6.8107	80.0466
+LK	Western Province	36	Colombo	Meegoda	10504	6.8479	80.0484
+LK	Western Province	36	Colombo	Kahawala	10508	6.7772	80.1057
+LK	Western Province	36	Colombo	Watareka	10511	6.8509	80.064
+LK	Western Province	36	Colombo	Batawala	10513	6.878	80.0472
+LK	Western Province	36	Colombo	Bope	10522	6.832	80.1314
+LK	Western Province	36	Colombo	Handapangoda	10524	6.7939	80.1441
+LK	Western Province	36	Colombo	Batugampola	10526	6.7758	80.1344
+LK	Western Province	36	Colombo	Kolonnawa	10600	6.9329	79.8848
+LK	Western Province	36	Colombo	Mulleriyawa New Town	10620	6.9287	80.0478
+LK	Western Province	36	Colombo	Kaduwela	10640	6.9339	79.982
+LK	Western Province	36	Colombo	Hanwella	10650	6.9086	80.0796
+LK	Western Province	36	Colombo	Ranala	10654	6.9144	80.032
+LK	Western Province	36	Colombo	Dedigamuwa	10656	6.8905	80.027
+LK	Western Province	36	Colombo	Waga	10680	6.9019	80.1236
+LK	Western Province	36	Colombo	Tummodara	10682	6.9019	80.1236
+LK	Western Province	36	Colombo	Avissawella	10700	6.953	80.2075
+LK	Western Province	36	Colombo	Napawela	10704	6.953	80.2075
+LK	Western Province	36	Colombo	Puwakpitiya	10712	7.0331	80.0722
+LK	Western Province	36	Colombo	Hewainna	10714	7.0999	80.0944
+LK	Western Province	36	Colombo	Kalatuwawa	10718	7.1667	80.1167
+LK	Western Province	36	Colombo	Kosgama	10730	6.9404	80.1276
+LK	Western Province	36	Colombo	Akarawita	10732	6.9459	80.1114
+LK	Western Province	36	Gampaha	Pugoda	10660	6.9911	80.1197
+LK	Western Province	36	Gampaha	Kapugoda	10662	6.9504	80.0916
+LK	Western Province	36	Gampaha	Tittapattara	10664	6.9345	80.0902
+LK	Western Province	36	Gampaha	Gampaha	11000	7.0897	79.9925
+LK	Western Province	36	Gampaha	Ragama	11010	7.0292	79.917
+LK	Western Province	36	Gampaha	Batuwatta	11011	7.0527	79.9266
+LK	Western Province	36	Gampaha	Walpola (WP)	11012	7.041	79.9218
+LK	Western Province	36	Gampaha	Ganemulla	11020	7.0652	79.963
+LK	Western Province	36	Gampaha	Bollete (WP)	11024	7.0652	79.963
+LK	Western Province	36	Gampaha	Udugampola	11030	7.1167	79.9833
+LK	Western Province	36	Gampaha	Madelgamuwa	11033	7.1116	79.953
+LK	Western Province	36	Gampaha	Uggalboda	11034	7.1273	79.9563
+LK	Western Province	36	Gampaha	Bemmulla	11040	7.1229	80.0239
+LK	Western Province	36	Gampaha	Pethiyagoda	11043	7.1229	80.0239
+LK	Western Province	36	Gampaha	Ambagaspitiya	11052	7.0821	80.0616
+LK	Western Province	36	Gampaha	Udathuthiripitiya	11054	7.0716	80.0333
+LK	Western Province	36	Gampaha	Mudungoda	11056	7.061	80.0049
+LK	Western Province	36	Gampaha	Mandawala	11061	7.0188	80.083
+LK	Western Province	36	Gampaha	Lunugama	11062	6.9714	80.0933
+LK	Western Province	36	Gampaha	Naranwala	11063	7.0006	80.0245
+LK	Western Province	36	Gampaha	Nedungamuwa	11066	7.0393	80.0197
+LK	Western Province	36	Gampaha	Wanaluwewa	11068	7.0075	80.0551
+LK	Western Province	36	Gampaha	Veyangoda	11100	7.1535	80.0597
+LK	Western Province	36	Gampaha	Dewalapola	11102	7.1659	79.9905
+LK	Western Province	36	Gampaha	Watinapaha	11104	7.1891	80.0004
+LK	Western Province	36	Gampaha	Wattala	11104	6.9779	79.8898
+LK	Western Province	36	Gampaha	Kumbaloluwa	11105	7.1763	80.0827
+LK	Western Province	36	Gampaha	Essella	11108	7.1773	80.0123
+LK	Western Province	36	Gampaha	Muddaragama	11112	7.2077	80.0545
+LK	Western Province	36	Gampaha	Mabodale	11114	7.1981	80.0166
+LK	Western Province	36	Gampaha	Ellakkala	11116	7.144	80.1241
+LK	Western Province	36	Gampaha	Attanagalla	11120	7.1152	80.1341
+LK	Western Province	36	Gampaha	Alawala	11122	7.1202	80.1815
+LK	Western Province	36	Gampaha	Urapola	11126	7.0987	80.143
+LK	Western Province	36	Gampaha	Nikahetikanda	11128	7.0951	80.1689
+LK	Western Province	36	Gampaha	Rukmale	11129	7.4074	80.0869
+LK	Western Province	36	Gampaha	Bopagama	11134	7.0742	80.1501
+LK	Western Province	36	Gampaha	Ruggahawila	11142	7.0725	80.115
+LK	Western Province	36	Gampaha	Kahatowita	11144	7.0725	80.115
+LK	Western Province	36	Gampaha	Walgammulla	11146	7.0725	80.115
+LK	Western Province	36	Gampaha	Pallewela	11150	7.2	80.0833
+LK	Western Province	36	Gampaha	Kaleliya	11160	7.195	80.1136
+LK	Western Province	36	Gampaha	Mirigama	11200	7.2439	80.1212
+LK	Western Province	36	Gampaha	Loluwagoda	11204	7.2959	80.1346
+LK	Western Province	36	Gampaha	Kitalawalana	11206	7.2965	80.1001
+LK	Western Province	36	Gampaha	Divuldeniya	11208	7.3028	80.0957
+LK	Western Province	36	Gampaha	Ambepussa	11212	7.2507	80.1723
+LK	Western Province	36	Gampaha	Pamunuwatta	11214	7.2127	80.1375
+LK	Western Province	36	Gampaha	Bokalagama	11216	7.2317	80.1549
+LK	Western Province	36	Gampaha	Nawana	11222	7.2638	80.1012
+LK	Western Province	36	Gampaha	Kaluaggala	11224	6.9173	80.1109
+LK	Western Province	36	Gampaha	Walpita	11226	7.2601	80.0493
+LK	Western Province	36	Gampaha	Delwagura	11228	7.2661	79.9936
+LK	Western Province	36	Gampaha	Kotadeniyawa	11232	7.2844	80.0625
+LK	Western Province	36	Gampaha	Mellawagedara	11234	7.2844	80.0625
+LK	Western Province	36	Gampaha	Kitulwala	11242	7.5034	80.5318
+LK	Western Province	36	Gampaha	Banduragoda	11244	7.2266	80.0544
+LK	Western Province	36	Gampaha	Divulapitiya	11250	7.224	80.0094
+LK	Western Province	36	Gampaha	Marandagahamula	11260	7.2405	79.9723
+LK	Western Province	36	Gampaha	Hunumulla	11262	7.2453	79.9974
+LK	Western Province	36	Gampaha	Dunagaha	11264	7.2256	79.9685
+LK	Western Province	36	Gampaha	Ihala Madampella	11265	7.2507	79.9509
+LK	Western Province	36	Gampaha	Demanhandiya	11270	7.2282	79.8964
+LK	Western Province	36	Gampaha	Kandana	11320	7.048	79.8937
+LK	Western Province	36	Gampaha	Polpithimukulana	11324	7.045	79.8781
+LK	Western Province	36	Gampaha	Uswetakeiyawa	11328	7.0421	79.8624
+LK	Western Province	36	Gampaha	Ja-Ela	11350	7.0744	79.8919
+LK	Western Province	36	Gampaha	Niwandama	11354	7.0815	79.9308
+LK	Western Province	36	Gampaha	Makewita	11358	7.1023	79.9313
+LK	Western Province	36	Gampaha	Pamunugama	11370	7.1006	79.8481
+LK	Western Province	36	Gampaha	Ekala	11380	7.099	79.913
+LK	Western Province	36	Gampaha	Kotugoda	11390	7.1231	79.9263
+LK	Western Province	36	Gampaha	Raddolugama	11400	7.1371	79.9034
+LK	Western Province	36	Gampaha	Seeduwa	11410	7.1305	79.8871
+LK	Western Province	36	Gampaha	Katunayake(FTZ)	11420	7.144	79.8887
+LK	Western Province	36	Gampaha	Katunayake Air Force Camp	11440	7.144	79.8887
+LK	Western Province	36	Gampaha	Katunayake	11450	7.1643	79.8757
+LK	Western Province	36	Gampaha	Negombo	11500	7.2083	79.8358
+LK	Western Province	36	Gampaha	Talahena	11504	7.1624	79.8246
+LK	Western Province	36	Gampaha	Kimbulapitiya	11522	7.2036	79.895
+LK	Western Province	36	Gampaha	Dagonna	11524	7.2219	79.9279
+LK	Western Province	36	Gampaha	Katuwellegama	11526	7.2234	79.9383
+LK	Western Province	36	Gampaha	Thimbirigaskatuwa	11532	7.2715	79.9484
+LK	Western Province	36	Gampaha	Katana	11534	7.2503	79.8957
+LK	Western Province	36	Gampaha	Akaragama	11536	7.2666	79.9652
+LK	Western Province	36	Gampaha	Badalgama	11538	7.2976	79.9844
+LK	Western Province	36	Gampaha	Kochchikade	11540	7.2657	79.8603
+LK	Western Province	36	Gampaha	Minuwangoda	11550	7.1663	79.9533
+LK	Western Province	36	Gampaha	Andiambalama	11558	7.1818	79.9001
+LK	Western Province	36	Gampaha	Wegowwa	11562	7.1715	79.9665
+LK	Western Province	36	Gampaha	Horampella	11564	7.1715	79.9665
+LK	Western Province	36	Gampaha	Yatiyana(WP)	11566	7.1715	79.9665
+LK	Western Province	36	Gampaha	Hinatiyana Madawala	11568	7.1715	79.9665
+LK	Western Province	36	Gampaha	Kelaniya	11600	6.9553	79.922
+LK	Western Province	36	Gampaha	Siyambalape	11607	6.9707	79.9875
+LK	Western Province	36	Gampaha	Heiyanthuduwa	11618	6.9618	80.0025
+LK	Western Province	36	Gampaha	GonawalaWP	11630	6.9618	80.0025
+LK	Western Province	36	Gampaha	Makola	11640	6.9769	79.958
+LK	Western Province	36	Gampaha	Biyagama	11650	6.9423	79.9842
+LK	Western Province	36	Gampaha	Malwana	11670	6.9414	80.021
+LK	Western Province	36	Gampaha	Biyagama IPZ	11672	6.9414	80.021
+LK	Western Province	36	Gampaha	Dompe	11680	6.9503	80.051
+LK	Western Province	36	Gampaha	Dekatana	11690	6.9694	80.0481
+LK	Western Province	36	Gampaha	Demalagama	11692	6.9879	80.0483
+LK	Western Province	36	Gampaha	Delgoda	11700	6.9909	80.008
+LK	Western Province	36	Gampaha	Weliveriya	11710	7.0177	80.0488
+LK	Western Province	36	Gampaha	Henegama	11715	7.0177	80.0488
+LK	Western Province	36	Gampaha	Buthpitiya	11720	7.0491	80.0514
+LK	Western Province	36	Gampaha	Wathurugama	11724	7.0406	80.0713
+LK	Western Province	36	Gampaha	Radawana	11725	7.0321	80.0912
+LK	Western Province	36	Gampaha	Kirindiwela	11730	7.0417	80.1282
+LK	Western Province	36	Gampaha	Hiswella	11734	7.0417	80.1282
+LK	Western Province	36	Gampaha	Pepiliyawala	11741	6.9982	80.1286
+LK	Western Province	36	Gampaha	Mithirigala	11742	6.9982	80.1286
+LK	Western Province	36	Gampaha	Peliyagoda	11830	6.9685	79.8836
+LK	Western Province	36	Gampaha	Kadawatha	11850	7.0276	79.993
+LK	Western Province	36	Gampaha	Imbulgoda	11856	7.0376	79.9913
+LK	Western Province	36	Gampaha	Weboda	11858	7.0176	79.9946
+LK	Western Province	36	Gampaha	Yakkala	11870	7.0869	80.0271
+LK	Western Province	36	Gampaha	Kalagedihena	11875	7.1185	80.0563
+LK	Western Province	36	Gampaha	Nittambuwa	11880	7.1426	80.0938
+LK	Western Province	36	Gampaha	Debahera	11889	7.1426	80.0938
+LK	Western Province	36	Gampaha	Pasyala	11890	7.1666	80.1219
+LK	Western Province	36	Gampaha	Radawadunna	11892	7.1785	80.1409
+LK	Western Province	36	Gampaha	Weweldeniya	11894	7.184	80.1466
+LK	Western Province	36	Gampaha	Danowita	11896	7.207	80.1769
+LK	Western Province	36	Kalutara	Kalutara	12000	6.5831	79.9593
+LK	Western Province	36	Kalutara	Galpatha	12005	6.6053	79.9971
+LK	Western Province	36	Kalutara	Yatawara Junction	12006	6.6053	79.9971
+LK	Western Province	36	Kalutara	Koholana	12007	6.6189	80.0219
+LK	Western Province	36	Kalutara	Bolossagama	12008	6.6053	79.9971
+LK	Western Province	36	Kalutara	Remunagoda	12009	6.6138	80.01
+LK	Western Province	36	Kalutara	Gamagoda	12016	6.5909	80.0083
+LK	Western Province	36	Kalutara	Dodangoda	12020	6.5531	80.0223
+LK	Western Province	36	Kalutara	Bombuwala	12024	6.5721	80.0096
+LK	Western Province	36	Kalutara	Tebuwana	12025	6.5829	80.0466
+LK	Western Province	36	Kalutara	Neboda	12030	6.5891	80.084
+LK	Western Province	36	Kalutara	Paiyagala	12050	6.5075	80.0276
+LK	Western Province	36	Kalutara	Halkandawila	12055	6.5075	80.0276
+LK	Western Province	36	Kalutara	Maggona	12060	6.5041	79.9811
+LK	Western Province	36	Kalutara	Beruwala	12070	6.4788	79.9828
+LK	Western Province	36	Kalutara	Padagoda	12074	6.4526	80.0096
+LK	Western Province	36	Kalutara	Kalawila Kiranthidiya	12078	6.4657	79.9962
+LK	Western Province	36	Kalutara	Alutgama	12080	6.4394	79.9895
+LK	Western Province	36	Kalutara	Dharga Town	12090	6.424	80.0631
+LK	Western Province	36	Kalutara	Meegama	12094	6.424	80.0631
+LK	Western Province	36	Kalutara	Matugama	12100	6.5204	80.1128
+LK	Western Province	36	Kalutara	Yatadolawatta	12104	6.5273	80.0631
+LK	Western Province	36	Kalutara	Nawattuduwa	12106	6.5042	80.0934
+LK	Western Province	36	Kalutara	Welipenna	12108	6.465	80.1043
+LK	Western Province	36	Kalutara	Walagedara	12112	6.4485	80.078
+LK	Western Province	36	Kalutara	Pannila	12114	6.4399	80.1029
+LK	Western Province	36	Kalutara	Ittapana	12116	6.4217	80.0884
+LK	Western Province	36	Kalutara	Halwala	12118	6.4137	80.1097
+LK	Western Province	36	Kalutara	Paraigama	12122	6.4052	80.1253
+LK	Western Province	36	Kalutara	Yagirala	12124	6.3846	80.1605
+LK	Western Province	36	Kalutara	Mahakalupahana	12126	6.3949	80.1429
+LK	Western Province	36	Kalutara	Utumgama	12127	6.3949	80.1429
+LK	Western Province	36	Kalutara	Meegahatenna	12130	6.4394	80.1971
+LK	Western Province	36	Kalutara	Walallawita	12134	6.3615	80.1931
+LK	Western Province	36	Kalutara	Polgampola	12136	6.4681	80.1924
+LK	Western Province	36	Kalutara	Pelawatta	12138	6.4089	80.2166
+LK	Western Province	36	Kalutara	Boralugoda	12142	6.4336	80.2842
+LK	Western Province	36	Kalutara	Pahalahewessa	12144	6.4336	80.2842
+LK	Western Province	36	Kalutara	Danawala Thiniyawala	12148	6.4336	80.2842
+LK	Western Province	36	Kalutara	Agalawatta	12200	6.5422	80.1583
+LK	Western Province	36	Kalutara	Veyangalla	12204	6.5422	80.1583
+LK	Western Province	36	Kalutara	Mahagama	12210	6.6167	80.1667
+LK	Western Province	36	Kalutara	Pelanda	12214	6.6011	80.2322
+LK	Western Province	36	Kalutara	Molkawa	12216	6.609	80.233
+LK	Western Province	36	Kalutara	Kelinkanda	12218	6.5777	80.2969
+LK	Western Province	36	Kalutara	Kitulgoda	12222	6.4996	80.1807
+LK	Western Province	36	Kalutara	Bellana	12224	6.5237	80.1765
+LK	Western Province	36	Kalutara	Baduraliya	12230	6.5084	80.2329
+LK	Western Province	36	Kalutara	Morapitiya	12232	6.5352	80.263
+LK	Western Province	36	Kalutara	Hedigalla Colony	12234	6.5218	80.248
+LK	Western Province	36	Kalutara	Gurulubadda	12236	6.5218	80.248
+LK	Western Province	36	Kalutara	Bulathsinhala	12300	6.6744	80.1934
+LK	Western Province	36	Kalutara	Paragoda	12302	6.6109	80.2243
+LK	Western Province	36	Kalutara	Delmella	12304	6.6881	80.2057
+LK	Western Province	36	Kalutara	Halwatura	12306	6.6992	80.1914
+LK	Western Province	36	Kalutara	Diwalakada	12308	6.6994	80.1521
+LK	Western Province	36	Kalutara	Govinna	12310	6.6743	80.1159
+LK	Western Province	36	Kalutara	Anguruwatota	12320	6.6383	80.0861
+LK	Western Province	36	Kalutara	Uduwara	12322	6.6167	80.0667
+LK	Western Province	36	Kalutara	Horana	12400	6.7159	80.0626
+LK	Western Province	36	Kalutara	Pokunuwita	12404	6.7266	80.0369
+LK	Western Province	36	Kalutara	Gonapola Junction	12410	6.6927	80.0326
+LK	Western Province	36	Kalutara	Millaniya	12412	6.6927	80.0326
+LK	Western Province	36	Kalutara	Paragastota	12414	6.6685	79.9919
+LK	Western Province	36	Kalutara	Dombagoda	12416	6.6476	80.0471
+LK	Western Province	36	Kalutara	Kananwila	12418	6.762	80.0589
+LK	Western Province	36	Kalutara	Millewa	12422	6.7834	80.0625
+LK	Western Province	36	Kalutara	Miwanapalana	12424	6.7448	80.0922
+LK	Western Province	36	Kalutara	Kuda Uduwa	12426	6.7662	80.0784
+LK	Western Province	36	Kalutara	Kandanagama	12428	6.7648	80.0777
+LK	Western Province	36	Kalutara	Poruwedanda	12432	6.7373	80.1178
+LK	Western Province	36	Kalutara	lngiriya	12440	6.728	80.0609
+LK	Western Province	36	Kalutara	Panadura	12500	6.7132	79.9026
+LK	Western Province	36	Kalutara	Alubomulla	12524	6.7085	79.9489
+LK	Western Province	36	Kalutara	Bandaragama	12530	6.7144	79.988
+LK	Western Province	36	Kalutara	Welmilla Junction	12534	6.7072	80.0107
+LK	Western Province	36	Kalutara	Haltota	12538	6.7	80.0333
+LK	Western Province	36	Kalutara	Kehelwatta	12550	6.7517	79.9075
+LK	Western Province	36	Kalutara	Wadduwa	12560	6.6686	79.9253
+LK	Western Province	36	Kalutara	Morontuduwa	12564	6.6594	79.9726
+LK	Western Province	36	Kalutara	Waskaduwa	12580	6.6355	79.9472
+LK	Eastern Province	37	Ampara	Ampara	32000	7.2975	81.682
+LK	Eastern Province	37	Ampara	Deegawapiya	32006	7.2975	81.682
+LK	Eastern Province	37	Ampara	Digamadulla Weeragoda	32008	7.2975	81.682
+LK	Eastern Province	37	Ampara	Hingurana	32010	7.2144	81.6537
+LK	Eastern Province	37	Ampara	Moragahapallama	32012	7.2076	81.654
+LK	Eastern Province	37	Ampara	Damana	32014	7.2007	81.6542
+LK	Eastern Province	37	Ampara	Madawalalanda	32016	7.2076	81.654
+LK	Eastern Province	37	Ampara	Mahanagapura	32018	7.2076	81.654
+LK	Eastern Province	37	Ampara	Pannalagama	32022	7.0724	81.6065
+LK	Eastern Province	37	Ampara	Bakmitiyawa	32024	7.0194	81.6478
+LK	Eastern Province	37	Ampara	Paragahakele	32031	7.25	81.6
+LK	Eastern Province	37	Ampara	Polwaga Janapadaya	32032	7.137	81.5192
+LK	Eastern Province	37	Ampara	Pahalalanda	32034	7.137	81.5192
+LK	Eastern Province	37	Ampara	Koknahara	32035	7.186	81.5733
+LK	Eastern Province	37	Ampara	Namaloya	32037	6.9952	81.3703
+LK	Eastern Province	37	Ampara	Devalahinda	32038	7.137	81.5192
+LK	Eastern Province	37	Ampara	Wadinagala	32039	7.1167	81.5333
+LK	Eastern Province	37	Ampara	Dadayamtalawa	32046	7.1972	81.5989
+LK	Eastern Province	37	Ampara	Siyambalawewa	32048	7.1972	81.5989
+LK	Eastern Province	37	Ampara	Central Camp	32050	7.1972	81.5989
+LK	Eastern Province	37	Ampara	Uhana	32060	7.3667	81.6333
+LK	Eastern Province	37	Ampara	Werunketagoda	32062	7.4083	81.6333
+LK	Eastern Province	37	Ampara	Gonagolla	32064	7.45	81.6333
+LK	Eastern Province	37	Ampara	Galapitagala	32066	7.4083	81.6333
+LK	Eastern Province	37	Ampara	Rajagalatenna	32068	7.4083	81.6333
+LK	Eastern Province	37	Ampara	Mangalagama	32069	7.4083	81.6333
+LK	Eastern Province	37	Ampara	Mahaoya	32070	7.1972	81.5989
+LK	Eastern Province	37	Ampara	Tempitiya	32072	7.1972	81.5989
+LK	Eastern Province	37	Ampara	Kekirihena	32074	7.1972	81.5989
+LK	Eastern Province	37	Ampara	Padiyatalawa	32100	7.4002	81.2428
+LK	Eastern Province	37	Ampara	Serankada	32101	7.4572	81.2808
+LK	Eastern Province	37	Ampara	Kolamanthalawa	32102	7.4025	81.2745
+LK	Eastern Province	37	Ampara	Dorakumbura	32104	7.35	81.3
+LK	Eastern Province	37	Ampara	Nawamedagama	32120	7.3852	81.3892
+LK	Eastern Province	37	Ampara	Damanewela	32126	7.3852	81.3892
+LK	Eastern Province	37	Ampara	Dehiattakandiya	32150	7.3852	81.3892
+LK	Eastern Province	37	Ampara	Siripura	32155	7.3852	81.3892
+LK	Eastern Province	37	Ampara	Mawanagama	32158	7.3852	81.3892
+LK	Eastern Province	37	Ampara	Malwatta	32198	7.3333	81.7333
+LK	Eastern Province	37	Ampara	Samanthurai	32200	7.3833	81.8333
+LK	Eastern Province	37	Ampara	Karativu	32250	7.3833	81.8333
+LK	Eastern Province	37	Ampara	Sainthamaruthu	32280	7.3833	81.8333
+LK	Eastern Province	37	Ampara	Kalmunai	32300	7.409	81.8347
+LK	Eastern Province	37	Ampara	Navithanveli	32308	7.4333	81.7833
+LK	Eastern Province	37	Ampara	Marathamune	32314	7.45	81.8167
+LK	Eastern Province	37	Ampara	Periyaneelavanai	32316	7.45	81.8167
+LK	Eastern Province	37	Ampara	Nintavur	32340	7.3498	81.853
+LK	Eastern Province	37	Ampara	Addalaichenai	32350	7.2667	81.85
+LK	Eastern Province	37	Ampara	Palamunai	32354	7.2667	81.85
+LK	Eastern Province	37	Ampara	Oluvil	32360	7.2833	81.85
+LK	Eastern Province	37	Ampara	Akkaraipattu	32400	7.2165	81.8538
+LK	Eastern Province	37	Ampara	Kannakipuram	32405	7.2165	81.8538
+LK	Eastern Province	37	Ampara	Thambiluvil	32415	7.1326	81.8514
+LK	Eastern Province	37	Ampara	Komari	32418	6.9897	81.8621
+LK	Eastern Province	37	Ampara	Tirukovil	32420	7.1203	81.849
+LK	Eastern Province	37	Ampara	lmkkamam	32450	7.1148	81.8541
+LK	Eastern Province	37	Ampara	Wanagamuwa	32454	7.1148	81.8541
+LK	Eastern Province	37	Ampara	Pottuvil	32500	6.8762	81.8267
+LK	Eastern Province	37	Ampara	Panama	32508	6.7552	81.8036
+LK	Eastern Province	37	Ampara	Lahugala	32512	6.914	81.6639
+LK	Eastern Province	37	Ampara	Hulannuge	32514	6.914	81.6639
+LK	Eastern Province	37	Batticaloa	Batticaloa	30000	7.7102	81.6924
+LK	Eastern Province	37	Batticaloa	Kannankudah	30016	7.6798	81.6702
+LK	Eastern Province	37	Batticaloa	Navatkadu	30018	7.5833	81.7167
+LK	Eastern Province	37	Batticaloa	Pillaiyaradi	30022	7.7527	81.6417
+LK	Eastern Province	37	Batticaloa	Thannamunai	30024	7.7527	81.6417
+LK	Eastern Province	37	Batticaloa	Kattankudi	30100	7.6824	81.7334
+LK	Eastern Province	37	Batticaloa	Araipattai	30150	7.6667	81.7333
+LK	Eastern Province	37	Batticaloa	Puthukudiyiruppu	30158	7.6333	81.75
+LK	Eastern Province	37	Batticaloa	Kirankulam	30159	7.6	81.7667
+LK	Eastern Province	37	Batticaloa	Kokkaddichcholai	30160	7.624	81.7599
+LK	Eastern Province	37	Batticaloa	Ampilanthurai	30162	7.624	81.7599
+LK	Eastern Province	37	Batticaloa	Kurukkalmadam	30192	7.5876	81.7829
+LK	Eastern Province	37	Batticaloa	Cheddipalayam	30194	7.5833	81.7833
+LK	Eastern Province	37	Batticaloa	Thettativu	30196	7.5855	81.7831
+LK	Eastern Province	37	Batticaloa	Kaluwanchikudi	30200	7.5167	81.7833
+LK	Eastern Province	37	Batticaloa	Vellavely	30204	7.5	81.7333
+LK	Eastern Province	37	Batticaloa	Bakiella	30206	7.5083	81.7583
+LK	Eastern Province	37	Batticaloa	Mandur	30220	7.4833	81.75
+LK	Eastern Province	37	Batticaloa	Periyaporativu	30230	7.5167	81.7667
+LK	Eastern Province	37	Batticaloa	Thirupalugamam	30234	7.525	81.725
+LK	Eastern Province	37	Batticaloa	Thikkodai	30236	7.5333	81.6833
+LK	Eastern Province	37	Batticaloa	Navagirinagar	30238	7.525	81.725
+LK	Eastern Province	37	Batticaloa	Koddaikallar	30249	7.5028	81.7528
+LK	Eastern Province	37	Batticaloa	Kallar	30250	7.4667	81.8
+LK	Eastern Province	37	Batticaloa	Thuraineelavanai	30254	7.4667	81.8
+LK	Eastern Province	37	Batticaloa	Eravur	30300	7.7782	81.6038
+LK	Eastern Province	37	Batticaloa	Chenkaladi	30350	7.786	81.591
+LK	Eastern Province	37	Batticaloa	Pankudavely	30352	7.7491	81.5689
+LK	Eastern Province	37	Batticaloa	Karadiyanaru	30354	7.7121	81.5468
+LK	Eastern Province	37	Batticaloa	Periyapullumalai	30358	7.7491	81.5689
+LK	Eastern Province	37	Batticaloa	Ayithiyamalai	30362	7.6167	81.55
+LK	Eastern Province	37	Batticaloa	Unnichchai	30364	7.6167	81.55
+LK	Eastern Province	37	Batticaloa	Kaluwankemy	30372	7.7995	81.5773
+LK	Eastern Province	37	Batticaloa	Vantharumoolai	30376	7.7995	81.5773
+LK	Eastern Province	37	Batticaloa	Murakottanchanai	30392	7.8655	81.5375
+LK	Eastern Province	37	Batticaloa	Kiran	30394	7.8655	81.5375
+LK	Eastern Province	37	Batticaloa	Valaichenai	30400	7.6899	81.6011
+LK	Eastern Province	37	Batticaloa	Kalkudah	30410	7.9167	81.5667
+LK	Eastern Province	37	Batticaloa	Oddamavadi	30420	7.9167	81.5167
+LK	Eastern Province	37	Batticaloa	Vakaneri	30424	7.9167	81.4333
+LK	Eastern Province	37	Batticaloa	Miravodai	30426	7.9024	81.5098
+LK	Eastern Province	37	Batticaloa	Punanai	30428	7.9667	81.3833
+LK	Eastern Province	37	Batticaloa	Mankemi	30442	7.9574	81.4805
+LK	Eastern Province	37	Batticaloa	Panichankemi	30444	7.9574	81.4805
+LK	Eastern Province	37	Batticaloa	Vakarai	30450	8.1333	81.4333
+LK	Eastern Province	37	Batticaloa	Kathiraveli	30456	8.2167	81.4
+LK	Eastern Province	37	Trincomalee	Trincomalee	31000	8.5711	81.2335
+LK	Eastern Province	37	Trincomalee	Sampaltivu	31006	8.6263	81.2127
+LK	Eastern Province	37	Trincomalee	Nilaveli	31010	8.6833	81.2
+LK	Eastern Province	37	Trincomalee	Kumburupiddy	31012	8.7353	81.1623
+LK	Eastern Province	37	Trincomalee	Kuchchaveli	31014	8.8146	81.099
+LK	Eastern Province	37	Trincomalee	Tiriyayi	31016	8.7444	81.1538
+LK	Eastern Province	37	Trincomalee	Gomarankadawala	31026	8.6749	80.9548
+LK	Eastern Province	37	Trincomalee	Buckmigama	31028	8.6749	80.9548
+LK	Eastern Province	37	Trincomalee	Kanniya	31032	8.6333	81.0317
+LK	Eastern Province	37	Trincomalee	Pankulam	31034	8.6333	81.0317
+LK	Eastern Province	37	Trincomalee	Mahadivulwewa	31036	8.6333	81.0317
+LK	Eastern Province	37	Trincomalee	Rottawewa	31038	8.6333	81.0317
+LK	Eastern Province	37	Trincomalee	Tampalakamam	31046	8.4995	81.0972
+LK	Eastern Province	37	Trincomalee	Chinabay	31050	8.5164	81.1891
+LK	Eastern Province	37	Trincomalee	Vellamanal	31053	8.5164	81.1891
+LK	Eastern Province	37	Trincomalee	Kinniya	31100	8.4981	81.1779
+LK	Eastern Province	37	Trincomalee	Maharugiramam	31106	8.4981	81.1779
+LK	Eastern Province	37	Trincomalee	Kurinchakemy	31112	8.4981	81.1779
+LK	Eastern Province	37	Trincomalee	Mutur	31200	8.45	81.2667
+LK	Eastern Province	37	Trincomalee	Kaddaiparichchan	31212	8.45	81.2833
+LK	Eastern Province	37	Trincomalee	Sampur	31216	8.4854	81.291
+LK	Eastern Province	37	Trincomalee	Kiliveddy	31220	8.4477	81.2874
+LK	Eastern Province	37	Trincomalee	Somapura	31222	8.4477	81.2874
+LK	Eastern Province	37	Trincomalee	Mallikativu	31224	8.4477	81.2874
+LK	Eastern Province	37	Trincomalee	Dehiwatte	31226	8.4477	81.2874
+LK	Eastern Province	37	Trincomalee	Neelapola	31228	8.4477	81.2874
+LK	Eastern Province	37	Trincomalee	Serunuwara	31232	8.4477	81.2874
+LK	Eastern Province	37	Trincomalee	Lankapatuna	31234	8.4477	81.2874
+LK	Eastern Province	37	Trincomalee	Echchilampattai	31236	8.4477	81.2874
+LK	Eastern Province	37	Trincomalee	Mawadichenai	31238	8.4477	81.2874
+LK	Eastern Province	37	Trincomalee	Toppur	31250	8.4055	81.3086
+LK	Eastern Province	37	Trincomalee	Seruwila	31260	8.4477	81.2874
+LK	Eastern Province	37	Trincomalee	Kantalai	31300	8.3683	81.0281
+LK	Eastern Province	37	Trincomalee	Agbopura	31304	8.3249	80.9794
+LK	Eastern Province	37	Trincomalee	Kantalai Sugar Factory	31306	8.3466	81.0037
+LK	Eastern Province	37	Trincomalee	Wanela	31308	8.3466	81.0037
+LK	Eastern Province	37	Trincomalee	Mullipothana	31312	8.3466	81.0037
+LK	Eastern Province	37	Trincomalee	Sirajnagar	31314	8.3466	81.0037
+LK	Eastern Province	37	Trincomalee	Galmetiyawa	31318	8.3466	81.0037
+LK	Northern Province	38	Jaffna	Jaffna	40000	9.6684	80.0074
+LK	Northern Province	38	Mannar	Mannar	41000	8.9833	79.9
+LK	Northern Province	38	Mullaitivu	Mullativu	42000	9.1762	80.5686
+LK	Northern Province	38	Vavuniya	Vavuniya	43000	8.7514	80.4971

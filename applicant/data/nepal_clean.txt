@@ -1,0 +1,277 @@
+Country 	State 	District 	Tehsil 	Village 	Pin code	Lat	Long 
+NP	Sudurpashchim	Achham	Mangalsen				
+NP	Sudurpashchim	Achham	Panchadewal Binayak				
+NP	Sudurpashchim	Achham	Sanphebagar				
+NP	Sudurpashchim	Achham	Kamalbazar				
+NP	Lumbini	Arghakhanchi	Sandhikharka				
+NP	Lumbini	Arghakhanchi	Sitganga				
+NP	Lumbini	Arghakhanchi	Bhumikasthan				
+NP	Gandaki	Baglung	Baglung				
+NP	Gandaki	Baglung	Galkot				
+NP	Gandaki	Baglung	Dhorpatan				
+NP	Gandaki	Baglung	Jaimini				
+NP	Sudurpashchim	Baitadi	Puchaudi				
+NP	Sudurpashchim	Baitadi	Dasharathchand				
+NP	Sudurpashchim	Baitadi	Patan				
+NP	Sudurpashchim	Baitadi	Melauli				
+NP	Sudurpashchim	Bajhang	Bungal				
+NP	Sudurpashchim	Bajhang	Jaya Prithvi				
+NP	Sudurpashchim	Bajura	Budhiganga				
+NP	Sudurpashchim	Bajura	Budhinanda				
+NP	Sudurpashchim	Bajura	Badimalika				
+NP	Sudurpashchim	Bajura	Tribeni				
+NP	Lumbini	Banke	Kohalpur				
+NP	Madhesh	Bara	Mahagadhimai				
+NP	Madhesh	Bara	Simraungadh				
+NP	Madhesh	Bara	Kolhabi				
+NP	Madhesh	Bara	Pacharauta				
+NP	Madhesh	Bara	Nijgadh				
+NP	Lumbini	Bardiya	Gulariya				
+NP	Lumbini	Bardiya	Barbardiya				
+NP	Lumbini	Bardiya	Bansgadhi				
+NP	Lumbini	Bardiya	Rajapur				
+NP	Lumbini	Bardiya	Madhuwan				
+NP	Lumbini	Bardiya	Thakurbaba				
+NP	Bagmati	Bhaktapur	Suryabinayak				
+NP	Bagmati	Bhaktapur	Madhyapur Thimi				
+NP	Bagmati	Bhaktapur	Changunarayan				
+NP	Bagmati	Bhaktapur	Bhaktapur				
+NP	Koshi	Bhojpur	Shadananda				
+NP	Koshi	Bhojpur	Bhojpur				
+NP	Bagmati	Chitwan	Ratnanagar			27.676	84.438
+NP	Bagmati	Chitwan	Khairhani				
+NP	Bagmati	Chitwan	Rapti				
+NP	Bagmati	Chitwan	Kalika				
+NP	Bagmati	Chitwan	Madi				
+NP	Sudurpashchim	Dadeldhura	Parshuram				
+NP	Sudurpashchim	Dadeldhura	Amargadhi				
+NP	Karnali	Dailekh	Dullu				
+NP	Karnali	Dailekh	Aathabis				
+NP	Karnali	Dailekh	Chamunda Bindrasaini				
+NP	Karnali	Dailekh	Narayan				
+NP	Lumbini	Dang	Lamahi				
+NP	Sudurpashchim	Darchula	Mahakali				
+NP	Sudurpashchim	Darchula	Shailyashikhar				
+NP	Bagmati	Dhading	Nilkantha				
+NP	Bagmati	Dhading	Dhunibeshi				
+NP	Koshi	Dhankuta	Dhankuta				
+NP	Koshi	Dhankuta	Mahalaxmi				
+NP	Koshi	Dhankuta	Pakhribas				
+NP	Madhesh	Dhanusa	Mithila Bihari				
+NP	Madhesh	Dhanusha	Sabaila				
+NP	Madhesh	Dhanusha	Shahidnagar				
+NP	Madhesh	Dhanusha	Dhanushadham				
+NP	Madhesh	Dhanusha	Chhireshwarnath				
+NP	Madhesh	Dhanusha	Mithila				
+NP	Madhesh	Dhanusha	Hansapur				
+NP	Madhesh	Dhanusha	Kamala				
+NP	Madhesh	Dhanusha	Ganeshman Charanath				
+NP	Madhesh	Dhanusha	Nagarain				
+NP	Madhesh	Dhanusha	Bideha				
+NP	Bagmati	Dolakha	Bhimeshwar				
+NP	Bagmati	Dolakha	Jiri				
+NP	Karnali	Dolpa	Tripura Sundari				
+NP	Karnali	Dolpa	Thuli Bheri				
+NP	Sudurpashchim	Doti	Dipayal Silgadhi				
+NP	Sudurpashchim	Doti	Shikhar				
+NP	Gandaki	Gorkha	Gorkha				
+NP	Gandaki	Gorkha	Palungtar				
+NP	Lumbini	Gulmi	Resunga				
+NP	Lumbini	Gulmi	Musikot				
+NP	Koshi	Ilam	Suryodaya				
+NP	Koshi	Ilam	Ilam				
+NP	Koshi	Ilam	Deumai				
+NP	Koshi	Ilam	Mai				
+NP	Karnali	Jajarkot	Bheri				
+NP	Karnali	Jajarkot	Chhedagad				
+NP	Karnali	Jajarkot	Nalgad				
+NP	Koshi	Jhapa	Mechinagar				
+NP	Koshi	Jhapa	Birtamod				
+NP	Koshi	Jhapa	Damak				
+NP	Koshi	Jhapa	Arjundhara				
+NP	Koshi	Jhapa	Shivasatakshi				
+NP	Koshi	Jhapa	Bhadrapur				
+NP	Koshi	Jhapa	Gauradaha				
+NP	Koshi	Jhapa	Kankai				
+NP	Karnali	Jumla	Chandannath				
+NP	Sudurpashchim	Kailali	Godawari				
+NP	Sudurpashchim	Kailali	Lamki Chuha				
+NP	Sudurpashchim	Kailali	Tikapur				
+NP	Sudurpashchim	Kailali	Ghodaghodi				
+NP	Sudurpashchim	Kailali	Gauriganga				
+NP	Sudurpashchim	Kailali	Bhajani				
+NP	Karnali	Kalikot	Khandachakra				
+NP	Karnali	Kalikot	Raskot				
+NP	Karnali	Kalikot	Tilagupha				
+NP	Sudurpashchim	Kanchanpur	Bhimdatta				
+NP	Sudurpashchim	Kanchanpur	Krishnapur				
+NP	Sudurpashchim	Kanchanpur	Punarbas				
+NP	Sudurpashchim	Kanchanpur	Bedkot				
+NP	Sudurpashchim	Kanchanpur	Shuklaphanta				
+NP	Sudurpashchim	Kanchanpur	Belauri				
+NP	Sudurpashchim	Kanchanpur	Dodhara Chandani				
+NP	Lumbini	Kapilvastu	Banganga				
+NP	Lumbini	Kapilvastu	Kapilvastu				
+NP	Lumbini	Kapilvastu	Shivaraj				
+NP	Lumbini	Kapilvastu	Buddhabhumi				
+NP	Lumbini	Kapilvastu	Krishnanagar				
+NP	Lumbini	Kapilvastu	Maharajganj				
+NP	Bagmati	 Kathmandu	Budhanilkantha			27.7172	85.324
+NP	Bagmati	Kathmandu	Tarakeshwar				
+NP	Bagmati	Kathmandu	Gokarneshwar				
+NP	Bagmati	Kathmandu	Chandragiri				
+NP	Bagmati	Kathmandu	Tokha				
+NP	Bagmati	Kathmandu	Kageshwari-Manohara				
+NP	Bagmati	Kathmandu	Nagarjun				
+NP	Bagmati	Kathmandu	Kirtipur				
+NP	Bagmati	Kathmandu	Shankharapur				
+NP	Bagmati	Kathmandu	Dakshinkali				
+NP	Bagmati	Kavrepalanchok	Banepa				
+NP	Bagmati	Kavrepalanchok	Paunauti				
+NP	Bagmati	Kavrepalanchok	Panchkhal				
+NP	Bagmati	Kavrepalanchok	Dhulikhel				
+NP	Bagmati	Kavrepalanchok	Mandan Deupur				
+NP	Bagmati	Kavrepalanchok	Namobuddha				
+NP	Koshi	Khotang	Diktel Rupakot Majhuwagadhi				
+NP	Koshi	Khotang	Halesi Tuwachung				
+NP	Bagmati	Lalitpur	Mahalaxmi			27.6644	85.3188
+NP	Bagmati	Lalitpur	Godawari				
+NP	Gandaki	Lamjung	Besisahar				
+NP	Gandaki	Lamjung	Sundarbazar				
+NP	Gandaki	Lamjung	Madhya Nepal				
+NP	Gandaki	Lamjung	Rainas				
+NP	Madhesh	Mahottari	Bardibas				
+NP	Madhesh	Mahottari	Gaushala				
+NP	Madhesh	Mahottari	Jaleshwar				
+NP	Madhesh	Mahottari	Bhangaha				
+NP	Madhesh	Mahottari	Manara Shiswa				
+NP	Madhesh	Mahottari	Balawa				
+NP	Madhesh	Mahottari	Loharpatti				
+NP	Madhesh	Mahottari	Aurahi				
+NP	Madhesh	Mahottari	Ramgopalpur				
+NP	Madhesh	Mahottari	Matihani				
+NP	Bagmati	Makawanpur	Thaha				
+NP	Koshi	Morang	Sundar Haraincha			26.4525	87.2718
+NP	Koshi	Morang	Belbari				
+NP	Koshi	Morang	Pathari Shanischare				
+NP	Koshi	Morang	Urlabari				
+NP	Koshi	Morang	Ratuwamai				
+NP	Koshi	Morang	Rangeli				
+NP	Koshi	Morang	Sunawarshi				
+NP	Koshi	Morang	Letang				
+NP	Karnali	Mugu	Chhayanath Rara				
+NP	Gandaki	Myagdi	Beni				
+NP	Lumbini	Nawalparasi West	Bardaghat				
+NP	Gandaki	Nawalpur	Kawasoti				
+NP	Gandaki	Nawalpur	Gaindakot				
+NP	Gandaki	Nawalpur	Madhyabindu				
+NP	Gandaki	Nawalpur	Devchuli				
+NP	Bagmati	Nuwakot	Bidur				
+NP	Bagmati	Nuwakot	Belkotgadhi				
+NP	Koshi	Okhaldhunga	Siddhicharan				
+NP	Lumbini	Palpa	Tansen				
+NP	Lumbini	Palpa	Rampur				
+NP	Koshi	Pancthar	Phidim				
+NP	Lumbini	Parasi	Sunawal				
+NP	Lumbini	Parasi	Ramgram				
+NP	Gandaki	Parbat	Kushma				
+NP	Gandaki	Parbat	Phalebas				
+NP	Madhesh	Parsa	Bahudarmai			27.0173	84.88
+NP	Madhesh	Parsa	Parsagadhi				
+NP	Madhesh	Parsa	Pokhariya				
+NP	Lumbini	Pyuthan	Pyuthan				
+NP	Lumbini	Pyuthan	Swargadwari				
+NP	Bagmati	Ramechhap	Manthali				
+NP	Bagmati	Ramechhap	Ramechhap				
+NP	Madhesh	Rautahat	Chandrapur				
+NP	Madhesh	Rautahat	Garuda				
+NP	Madhesh	Rautahat	Rajpur				
+NP	Madhesh	Rautahat	Gujara				
+NP	Madhesh	Rautahat	Ishnath				
+NP	Madhesh	Rautahat	Brindaban				
+NP	Madhesh	Rautahat	Gadhimai				
+NP	Madhesh	Rautahat	Katahariya				
+NP	Madhesh	Rautahat	Paroha				
+NP	Madhesh	Rautahat	Phatuwa Bijayapur				
+NP	Madhesh	Rautahat	Madhav Narayan				
+NP	Madhesh	Rautahat	Gaur				
+NP	Madhesh	Rautahat	Boudhimai				
+NP	Madhesh	Rautahat	Dewahi Gonahi				
+NP	Madhesh	Rautahat	Rajdevi				
+NP	Madhesh	Rautahat	Maulapur				
+NP	Lumbini	Rolpa	Rolpa				
+NP	Karnali	Rukum West	Aathabiskot				
+NP	Lumbini	Rupandehi	Tilottama				
+NP	Lumbini	Rupandehi	Lumbini Sanskritik				
+NP	Lumbini	Rupandehi	Sainamaina				
+NP	Lumbini	Rupandehi	Siddharthanagar				
+NP	Lumbini	Rupandehi	Devdaha				
+NP	Karnali	Salyan	Sharada				
+NP	Karnali	Salyan	Bagchaur				
+NP	Karnali	Salyan	Bangad Kupinde				
+NP	Koshi	Sankhuwasabha	Khandbari				
+NP	Koshi	Sankhuwasabha	Chainpur				
+NP	Koshi	Sankhuwasabha	Panchkhapan				
+NP	Koshi	Sankhuwasabha	Dharmadevi				
+NP	Koshi	Sankhuwasabha	Madi				
+NP	Madhesh	Saptari	Rajbiraj				
+NP	Madhesh	Saptari	Kanchanrup				
+NP	Madhesh	Saptari	Hanumannagar Kankalini				
+NP	Madhesh	Saptari	Khadak				
+NP	Madhesh	Saptari	Surunga				
+NP	Madhesh	Saptari	Dakneshwari				
+NP	Madhesh	Saptari	Bodebarsain				
+NP	Madhesh	Saptari	Shambhunath				
+NP	Madhesh	Saptari	Saptakoshi				
+NP	Madhesh	Sarlahi	Barahathawa				
+NP	Madhesh	Sarlahi	Ishwarpur				
+NP	Madhesh	Sarlahi	Lalbandi				
+NP	Madhesh	Sarlahi	Malangwa				
+NP	Madhesh	Sarlahi	Godaita				
+NP	Madhesh	Sarlahi	Hariwan				
+NP	Madhesh	Sarlahi	Balara				
+NP	Madhesh	Sarlahi	Bagmati				
+NP	Madhesh	Sarlahi	Kabilasi				
+NP	Madhesh	Sarlahi	Haripur				
+NP	Madhesh	Sarlahi	Haripurwa				
+NP	Bagmati	Sindhuli	Kamalamai				
+NP	Bagmati	Sindhuli	Dudhauli				
+NP	Bagmati	Sindhupalchok	Chautara Sangachokgadhi				
+NP	Bagmati	Sindhupalchok	Melamchi				
+NP	Bagmati	Sindhupalchok	Barhabise				
+NP	Madhesh	Siraha	Lahan				
+NP	Madhesh	Siraha	Siraha				
+NP	Madhesh	Siraha	Golbazar				
+NP	Madhesh	Siraha	Mirchaiya				
+NP	Madhesh	Siraha	Kalyanpur				
+NP	Madhesh	Siraha	Dhangadimai				
+NP	Madhesh	Siraha	Sukhipur				
+NP	Madhesh	Siraha	Karjanha				
+NP	Koshi	Solukhumbu	Solu Dudhkunda				
+NP	Koshi	Sunsari	Barahachhetra				
+NP	Koshi	Sunsari	Inaruwa				
+NP	Koshi	Sunsari	Duhabi				
+NP	Koshi	Sunsari	Ramdhuni				
+NP	Karnali	Surkhet	Birendranagar				
+NP	Karnali	Surkhet	Gurbhakot				
+NP	Karnali	Surkhet	Bheriganga				
+NP	Karnali	Surkhet	Panchapuri				
+NP	Karnali	Surkhet	Lekbeshi				
+NP	Gandaki	Syangja	Waling				
+NP	Gandaki	Syangja	Putalibazar				
+NP	Gandaki	Syangja	Galyang				
+NP	Gandaki	Syangja	Chapakot				
+NP	Gandaki	Syangja	Bhirkot				
+NP	Gandaki	Tanahun	Vyas				
+NP	Gandaki	Tanahun	Shuklagandaki				
+NP	Gandaki	Tanahun	Bhanu				
+NP	Gandaki	Tanahun	Bhimad				
+NP	Koshi	Taplejung	Phungling				
+NP	Koshi	Terathum	Myanglung				
+NP	Koshi	Terathum	Laligurans				
+NP	Koshi	Udayapur	Triyuga				
+NP	Koshi	Udayapur	Katari				
+NP	Koshi	Udayapur	Chaudandigadhi				
+NP	Koshi	Udayapur	Belaka				
+NP	Karnali	Western Rukum	Musikot				
+NP	Karnali	Western Rukum	Chaurjahari				

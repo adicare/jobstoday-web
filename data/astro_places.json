@@ -1,0 +1,94 @@
+{
+  "places": [
+    {
+      "name": "Jaipur",
+      "country": "IN",
+      "lat": 26.9124,
+      "lng": 75.7873
+    },
+    {
+      "name": "Jodhpur",
+      "country": "IN",
+      "lat": 26.2389,
+      "lng": 73.0243
+    },
+    {
+      "name": "Mumbai",
+      "country": "IN",
+      "lat": 19.076,
+      "lng": 72.8777
+    },
+    {
+      "name": "Delhi",
+      "country": "IN",
+      "lat": 28.7041,
+      "lng": 77.1025
+    },
+    {
+      "name": "Bengaluru",
+      "country": "IN",
+      "lat": 12.9716,
+      "lng": 77.5946
+    },
+    {
+      "name": "Kolkata",
+      "country": "IN",
+      "lat": 22.5726,
+      "lng": 88.3639
+    },
+    {
+      "name": "Chennai",
+      "country": "IN",
+      "lat": 13.0827,
+      "lng": 80.2707
+    },
+    {
+      "name": "Hyderabad",
+      "country": "IN",
+      "lat": 17.385,
+      "lng": 78.4867
+    },
+    {
+      "name": "London",
+      "country": "UK",
+      "lat": 51.5074,
+      "lng": -0.1278
+    },
+    {
+      "name": "New York",
+      "country": "US",
+      "lat": 40.7128,
+      "lng": -74.006
+    },
+    {
+      "name": "Dubai",
+      "country": "AE",
+      "lat": 25.2048,
+      "lng": 55.2708
+    },
+    {
+      "name": "Kathmandu",
+      "country": "NP",
+      "lat": 27.7172,
+      "lng": 85.324
+    },
+    {
+      "name": "Colombo",
+      "country": "LK",
+      "lat": 6.9271,
+      "lng": 79.8612
+    },
+    {
+      "name": "Dhaka",
+      "country": "BD",
+      "lat": 23.8103,
+      "lng": 90.4125
+    },
+    {
+      "name": "Thimphu",
+      "country": "BT",
+      "lat": 27.4728,
+      "lng": 89.6393
+    }
+  ]
+}

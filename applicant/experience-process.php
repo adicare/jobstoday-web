@@ -66,29 +66,32 @@ if ($action == "add") {
 
     $job_title      = trim($_POST['job_title']);
     $company_name   = trim($_POST['company_name']);
-    $industry_id    = $_POST['industry_id'];
-    $job_role       = $_POST['job_role'] ?? null;
+    $industry_id    = (int)$_POST['industry_id'];
+    $industry_name  = trim($_POST['industry_name']);
+    $job_role       = trim($_POST['job_role']) ?: null;
 
     $start_month    = $_POST['start_month'];
     $start_year     = $_POST['start_year'];
 
-    $end_month      = $_POST['end_month'] ?: null;
-    $end_year       = $_POST['end_year'] ?: null;
-
     $is_current     = isset($_POST['is_current']) ? 1 : 0;
 
-    $employment_type = $_POST['employment_type'];
-    $work_mode      = $_POST['work_mode'];
+    // Handle end_month and end_year
+    // If currently working, set end date to today's date
+    if ($is_current == 1) {
+        $end_month = date('M');  // Current month (e.g., "Jan", "Feb")
+        $end_year  = date('Y');  // Current year (e.g., "2024")
+    } else {
+        $end_month = (isset($_POST['end_month']) && $_POST['end_month'] !== '') ? $_POST['end_month'] : null;
+        $end_year  = (isset($_POST['end_year']) && $_POST['end_year'] !== '') ? $_POST['end_year'] : null;
+    }
+
+    $employment_type   = $_POST['employment_type'];
+    $work_mode         = $_POST['work_mode'];
+    $district_location = trim($_POST['district_location']);
 
     $annual_salary  = !empty($_POST['annual_salary']) ? (int)$_POST['annual_salary'] : null;
 
     $responsibilities = trim($_POST['responsibilities']);
-
-    // If currently working → ignore end date
-    if ($is_current == 1) {
-        $end_month = null;
-        $end_year = null;
-    }
 
     /* Calculate duration */
     list($duration_years, $duration_months) = calc_duration(
@@ -98,35 +101,67 @@ if ($action == "add") {
         $end_year
     );
 
-    /* Insert record */
-    $stmt = $conn->prepare("
+    /* ======================================================
+       Build SQL with all 18 fields
+       ====================================================== */
+    $sql = "
         INSERT INTO applicant_experience 
-        (applicant_id, job_title, company_name, industry_id, job_role,
+        (applicant_id, job_title, company_name, industry_id, industry_name, job_role,
          start_month, start_year, end_month, end_year, is_current,
          duration_years, duration_months, employment_type, work_mode,
-         annual_salary, responsibilities)
-        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-    ");
+         district_location, annual_salary, responsibilities)
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+    ";
 
-    $stmt->bind_param(
-        "ississsssiiississ",
-        $app_id,
-        $job_title,
-        $company_name,
-        $industry_id,
-        $job_role,
-        $start_month,
-        $start_year,
-        $end_month,
-        $end_year,
-        $is_current,
-        $duration_years,
-        $duration_months,
-        $employment_type,
-        $work_mode,
-        $annual_salary,
-        $responsibilities
-    );
+    /* ======================================================
+       Build params array (18 values in exact order)
+       ====================================================== */
+    $params = [
+        $app_id,              // i
+        $job_title,           // s
+        $company_name,        // s
+        $industry_id,         // i
+        $industry_name,       // s
+        $job_role,            // s (nullable)
+        $start_month,         // s
+        $start_year,          // s
+        $end_month,           // s (now always has value - either user input or today's date)
+        $end_year,            // s (now always has value - either user input or today's year)
+        $is_current,          // i
+        $duration_years,      // i
+        $duration_months,     // i
+        $employment_type,     // s
+        $work_mode,           // s
+        $district_location,   // s
+        $annual_salary,       // i (nullable)
+        $responsibilities     // s
+    ];
+
+    /* ======================================================
+       Auto-build type string
+       ====================================================== */
+    $types = '';
+    foreach ($params as $p) {
+        if (is_int($p)) {
+            $types .= 'i';
+        } elseif (is_float($p)) {
+            $types .= 'd';
+        } else {
+            $types .= 's';
+        }
+    }
+
+    /* ======================================================
+       Prepare, Bind, Execute
+       ====================================================== */
+    $stmt = $conn->prepare($sql);
+    if (!$stmt) {
+        $_SESSION['exp_msg'] = "Prepare failed: " . $conn->error;
+        header("Location: experience.php");
+        exit;
+    }
+
+    $stmt->bind_param($types, ...$params);
 
     if ($stmt->execute()) {
         $_SESSION['exp_msg'] = "Experience added successfully. (success)";

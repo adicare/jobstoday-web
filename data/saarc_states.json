@@ -1,0 +1,38 @@
+{
+  "IN": {
+    "name": "India",
+    "states": [
+      { "code": "MH", "name": "Maharashtra", "districts": ["Mumbai", "Pune", "Nagpur"] },
+      { "code": "DL", "name": "Delhi", "districts": ["New Delhi", "North Delhi", "South Delhi"] },
+      { "code": "KA", "name": "Karnataka", "districts": ["Bengaluru Urban", "Mysuru", "Mangalore"] }
+    ]
+  },
+  "NP": {
+    "name": "Nepal",
+    "states": [
+      { "code": "BA", "name": "Bagmati", "districts": ["Kathmandu", "Lalitpur", "Bhaktapur"] },
+      { "code": "GA", "name": "Gandaki", "districts": ["Pokhara", "Kaski", "Gorkha"] }
+    ]
+  },
+  "BD": {
+    "name": "Bangladesh",
+    "states": [
+      { "code": "DH", "name": "Dhaka Division", "districts": ["Dhaka", "Gazipur", "Narsingdi"] },
+      { "code": "CT", "name": "Chittagong Division", "districts": ["Chattogram", "Cox's Bazar", "Comilla"] }
+    ]
+  },
+  "LK": {
+    "name": "Sri Lanka",
+    "states": [
+      { "code": "WP", "name": "Western Province", "districts": ["Colombo", "Gampaha", "Kalutara"] },
+      { "code": "CP", "name": "Central Province", "districts": ["Kandy", "Matale", "Nuwara Eliya"] }
+    ]
+  },
+  "BT": {
+    "name": "Bhutan",
+    "states": [
+      { "code": "TM", "name": "Thimphu District", "districts": ["Thimphu", "Paro"] },
+      { "code": "PN", "name": "Punakha", "districts": ["Punakha", "Wangdue Phodrang"] }
+    ]
+  }
+}

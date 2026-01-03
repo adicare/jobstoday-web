@@ -1,217 +1,177 @@
 /* =====================================================
-   JobsWeb Custom Style (style.css) - UPGRADED VERSION
+   JobsWeb — CLEAN & OPTIMIZED CSS (Final Don Bhai Edition)
    ===================================================== */
 
-/* -------------------------------
-   GOOGLE FONT IMPORT
--------------------------------- */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
-
-/* -------------------------------
-   GLOBAL BODY STYLE
--------------------------------- */
+/* ================= GLOBAL RESET ================== */
+* { box-sizing: border-box; }
 body {
-  font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: #2c2c2c;
-  background-color: #f5f7fa;
-  line-height: 1.7;
-  font-size: 15px;
-  margin: 0;
-  padding: 0;
+    font-family: "Inter", sans-serif;
+    background:#f5f7fa;
+    margin:0;
+    padding:0;
+    color:#333;
+    line-height:1.6;
 }
 
-/* -------------------------------
-   HEADINGS
--------------------------------- */
-h1, h2, h3, h4, h5, h6 {
-  font-weight: 700;
-  color: #144a96;
-  letter-spacing: 0.3px;
+/* ================= COLOR VARIABLES ================ */
+:root{
+    --brand-primary:#004aad;
+    --brand-secondary:#0A66C2;
+    --brand-accent:#4a90e2;
+    --light-blue-bg:#f7faff;
+    --border:#dce6f5;
+    --muted:#6b7280;
 }
 
-h3 {
-  margin-bottom: 18px;
+/* ================= TYPOGRAPHY ===================== */
+h3 { color:var(--brand-primary); font-size:20px; }
+
+/* ================= NAVBAR ========================= */
+.navbar {
+    background:var(--brand-primary);
+    color:white;
 }
 
-/* Section Title */
-.section-title {
-  font-size: 20px;
-  font-weight: 700;
-  color: #003c7e;
-  border-left: 4px solid #0d6efd;
-  padding-left: 10px;
-  margin-bottom: 20px;
+/* ================= BUTTONS ========================= */
+.btn-primary{
+    background:var(--brand-secondary);
+    border:none;
+    padding:8px 15px;
+    border-radius:6px;
+    color:white;
+    font-weight:600;
+}
+.btn-primary:hover{
+    background:var(--brand-primary);
+}
+.btn-secondary{
+    background:#eef6ff;
+    border:1px solid #cbd6e6;
+    padding:8px 16px;
+    border-radius:6px;
 }
 
-/* -------------------------------
-   NAVBAR
--------------------------------- */
-.navbar-brand {
-  font-size: 1.4rem;
-  letter-spacing: 0.5px;
+/* ================= GLOBAL FORM ELEMENTS ============= */
+.form-label{
+    font-weight:600;
+    color:var(--brand-primary);
+    margin-bottom:4px;
+}
+.form-control{
+    padding:8px 10px;
+    border-radius:6px;
+    border:1px solid var(--border);
+    font-size:14px;
+    background:white;
+}
+.form-control:focus{
+    border-color:var(--brand-accent);
+    box-shadow:0 0 0 2px rgba(74,144,226,0.2);
+    outline:none;
 }
 
-/* -------------------------------
-   HERO SECTION BACKGROUND
--------------------------------- */
-section.bg-light {
-  background: linear-gradient(180deg, #e9f1ff 0%, #ffffff 100%);
+/* Reduce form-row height so page fits on one screen */
+.form-row{
+    display:flex;
+    gap:10px;
+    margin-bottom:12px;
+}
+.form-col{
+    flex:1 1 0;
+    min-width:160px;
 }
 
-h1, h5 {
-  color: #0d6efd;
+/* ================= CONTENT CARD ===================== */
+.content-card{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    border:1px solid var(--border);
+    box-shadow:0 2px 8px rgba(0,0,0,0.05);
 }
 
-/* -------------------------------
-   BUTTONS
--------------------------------- */
-.btn-primary {
-  background: linear-gradient(135deg, #0d6efd, #004aad);
-  border: none;
-  padding: 8px 18px;
-  font-weight: 600;
-  border-radius: 6px;
-  transition: 0.3s;
+/* ================= PAGE WRAPPER ===================== */
+.page-wrapper-full{
+    max-width:1200px;
+    margin:20px auto;
+    padding:0 12px;
 }
 
-.btn-primary:hover {
-  background: #004aad;
-  transform: translateY(-2px);
+/* ================= GRID LAYOUT ====================== */
+.profile-layout{
+    display:grid;
+    grid-template-columns:200px 1fr;
+    gap:20px;
+}
+@media(max-width:900px){
+    .profile-layout{ grid-template-columns:1fr; }
 }
 
-.btn-outline-primary:hover {
-  background: #eaf3ff;
-  border-color: #0d6efd;
+/* ================= COMPACT SIDEBAR ================== */
+.profile-sidebar{
+    width:200px;
+    padding:14px;
+    background:linear-gradient(180deg, var(--brand-primary), #0367d9);
+    color:white;
+    border-radius:10px;
 }
 
-/* -------------------------------
-   GLOBAL CARD STYLE
--------------------------------- */
-.card {
-  border-radius: 12px !important;
-  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
-  border: none !important;
+.profile-sidebar img{
+    width:80px;
+    height:80px;
+    border-radius:50%;
+    object-fit:cover;
+    border:2px solid rgba(255,255,255,0.25);
 }
 
-/* -------------------------------
-   FORM ELEMENTS
--------------------------------- */
-.form-control, 
-.form-select {
-  border-radius: 8px;
-  padding: 10px;
-  border: 1px solid #ced4da;
-  transition: 0.2s;
-  font-size: 15px;
+.profile-sidebar .sidebar-name{
+    text-align:center;
+    font-size:15px;
+    font-weight:700;
+    margin:8px 0 10px;
 }
 
-.form-control:focus, 
-.form-select:focus {
-  border-color: #0d6efd;
-  box-shadow: 0 0 0 0.15rem rgba(13,110,253,.25);
+.sidebar-menu a{
+    color:white;
+    padding:6px 8px;
+    font-size:14px;
+    font-weight:600;
+    border-radius:5px;
+    text-decoration:none;
+    display:block;
+}
+.sidebar-menu a:hover,
+.sidebar-menu .active{
+    background:rgba(255,255,255,0.18);
 }
 
-/* -------------------------------
-   SIDEBAR
--------------------------------- */
-.sidebar {
-  background: linear-gradient(180deg, #0d6efd 0%, #004aad 100%);
-  color: #fff;
-  padding: 25px;
-  width: 230px;
-  border-radius: 12px;
-  min-height: 100vh;
+/* ================= PROFILE METER ==================== */
+.meter-container{
+    width:75px;
+    height:75px;
+    margin:auto;
+    position:relative;
+}
+.meter-percent{
+    position:absolute;
+    top:30%;
+    left:50%;
+    transform:translateX(-50%);
+    color:white;
+    font-size:14px;
+    font-weight:700;
 }
 
-.sidebar a {
-  color: #fff;
-  padding: 10px 12px;
-  display: block;
-  border-radius: 6px;
-  font-weight: 500;
-  text-decoration: none;
+/* ================= PHOTO UPLOAD BOX ================= */
+.photo-box{
+    padding:20px;
+    border-radius:10px;
+    background:white;
+    border:1px solid var(--border);
+    text-align:center;
 }
 
-.sidebar a:hover,
-.sidebar a.active {
-  background: rgba(255, 255, 255, 0.12);
+/* ================= RESPONSIVE FIXES ================ */
+@media(max-width:600px){
+    .form-row{ flex-direction:column; }
 }
-
-/* -------------------------------
-   EXPERIENCE CARD DESIGN (PREMIUM)
--------------------------------- */
-.exp-card {
-    background: #ffffff;
-    padding: 20px 24px;
-    border-radius: 12px;
-    box-shadow: 0 2px 12px rgba(0,0,0,0.1);
-    margin-bottom: 20px;
-    border-left: 6px solid #0d6efd;
-    transition: all 0.3s ease;
-}
-
-.exp-card:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 6px 18px rgba(0,0,0,0.12);
-}
-
-.exp-title {
-    font-size: 20px;
-    font-weight: 700;
-    color: #0d6efd;
-}
-
-.exp-company {
-    font-size: 16px;
-    font-weight: 600;
-    color: #414141;
-    margin-top: 3px;
-}
-
-.exp-details {
-    font-size: 14px;
-    color: #5a5a5a;
-    margin-top: 10px;
-    line-height: 1.6;
-}
-
-.exp-period {
-    margin-top: 12px;
-    font-weight: 600;
-    font-size: 14px;
-    color: #333;
-}
-
-.exp-resp {
-    margin-top: 14px;
-    font-size: 14px;
-    color: #444;
-}
-
-/* -------------------------------
-   MESSAGE BOXES
--------------------------------- */
-.msg {
-  padding: 10px;
-  border-radius: 6px;
-  margin-bottom: 12px;
-}
-
-.msg.success {
-  background: #e6ffed;
-  color: #156c21;
-}
-
-.msg.error {
-  background: #ffecec;
-  color: #b11;
-}
-
-/* -------------------------------
-   FOOTER
--------------------------------- */
-footer {
-  font-size: 0.9rem;
-  letter-spacing: 0.3px;
-}
-

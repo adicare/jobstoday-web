@@ -1,8 +1,7 @@
 <?php
 /* ============================================================
    FILE: applicant/upload-photo-process.php
-   USE : Handle uploading profile photo
-   RESPONSE #: 12
+   PURPOSE: Handle profile photo upload
    ============================================================ */
 
 session_start();
@@ -44,8 +43,10 @@ $stmt = $conn->prepare("UPDATE job_seekers SET photo = ? WHERE id = ?");
 $stmt->bind_param("si", $new_name, $app_id);
 $stmt->execute();
 
-// Redirect back to correct dashboard
-header("Location: ../applicant/dashboard.php?photo=updated");
+/* =========================================
+   FIXED REDIRECT — Stay on same photo page
+   ========================================= */
+header("Location: upload-photo.php?success=1");
 exit;
 
 ?>

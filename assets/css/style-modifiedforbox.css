@@ -1,0 +1,347 @@
+/* =====================================================
+   JobsWeb — FINAL CLEANED & OPTIMIZED style.css
+   (Unified Typography + Premium Blue Color System)
+   ===================================================== */
+
+/* ------------- NOTE -------------
+   Font: Inter (ensure your header loads Google font or keep @import)
+   Example in header: <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+   --------------------------------- */
+
+/* -------------------------------
+   GLOBAL RESET / BASE
+-------------------------------- */
+* { box-sizing: border-box; }
+html,body{ height:100%; }
+body {
+  font-family: "Inter", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #2c2c2c;
+  background-color: #f5f7fa;
+  line-height: 1.7;
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
+
+/* =====================================================
+   MASTER COLOR VARIABLES (for easy future edits)
+   ===================================================== */
+/* Primary / Brand */
+:root{
+  --brand-dark: #003b73;    /* sidebar heavy */
+  --brand-primary: #004aad; /* header & heavy elements */
+  --brand-secondary: #0A66C2; /* buttons / highlights */
+  --brand-accent: #4a90e2;  /* accents / borders */
+  --light-blue-bg: #f7faff; /* form background */
+  --soft-divider: #e8f1ff;
+  --input-border: #cddfff;
+  --chip-bg: #e8f1ff;
+  --success-green: #15a045;
+  --muted: #5b6b82;
+}
+
+/* =====================================================
+   TYPOGRAPHY — HEADINGS + SCALES
+   ===================================================== */
+h1 { font-size:26px; font-weight:600; letter-spacing:0.3px; color:var(--brand-primary); margin:0 0 .5rem; }
+h2 { font-size:22px; font-weight:600; color:var(--brand-primary); margin:0 0 .5rem; }
+h3 { font-size:20px; font-weight:600; color:var(--brand-primary); margin:0 0 .6rem; }
+h4 { font-size:18px; font-weight:600; margin:0 0 .4rem; }
+h5 { font-size:16px; font-weight:600; margin:0 0 .3rem; }
+h6 { font-size:15px; font-weight:600; margin:0 0 .2rem; }
+
+/* small utilities */
+.text-muted { color:#6c7280; }
+.lead { font-size:16px; color:#4a4a4a; }
+
+/* Section title (left border) */
+.section-title {
+  font-size:20px; font-weight:700; color:var(--brand-secondary);
+  border-left:4px solid var(--brand-primary); padding-left:10px; margin-bottom:20px;
+}
+
+/* =====================================================
+   NAVBAR / HEADER
+   ===================================================== */
+.navbar {
+  background: var(--brand-primary);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+  z-index: 10;
+}
+.navbar .navbar-brand { font-size:20px; font-weight:700; color:#fff; }
+.navbar a, .navbar .nav-link { color:#ffffff !important; font-weight:600; font-size:15px; }
+
+/* =====================================================
+   GLOBAL BUTTONS
+   ===================================================== */
+button, .btn { font-family:inherit; font-size:14px; font-weight:600; letter-spacing:0.2px; cursor:pointer; }
+
+/* Primary gradients */
+.btn-primary {
+  background: linear-gradient(135deg, var(--brand-secondary), var(--brand-primary));
+  color:#fff; border:none; padding:8px 18px; border-radius:6px; transition:all .18s ease;
+}
+.btn-primary:hover { transform:translateY(-2px); background:var(--brand-primary); }
+
+/* Outline primary */
+.btn-outline-primary {
+  background:transparent; color:var(--brand-secondary); border:1px solid var(--brand-secondary); padding:7px 14px; border-radius:6px;
+}
+.btn-outline-primary:hover {
+  background: var(--light-blue-bg); border-color:var(--brand-primary); color:var(--brand-primary);
+}
+
+/* Save / Cancel */
+.btn-save { background:var(--brand-secondary); color:#fff; border-radius:7px; padding:9px 20px; }
+.btn-save:hover { background:var(--brand-primary); }
+.btn-cancel { background:#eef6ff; color:#1a1a1a; border:1px solid #cbd6e6; padding:9px 20px; border-radius:7px; }
+.btn-cancel:hover { background:#e3e9f3; }
+
+/* Small btn */
+.btn-sm { padding:6px 10px; font-size:13px; }
+
+/* =====================================================
+   GLOBAL CARDS
+   ===================================================== */
+.card { border-radius:12px; box-shadow:0 2px 12px rgba(0,0,0,0.08); border:none; background:#fff; }
+
+/* =====================================================
+   FORMS — GLOBAL (applies to all pages)
+   ===================================================== */
+.form-control, .form-select, textarea {
+  background: #fcfdff;
+  border: 1px solid var(--input-border);
+  border-radius: 7px;
+  padding: 10px 12px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: border .18s ease, box-shadow .18s ease;
+  width:100%;
+  color: #222;
+}
+.form-control::placeholder { color:#9aa1ad; font-weight:400; }
+.form-control:hover, .form-select:hover { border-color:#9fc3ff; }
+.form-control:focus, .form-select:focus {
+  outline: none;
+  border-color: var(--brand-accent);
+  box-shadow: 0 0 0 0.15rem rgba(74,144,226,0.20);
+  background: #fff;
+}
+
+/* Labels */
+.form-label { font-size:14px; font-weight:600; color:var(--brand-primary); margin-bottom:6px; display:block; }
+
+/* Help text */
+.form-text { font-size:12px; color:var(--muted); }
+
+/* Compact groups */
+.form-row { display:flex; gap:14px; align-items:flex-start; margin-bottom:16px; }
+.form-row .col { flex:1; }
+
+/* File input */
+input[type="file"] { padding:10px; border-radius:7px; border:1px solid var(--input-border); background:#fcfdff; }
+
+/* =====================================================
+   LEFT SIDEBAR (Profile navigation) — keep as-is, polished
+   ===================================================== */
+.sidebar {
+  background: linear-gradient(180deg, var(--brand-primary) 0%, #0367d9 100%);
+  color: #fff;
+  padding: 25px;
+  width: 240px;
+  border-radius: 12px;
+  min-height: 100vh;
+}
+.sidebar .menu-title { font-size:18px; font-weight:700; margin-bottom:12px; color:#fff; display:flex; align-items:center; gap:8px; }
+.sidebar a { color:#fff; padding:10px 12px; display:block; border-radius:6px; font-weight:600; text-decoration:none; margin-bottom:8px; }
+.sidebar a.active, .sidebar a:hover { background: rgba(255,255,255,0.12); }
+
+/* Make sure sidebar nav text is clear on small screens */
+@media (max-width:991px){ .sidebar{ width:100%; border-radius:8px; } }
+
+/* =====================================================
+   LEFT JOB LIST (home left column)
+   ===================================================== */
+.left-panel .job-row { padding:12px; border-radius:8px; margin-bottom:8px; background:#f7fbff; cursor:pointer; border:1px solid rgba(13,110,253,0.05); }
+.left-panel .job-row:hover { background:#eef7ff; }
+.left-panel .job-row strong { font-size:16px; font-weight:600; display:block; color:#0b4a82; }
+.left-panel .job-row small { font-size:14px; color:#6b7380; }
+
+/* =====================================================
+   MIDDLE JOB PREVIEW (home middle column)
+   ===================================================== */
+#jobPreview { padding:18px; background:#f9fff7; border-radius:10px; min-height:420px; }
+#jobPreview h3 { font-size:20px; font-weight:700; color:var(--brand-primary); margin-bottom:12px; }
+#jobPreview strong { font-size:15px; font-weight:600; color:#333; }
+
+/* =====================================================
+   RIGHT PROFILE BOX (index.php) — special page-level styling
+   ===================================================== */
+.right-box {
+    background: linear-gradient(185deg, var(--brand-primary) 0%, #0367d9 100%);
+    border-radius: 15px;
+    padding: 28px 18px;
+    color: white;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.16);
+}
+
+/* profile image */
+.right-box img {
+    width:86px; height:86px; border-radius:50%; border:3px solid #e8f1ff; object-fit:cover; margin-bottom:10px;
+}
+
+/* percent circle */
+.profile-progress {
+    width:56px; height:56px; border-radius:50%; border:3px solid rgba(255,255,255,0.18);
+    display:flex; align-items:center; justify-content:center; margin:10px auto; font-weight:700; color:#fff;
+    background: rgba(255,255,255,0.06); font-size:14px;
+}
+
+/* text */
+.right-box .profile-name { font-size:18px; font-weight:700; margin-top:6px; margin-bottom:3px; color:#fff; text-transform:none; }
+.right-box .profile-percent-large { font-size:26px; font-weight:700; margin-bottom:4px; color:#fff; }
+.right-box .profile-caption { font-size:13px; color:rgba(255,255,255,0.95); margin-bottom:14px; }
+
+/* right-box buttons */
+.right-box .btn-update {
+    background: #ffffff; color: var(--brand-primary); padding:8px 15px; border-radius:6px; border:none; font-weight:700;
+}
+.right-box .btn-update:hover { background:#eef6ff; }
+.right-box .btn-view {
+    background: #f4f6f9; color:#fff; padding:8px 15px; border-radius:6px; border:none; font-weight:700; margin-left:8px;
+}
+.right-box .btn-view:hover { background:#b7f7cd; }
+
+/* recommended section */
+.right-box strong { display:block; font-size:16px; font-weight:700; margin-top:20px; margin-bottom:8px; color:#fff; }
+.right-box a.rec-item { color:rgba(255,255,255,0.92); display:block; padding:6px 0; font-size:14px; text-decoration:none; opacity:.95; }
+.right-box a.rec-item:hover { text-decoration:underline; opacity:1; }
+
+/* =====================================================
+   FORM PANEL / PROFILE FORMS (used site-wide)
+   - Use the wrapper .profile-form-wrapper or .form-area around your form.
+   - This is the main container to apply Option-B look on all edit pages.
+   ===================================================== */
+.profile-form-wrapper, .form-area {
+    background: var(--light-blue-bg);
+    padding: 26px 30px;
+    border-radius:12px;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.06);
+}
+
+/* form section title */
+.form-section-title {
+    font-size:16px; font-weight:700; color:var(--brand-secondary); margin-top:20px; margin-bottom:10px;
+    padding-bottom:6px; border-bottom:2px solid var(--soft-divider);
+}
+
+/* compact labels & inputs (applies to fields inside wrapper) */
+.profile-form-wrapper .form-label, .form-area .form-label {
+    color: var(--brand-primary); font-size:14px; font-weight:700;
+}
+.profile-form-wrapper .form-control, .form-area .form-control {
+    font-size:14px; font-weight:500;
+}
+
+/* group layout for multi-column rows inside forms */
+.profile-form-wrapper .form-row, .form-area .form-row { display:flex; gap:14px; align-items:flex-start; margin-bottom:16px; }
+.profile-form-wrapper .form-row .col, .form-area .form-row .col { flex:1; }
+
+/* photo upload */
+.photo-box {
+    background:#fff; border:2px dashed #b8cfff; border-radius:12px; padding:20px; text-align:center; color:#33518a; transition:0.18s;
+}
+.photo-box:hover { border-color:var(--brand-accent); background:#f5f9ff; }
+
+/* skill chips */
+.skill-chip {
+    background: var(--chip-bg); color: var(--brand-secondary); padding:6px 12px; border-radius:20px; border:1px solid #c8ddff;
+    display:inline-block; font-size:13px; font-weight:600; margin:6px 8px 6px 0;
+}
+.skill-chip:hover { background:#ddecff; border-color:#9ec5ff; }
+
+/* experience card */
+.exp-card {
+    background:#fff; border-left:6px solid var(--brand-primary); padding:20px; border-radius:12px; box-shadow:0 2px 12px rgba(0,0,0,0.08);
+    margin-bottom:18px; transition:transform .18s ease, box-shadow .18s ease;
+}
+
+
+.right-box {
+    background: #002b6b; /* Royal Navy Blue */
+    border-radius: 18px;
+    padding: 32px 22px;
+    color: #ffffff;
+    text-align: center;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.22);
+    border: 1px solid rgba(255,255,255,0.15);
+}
+
+.profile-progress {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border: 3px solid #91b4ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0 auto 10px auto;
+    color: #ffffff;
+    background: rgba(255,255,255,0.12);
+}
+.right-box .profile-name {
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 8px;
+}
+
+.right-box .profile-percent-large {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.right-box .profile-caption {
+    font-size: 13px;
+    opacity: 0.85;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.exp-card:hover { transform:translateY(-4px); box-shadow:0 6px 20px rgba(0,0,0,0.12); }
+.exp-title{ font-size:20px; font-weight:700; color:var(--brand-secondary); margin-bottom:6px; }
+.exp-company{ font-size:16px; font-weight:600; color:#414141; margin-bottom:8px; }
+.exp-details, .exp-period, .exp-resp { font-size:14px; color:#444; }
+
+/* =====================================================
+   MISC: messages, small text, footer
+   ===================================================== */
+.msg { padding:10px; border-radius:6px; margin-bottom:12px; font-size:14px; }
+.msg.success { background:#e6ffed; color:#156c21; }
+.msg.error { background:#ffecec; color:#b11; }
+
+.footer { font-size:0.9rem; letter-spacing:0.3px; color:#6c7280; }
+
+/* =====================================================
+   RESPONSIVE ADJUSTMENTS
+   ===================================================== */
+@media (max-width: 992px){
+  .form-row{ flex-direction:column; }
+  .profile-form-wrapper, .form-area { padding:18px; }
+  .sidebar{ width:100%; border-radius:8px; margin-bottom:16px; }
+  .right-box{ margin-top:16px; }
+}

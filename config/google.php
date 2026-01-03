@@ -1,0 +1,2 @@
+<?php
+define("GOOGLE_MAPS_KEY", "YOUR_REAL_GOOGLE_API_KEY_HERE");
